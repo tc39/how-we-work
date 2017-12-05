@@ -18,4 +18,5 @@ TC39 is the technical committee responsible for the standardization of javascrip
 - [ ] A package of information for people who want to get involved as non-members
 - [ ] A package of information for people who want to get involved as members
 - [ ] A longer to-do list with more specific documents (like rationale and jargon)
+- [ ] educational materials on how to create quality proposals, finding a champion, presenting your ideas in a way that delegates will be able to use
 - [ ] would it make more sense for this to be a github wiki?
