@@ -4,6 +4,14 @@
 
 During TC39 meetings we aim to take detailed coherent notes about the proceedings, so that people who are interested in what happened in the last meeting can stay updated and involved in the process even if they cannot attend the meeting. Note taking is a great task for someone who is attending their first couple of TC39 meetings as it throws you straight into the action.
 
+### How the notes should be taken
+
+It's important to capture what is being said, but it shouldn't be word for word. If someone is
+repeating the same sentiment a few times, do not worry about recording everything they are saying.
+Try to focus on understanding what is being said, and getting the core of it. This way we have less
+work editing the notes for the public! Also, do not worry about noting down where you didn't quite
+understand what was said, others will come along and correct as you go.
+
 ### Location of notes
 
 Notes are kept in the tc39 ether pad for a given day. Given the pace of the conversation, notes can become quite messy, and might be incoherent. To give time for the speakers to clarify their intentions within a given conversation, notes are not released to the public for a couple of weeks, and for this reason the ether pad url is private. If you are a new note taker, do not hesitate to ask what the URL is for a given day.
@@ -90,7 +98,6 @@ should be a one line point, such as a stage advancement, or a need to rework
 
 ## Tips
 
-- Do not worry about recording everything
 - Try to pair on note taking, but do not have too many people simultaneously
 - With two people, one person can finish writing the last sentence, while the other person can start on the second sentence
 - If too many people are on the etherpad instance, the note takers might be booted — try not to have the notes open if you are not actively taking notes
