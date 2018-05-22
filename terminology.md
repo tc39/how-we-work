@@ -2,16 +2,79 @@ The purpose of this doc is to collect some of the most common terms/consideratio
 
 These aren’t, by any means, meant to be taken as patterns/principles in that, often, they inform rather than prescribe: historically, they are never taken as a hard design constraint or direction but rather considerations that inform tradeoffs between design choices.
 
+### How to add definitions
+
+When you add a definition, make sure that the definition applies to how the TC39 uses it. Some other
+communities might have similar terms, but they mean a different thing in this case. Otherwise, feel
+free to reference well known definitions so that people know what they mean.
+
+Anatomy of a good definition:
+- in simple words, what is it? Imagine describing it to someone who has no experience
+- a minimal example
+- sources and resources where people can learn more
+- related definitions (optional)
+
 # Glossary
 
 These are common terms used while discussing language features.
 
+### Bikeshedding
+
+#### Definition:
+
+The process of discussing a trivial matter at the expense of the topic that actually
+needs discussion. This can take time away from important topics, and its important to catch
+ourselves if we start bikeshedding!
+
+#### Example:
+We were supposed to discuss how this new proposal should work, but we spent the entire time discussing what the
+name should be. We should avoid such bikeshedding.
+
+#### Sources
+[wikipedia](https://en.wiktionary.org/wiki/bikeshedding):
+
+### Temporal dead zone (TDZ)
+
+#### Definition:
+
+Refers to a period of time during which a variable has been declared, but has
+not been assigned, and is therefore unavailable. This results in a ReferenceError. This happens when
+a `const` or a `let` is defined in the scope, but not yet. This is different from `var`, which will
+return undefined. Here is an example:
+
+#### Example:
+
+```javascript
+console.log(bar) // ReferenceError TDZ
+console.log(baz) // undefined
+
+let bar;
+var baz;
+bar = 1;
+baz = 2;
+
+console.log(bar) // 1
+console.log(baz) // 2
+```
+
+#### Sources
+[ECMAScript source](https://www.ecma-international.org/ecma-262/8.0/index.html#sec-let-and-const-declarations)
+
+#### Related definitions
+[Early errors](#early-errors)
+
+### Early errors
+
+To be defined!
+
+.....
+
 TODO(goto): expand on each one of these terms, make them linkable.
 
 * Sigil
-* Contextual keywords 
+* Contextual keywords
 * parsing ambiguity
-* readability ambiguity 
+* readability ambiguity
 * lexical scope
 * Usability/Ergonomics
 * Cornering
@@ -19,22 +82,20 @@ TODO(goto): expand on each one of these terms, make them linkable.
 * Coherency
 * Cross cutting concerns
 * 1JS position
-* repl 
+* repl
 * Bikeshedding
 * Cornering
 * Frogboiled
 * Footguns
-* Mangling 
-* EIBTI: explicit is better than implicit 
-* IIFE: immediately invoked function expression 
-* Early errors
+* Mangling
+* EIBTI: explicit is better than implicit
+* IIFE: immediately invoked function expression
 * Hoisting
-* Temporal dead zone
 * Enumerability
-* Tail call 
-* Observable 
+* Tail call
+* Observable
 * 3 Passes: (a) parsing, (b) go over it ahead of time for “early errors”, (c) execute (runtime errors)
-* Proxies/membranes (mark miller, @tvcutsem), 
+* Proxies/membranes (mark miller, @tvcutsem),
 * Currying operation -- wycats
 
 # Considerations
@@ -44,7 +105,7 @@ These are common considerations that come up while discussing the technical meri
 ## Parsing
 
 * Syntax constraints (waldemar)
-* Parsing costs (backtracking, multiple parsing trees before getting tokens, e.g. pipeline 
+* Parsing costs (backtracking, multiple parsing trees before getting tokens, e.g. pipeline
 * ASI hazards, semicolons hazards
 * Tokenization is greedy -- waldemar
 * Punctuation overload -- mark miller
@@ -64,10 +125,10 @@ These are common considerations that come up while discussing the technical meri
 
 ## Security
 
-* object capabilities 
+* object capabilities
 * Single origin policy
-* communication channel 
-* tampering 
+* communication channel
+* tampering
 
 ## Ecosystem
 
@@ -77,7 +138,7 @@ These are common considerations that come up while discussing the technical meri
 * Frameworks (angular, polymer, react, etc)
 * Implementation considerations (Vv8)
 * Other Standards (@jordan, overlap of HTML and now WASM, coordinating between standards communities, e.g. should standard libraries go to WHATWG or should them be JS, where do we draw the line?, tie the hands of TC39 when others move first, and vice versa)
-* Fragmentation, convergence and the role of Standards 
+* Fragmentation, convergence and the role of Standards
 * Die on that hill
 
 
