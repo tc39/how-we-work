@@ -14,7 +14,7 @@ understand what was said, others will come along and correct as you go.
 
 ### Location of notes
 
-Notes are kept in the tc39 etherpad for a given day. *The link to the etherpad should not be shared until the notes are ratified by the group*. Given the pace of the conversation, notes can become quite messy, and might be incoherent. To give time for the speakers to clarify their intentions within a given conversation, notes are not released to the public for a couple of weeks, and for this reason the etherpad url is private. If you are a new note taker, do not hesitate to ask what the URL is for a given day.
+Notes are kept in the tc39 etherpad for a given day. *The link to the etherpad should never be shared*. Given the pace of the conversation, notes can become quite messy, and might be incoherent. To give time for the speakers to clarify their intentions within a given conversation, notes are not released to the public for a couple of weeks, and for this reason the etherpad url is private. If you are a new note taker, do not hesitate to ask what the URL is for a given day.
 
 ## Layout of the notes
 
