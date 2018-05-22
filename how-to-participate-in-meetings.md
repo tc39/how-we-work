@@ -16,7 +16,7 @@ The committee operates using a model of complete consensus. This means that ever
 order for a proposal to move forward in the stages. This is something that the committee feels
 strongly about, and in past cases a single person disagreeing with a proposal has helped us rework
 and improve proposals rather than letting them through to the next stage. As such, breaking with
-consensus can be very disruptive and shouldnt be done unless necessary. For this reason you will
+consensus can be very disruptive and shouldn't be done unless necessary. For this reason you will
 often see delegates say that they might not like a solution very much, but will not break consensus
 unless other delegates are also not happy with a solution. Breaking consensus alone is a very strong
 signal.
@@ -36,7 +36,8 @@ _Purpose_: A place for delegates to ask questions in a non vocal manner, useful 
 definitions or something similar!
 
 _How to use_:
-We use the #tc39-delegates channel on Freenode. You can find instructions for joining
+We use the #tc39-delegates channel on Freenode during the meetings. this channel is private. There is
+also a public channel #tc39 where some discussion may also take place. You can find instructions for joining
 [here](https://freenode.net/kb/answer/chat)
 
 ### [Queue](https://tcq.app/)
@@ -98,6 +99,7 @@ future.
 
 _How to use_:
 
+*Please remember: Never share etherpad links publically*
 For every day of the meeting we have a new Etherpad URL that is shared in the delegates IRC channel.
 
 If you are a note taker, please take a look at our [how to be a note taker]() documentation
