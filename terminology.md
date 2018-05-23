@@ -71,6 +71,7 @@ To be defined!
 
 TODO(goto): expand on each one of these terms, make them linkable.
 
+* POLA: Principle Of Least Authority
 * Sigil
 * Contextual keywords
 * parsing ambiguity
