@@ -98,6 +98,31 @@ TODO(goto): expand on each one of these terms, make them linkable.
 * 3 Passes: (a) parsing, (b) go over it ahead of time for “early errors”, (c) execute (runtime errors)
 * Proxies/membranes (mark miller, @tvcutsem),
 * Currying operation -- wycats
+* syntax budget
+* orthogonal
+* "Needs Consensus PR"
+* web reality, web compatability
+* normative, non-normative
+* (meeting) minutes
+* editor, editor group, project editors
+* Test262
+* ECMA 262, 402, 404
+* language semantics, grammar
+* Stages, Stage 0-4
+* Reflector
+* Proposal
+* Disjointed proposals
+* Host
+* Intrinsics
+* Engines: v8, SpiderMonkey, Chakra, JavaScriptCore
+* Timebox
+* Spec/Spec text
+* Out-of-band, in-band
+* cargo-cult
+* One JS
+* lazy parsing
+* self-hosted
+* overhead
 
 # Considerations
 
