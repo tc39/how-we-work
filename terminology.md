@@ -33,6 +33,58 @@ name should be. We should avoid such bikeshedding.
 #### Sources
 [wikipedia](https://en.wiktionary.org/wiki/bikeshedding):
 
+### Brand Check
+
+#### Definition:
+
+Brand check ("brand" as in a mark, or a brand made with a branding iron) is a term used by the TC39
+to describe a check against a unique datatype whose createion is controlled by a piece of code.
+
+#### Example:
+
+One example of this is built in JavaScript datatypes, which are unique and cannot be made in user
+space. For example, `toString` can be used on the `new Date` object, and this is a unique identifier
+which returns `[object Date]`. For reference see [this
+discussion](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3)
+
+However, this is not limited to datatypes that are implemented as a part of JavaScript. Brand checks
+are possible in user space as long as there is a way to identify that the object is unique.
+
+Imagine a library that implements dom queries and returns a `query` object. The author of this
+library may be interested in being able to modify the implementation of the `query` object without
+breaking the programs of users of the library. However, returning plain objects such as ` { type:
+"queryResult", elements: [ ...... ] }` is not safe, as anyone can return such an object and create a
+forgery of a `query` object. In order to avoid this, the library must make a brand check to ensure
+that this object indeed belongs to the library. That can be done like so:
+
+```javascript
+const queries = new WeakMap();
+
+class Query {
+  // ...
+
+  performQuery(queryString {
+    // returns the query object
+    return { type: "queryResult", elements: [ ...... ] };
+  }
+
+  get query(query) {
+    queries.get(query); // verifies that the query exists as a member of the WeakMap
+  }
+
+  set query(queryString) {
+    // generate a query object
+    const query = performQuery(queryString);
+    // use the object itself as the key
+    queries.set(query, ...);
+  }
+}
+```
+
+
+#### Sources
+[esdiscuss comment](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3)
+
 ### Temporal dead zone (TDZ)
 
 #### Definition:
