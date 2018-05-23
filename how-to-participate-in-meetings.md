@@ -62,11 +62,17 @@ question, and point of order. It looks something like this:
 At the top we have the Agenda item that is being discussed, followed by the queue item that is being
 discussed. After that, we have a bunch of buttons!
 
-If you are speaking, then you will have the option to say that you are done speaking.
+If you are speaking, then you will also have the option to say that you are done speaking.
 
-As for the other three buttons!
+As for the other four buttons!
 
 ![](./images/queue-buttons.png)
+
+A new topic breaks with the current topic, and starts a new thread to which clarifying questions
+might be added. New topics are ordered by when they are added to the queue.
+
+To discuss current topic is to reply to it. If you reply to the current topic, it will go
+immediately after the current speaker / any other replies that came before yours.
 
 A clarifying question is used when you want to continue the current topic and ask something about
 it. For example, if someone uses an example that doesnt make sense to you, you can ask them to
@@ -77,9 +83,6 @@ A point of order is used to immediately bring up a point. For example, if a note
 has been kicked from the notepad, and needs people to pause for a moment, they might use a point of
 order, saying that the note taking service is down. This is added to the top of the queue, and will
 be the next thing addressed.
-
-A new topic breaks with the current topic, and starts a new thread to which clarifying questions
-might be added. New topics are ordered by when they are added to the queue.
 
 ### [Timebox](https://timebox.now.sh/)
 
@@ -92,21 +95,21 @@ The timebox is used primarily to make sure we are on time with our topic. You ca
 you want to see how much time is left for a topic. If we go over time, let us know so that we can
 vote on if a topic needs more time!
 
-### [Etherpad](http://etherpad.org/)
+### [Google docs](https://www.google.com/docs/about/)
 
 _Purpose_: To record the meeting so that it can be shared with the public, and referenced in the
 future.
 
 _How to use_:
 
-*Please remember: Never share etherpad links publically*
-For every day of the meeting we have a new Etherpad URL that is shared in the delegates IRC channel.
+*Please remember: Never share this link publically*
+For every day of the meeting we have a new Google Docs URL that is shared in the delegates IRC channel.
 
 If you are a note taker, please take a look at our [how to be a note taker]() documentation.
 
-If you are not a note taker, unless you need the etherpad to follow the conversation (for example the audio
+If you are not a note taker, unless you need the Google doc to follow the conversation (for example the audio
 quality is bad on google hangouts) Please do not open the ether pad during the meeting! Note takers
-can be booted from the etherpad if there are too many people there, and this can disrupt note
+can have a laggy experience recording things in google docs if there are too many people there, and this can disrupt note
 taking.
 
 ### [Google Hangouts](https://hangouts.google.com/)
