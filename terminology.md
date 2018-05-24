@@ -71,6 +71,8 @@ To be defined!
 
 TODO(goto): expand on each one of these terms, make them linkable.
 
+* [hoisting](https://www.w3schools.com/js/js_hoisting.asp)
+* [memoization](https://en.wikipedia.org/wiki/Memoization)
 * [IIFE](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)
 * [hyrum’s law](https://twitter.com/onoffleftright/status/885627206033997825)
 * POLA: Principle Of Least Authority
