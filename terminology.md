@@ -71,6 +71,7 @@ To be defined!
 
 TODO(goto): expand on each one of these terms, make them linkable.
 
+* [hyrum’s law](https://twitter.com/onoffleftright/status/885627206033997825)
 * POLA: Principle Of Least Authority
 * Sigil
 * Contextual keywords
