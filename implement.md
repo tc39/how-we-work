@@ -24,7 +24,7 @@ Different projects have arrived at different policies with respect to the TC39 s
   - Chrome/Node.js (V8)
   - Firefox (SpiderMonkey)
 - Require explicit selection
-  - Babel's [.babelrc](https://babeljs.io/docs/usage/babelrc/)
+  - Babel
 
 It's not clear if anyone is targeting official annual releases; the current draft specification and proposals tend to be more relevant.
 
@@ -38,6 +38,6 @@ test262 includes tests for all Stage 4 proposals and some Stage 3 proposals. Ear
 
 TC39 appreciates implementers! In addition to getting features to JS developers, the process of implementation gives detailed sense of the feature within the language as a whole and its various interactions, leading to important insights about the design.
 
-ll kinds of feedback are appreciated from implementers, whether it's about the motivation, high-level design, integration with various other systems, implementation complexity, or the semantics of edge cases. The best way to give feedback is through filing bugs in the GitHub repository. Feel free to make PRs against the draft spec for suggested semantic changes, as well.
+All kinds of feedback are appreciated from implementers, whether it's about the motivation, high-level design, integration with various other systems, implementation complexity, or the semantics of edge cases. The best way to give feedback is through filing bugs in the GitHub repository. Feel free to make PRs against the draft proposal specfication for suggested semantic changes, as well.
 
 Champions want to hear from you. If you're working on an implementation and, e.g., are having trouble understanding the proposal or want help with an edge case, get in touch with the champion, either by filing the question as an issue in GitHub, writing them an email, or even asking for a call to go over things.
