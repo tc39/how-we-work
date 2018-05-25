@@ -4,7 +4,7 @@ TC39 is a part of [Ecma International](http://www.ecma-international.org/). Ecma
 
 ## Joining Ecma
 
-Ecma has [several membership tiers](http://www.ecma-international.org/memento/join.htm), including a free tier for not-for-profit organizations and various paid tiers based on company turnover. To join Ecma, 
+Ecma has [several membership tiers](http://www.ecma-international.org/memento/join.htm), including a free tier for not-for-profit organizations and various paid tiers based on company size. To join Ecma,
 - Fill out the [form](http://www.ecma-international.org/memento/join.htm) appropriate to your membership tier.
 - Sign [the royalty-free patent agreement](https://www.ecma-international.org/memento/TC39-RF-TG.htm) required for TC39.
 - Forms may be sent either by email to [the Secretary General](mailto:istvan@ecma-international.org) or by mail to
@@ -31,4 +31,3 @@ Ecma and TC39 don't set a limit on who attends TC39 from a member organization, 
 Before attending a meeting, be sure to sign the meeting's Doodle that is sent out to all delegates.
 
 If your organization does not have the right to license the intellectual property that you would contribute to Ecma (most employers do have such an agreement), then sign [the contributor IP form](https://tc39.github.io/agreements/contributor/).
-
