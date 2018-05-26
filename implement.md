@@ -12,22 +12,6 @@ At Stage 3, the committee is strongly considering a feature and has agreed on co
 
 At Stage 0, 1 and 2, semantic details are up in the air. The committee has not come to consensus on all of the concrete details of the proposal. Implementations at this stage should be considered experimental and speculative. Implementations at this stage can be very valuable to enable experimentation by programmers, which can help refine the language design. Implementations tend to expose this stage of feature via special flags which are not enabled by default.
 
-### Case studies
-
-Different projects have arrived at different policies with respect to the TC39 stage process. Some examples:
-- Ship Stage 4 features by default, reserving pre-Stage 3 features for external plugins or "preview" versions.
-  - Safari (JSC)
-  - Edge (ChakraCore)
-  - Acorn
-- Ship Stage 4 and some Stage 3 features
-  - TypeScript
-  - Chrome/Node.js (V8)
-  - Firefox (SpiderMonkey)
-- Require explicit selection
-  - Babel
-
-It's not clear if anyone is targeting official annual releases; the current draft specification and proposals tend to be more relevant.
-
 ## Testing
 
 TC39 maintains conformance tests to validate JavaScript implementations against the specification in a project called [test262](https://github.com/tc39/test262/). To contribute to test262, see their [CONTRIBUTING.md](https://github.com/tc39/test262/blob/master/CONTRIBUTING.md). If you develop tests against a particular implementation, it's highly encouraged to upstream them in test262.
