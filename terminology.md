@@ -33,6 +33,33 @@ name should be. We should avoid such bikeshedding.
 #### Sources
 [wikipedia](https://en.wiktionary.org/wiki/bikeshedding):
 
+### Tail call, PTC (proper tail call), STC (syntactic tail call)
+
+#### Definition:
+A tail call is a recursive function call which occurs at the end of the function body and performs no further computation before returning. It is possible for such calls to be made without creating additional stack frames, which the ES6 standard refers to as a _proper_ tail call (PTC). Unfortunately, attempts to implement PTC discovered various issues with its specification, and ultimately only JSC released it as a feature. Reluctance to the automatic nature of PTC led to an alternate _syntactic_ tail call (STC) proposal, in which users would opt in to this behavior with a keyword. STC remains an open but inactive proposal.
+
+#### Example:
+```js
+// Non-tail recursion -- we still need to multiply by n after returning
+function factorial(n) {
+  return (n <= 1) ? 1 : n * factorial(n - 1);
+}
+
+// Tail recursion -- achieved by passing an accumulator argument
+function factorial(n, acc) {
+  return (n <= 1) ? acc : factorial(n - 1, n * acc);
+}
+
+// Tail recursion with opt-in stack frame elimination (STC proposal)
+function factorial(n, acc) {
+  return (n <= 1) ? acc : continue factorial(n - 1, n * acc);
+}
+```
+
+#### Sources
+[TC39 STC proposal](https://github.com/tc39/proposal-ptc-syntax)
+[Wikipedia](https://en.wikipedia.org/wiki/Tail_call)
+
 ### Temporal dead zone (TDZ)
 
 #### Definition:
@@ -97,7 +124,6 @@ TODO(goto): expand on each one of these terms, make them linkable.
 * IIFE: immediately invoked function expression
 * Hoisting
 * Enumerability
-* Tail call
 * Observable
 * 3 Passes: (a) parsing, (b) go over it ahead of time for “early errors”, (c) execute (runtime errors)
 * Proxies/membranes (mark miller, @tvcutsem),
