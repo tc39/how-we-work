@@ -57,9 +57,9 @@ function factorial(n, acc) {
 ```
 
 #### Sources
-[PTC specification](https://tc39.github.io/ecma262/#sec-tail-position-calls)
-[STC proposal](https://github.com/tc39/proposal-ptc-syntax)
-[Wikipedia](https://en.wikipedia.org/wiki/Tail_call)
+- [PTC specification](https://tc39.github.io/ecma262/#sec-tail-position-calls)
+- [STC proposal](https://github.com/tc39/proposal-ptc-syntax)
+- [Wikipedia](https://en.wikipedia.org/wiki/Tail_call)
 
 ### Temporal dead zone (TDZ)
 
