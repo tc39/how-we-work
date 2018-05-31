@@ -45,12 +45,12 @@ function factorial(n) {
   return (n <= 1) ? 1 : n * factorial(n - 1);
 }
 
-function factorial(n, acc) {
+function factorial(n, acc = 1) {
   // Tail call -- achieved by passing an accumulator argument
   return (n <= 1) ? acc : factorial(n - 1, n * acc);
 }
 
-function factorial(n, acc) {
+function factorial(n, acc = 1) {
   // Tail call with opt-in stack frame elision (STC example)
   return (n <= 1) ? acc : continue factorial(n - 1, n * acc);
 }
