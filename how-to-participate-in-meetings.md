@@ -36,8 +36,9 @@ _Purpose_: A place for delegates to ask questions in a non vocal manner, useful 
 definitions or something similar!
 
 _How to use_:
-We use the #tc39-delegates channel on Freenode during the meetings. This channel is private. There is
-also a public channel #tc39 where some discussion may also take place. You can find instructions for joining
+We use the #tc39-delegates channel on Freenode during the meetings. This channel is open to
+delegates. It is not public due to IP restrictions. The
+public channel #tc39 is useful for outside communication that is _not_ during meetings. You can find instructions for joining
 [here](https://freenode.net/kb/answer/chat).
 
 ### [Queue](https://tcq.app/)
@@ -86,8 +87,8 @@ be the next thing addressed.
 
 ### [Timebox](https://timebox.now.sh/)
 
-_Purpose_: To ensure that topics are timeboxed and that we do not go over time talking about a
-subject.
+_Purpose_: To ensure that topics discussed on the agenda are timeboxed and that we do not go over time talking about a
+subject. It is enforced by the chair group.
 
 _How to use_:
 
@@ -102,26 +103,22 @@ future.
 
 _How to use_:
 
-*Please remember: Never share this link publically*
+*Please remember: Never share this link publicly*
+
 For every day of the meeting we have a new Google Docs URL that is shared in the delegates IRC channel.
 
-If you are a note taker, please take a look at our [how to be a note taker]() documentation.
+Everyone is encouraged to help taking notes, and this is a good way to get involved if you are new.
+For more information, please take a look at our [how to be a note taker](./how-to-take-notes.md) documentation.
 
-If you are not a note taker, unless you need the Google doc to follow the conversation (for example the audio
-quality is bad on google hangouts) Please do not open the ether pad during the meeting! Note takers
-can have a laggy experience recording things in google docs if there are too many people there, and this can disrupt note
-taking.
-
-### [Google Hangouts](https://hangouts.google.com/)
+### Google Hangouts and other remote call technology
 
 _Purpose_: To allow remote TC39 delegates to participate in the meeting.
 
 _How to use_:
 
-We use Google hangouts to faciliate remote attendance. To attend, use the link posted at the top of
-the TC39 IRC delegates channel. If you are not familiar with google hangouts, take a look at their
-documentation
-[here](https://support.google.com/hangouts/answer/3110347?co=GENIE.Platform%3DDesktop&hl=en).
+We use Google hangouts to faciliate remote attendance, unless another solution is deemed a better
+fit for the situation. The link will be posted on a meeting by meeting basis. To attend, use the link posted at the top of
+the TC39 IRC delegates channel.
 
 ## Tips
 
