@@ -84,9 +84,37 @@ class Query {
 }
 ```
 
-
 #### Sources
 [esdiscuss comment](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3)
+[Clarifying comment on github](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3)
+
+### Tail call, PTC (proper tail call), STC (syntactic tail call)
+
+#### Definition:
+A _tail call_ is a call which occurs as the final operation of a function and whose value is returned immediately. It is possible for such a call to reuse or replace the current stack frame, in which case it is known as a _proper_ tail call (PTC). PTC semantics are part of the standard as of ES6, but their implementation in various engines has been fraught with controversy. In particular, reluctance to the automatic nature of PTC led to an alternative _syntactic_ tail call (STC) proposal, in which users would consciously choose this behavior by means of a keyword. PTC is currently only shipped by JSC, while STC remains an open but inactive proposal.
+
+#### Example:
+```js
+function factorial(n) {
+  // Not a tail call -- we still need to multiply by n after the call
+  return (n <= 1) ? 1 : n * factorial(n - 1);
+}
+
+function factorial(n, acc = 1) {
+  // Tail call -- achieved by passing an accumulator argument
+  return (n <= 1) ? acc : factorial(n - 1, n * acc);
+}
+
+function factorial(n, acc = 1) {
+  // Tail call with opt-in stack frame elision (STC example)
+  return (n <= 1) ? acc : continue factorial(n - 1, n * acc);
+}
+```
+
+#### Sources
+- [PTC specification](https://tc39.github.io/ecma262/#sec-tail-position-calls)
+- [STC proposal](https://github.com/tc39/proposal-ptc-syntax)
+- [Wikipedia](https://en.wikipedia.org/wiki/Tail_call)
 
 ### Temporal dead zone (TDZ)
 
@@ -126,6 +154,10 @@ To be defined!
 
 TODO(goto): expand on each one of these terms, make them linkable.
 
+* [hoisting](https://www.w3schools.com/js/js_hoisting.asp)
+* [memoization](https://en.wikipedia.org/wiki/Memoization)
+* [IIFE](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)
+* [hyrum’s law](https://twitter.com/onoffleftright/status/885627206033997825)
 * POLA: Principle Of Least Authority
 * Sigil
 * Contextual keywords
@@ -148,7 +180,6 @@ TODO(goto): expand on each one of these terms, make them linkable.
 * IIFE: immediately invoked function expression
 * Hoisting
 * Enumerability
-* Tail call
 * Observable
 * 3 Passes: (a) parsing, (b) go over it ahead of time for “early errors”, (c) execute (runtime errors)
 * Proxies/membranes (mark miller, @tvcutsem),
