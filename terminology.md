@@ -38,19 +38,22 @@ name should be. We should avoid such bikeshedding.
 #### Definition:
 
 Brand check ("brand" as in a mark, or a brand made with a branding iron) is a term used by the TC39
-to describe a check against a unique datatype whose createion is controlled by a piece of code.
+to describe a check against a unique datatype whose creation is controlled by a piece of code.
 
 #### Example:
 
 One example of this is built in JavaScript datatypes, which are unique and cannot be made in user
-space. For example, `toString` can be used on the `new Date` object, and this is a unique identifier
-which returns `[object Date]`. For reference see [this
+space. `Array.isArray` is an example of a brand check. For reference see [this
 discussion](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3)
 
-However, this is not limited to datatypes that are implemented as a part of JavaScript. Brand checks
-are possible in user space as long as there is a way to identify that the object is unique.
+A common misconception is that `instanceof` is a brand check. This is a nominal type check and does
+not reliably determine the type. It used to be that a brand check was only possible for built in
+types. For a more detailed explanation, see [this write
+up](https://github.com/tc39/how-we-work/pull/30#issuecomment-391588889)
 
-Imagine a library that implements dom queries and returns a `query` object. The author of this
+It is now possible to implement brand checks in user space as long as there is a way to identify that the object is unique.
+
+Imagine a library that implements DOM queries and returns a `query` object. The author of this
 library may be interested in being able to modify the implementation of the `query` object without
 breaking the programs of users of the library. However, returning plain objects such as ` { type:
 "queryResult", elements: [ ...... ] }` is not safe, as anyone can return such an object and create a
@@ -63,7 +66,7 @@ const queries = new WeakMap();
 class Query {
   // ...
 
-  performQuery(queryString {
+  performQuery(queryString) {
     // returns the query object
     return { type: "queryResult", elements: [ ...... ] };
   }
@@ -74,7 +77,7 @@ class Query {
 
   set query(queryString) {
     // generate a query object
-    const query = performQuery(queryString);
+    const query = this.performQuery(queryString);
     // use the object itself as the key
     queries.set(query, ...);
   }
