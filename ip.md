@@ -45,29 +45,31 @@ well, described below.
 
 TC39 is open to individuals who are not associated with Ecma members to contribute, either through comments made in TC39 meetings as invited experts, or as normative patches to the specification made via GitHub. Both of these kinds of contributors are required to sign [the non-member contributor agreement][6].
 
-If a TC39 delegate does not have an agreement with their relevant member organization that allows the member organization to license the related IPR to Ecma, then the delegate must individually sign the non-member contributor agreement as well.
+If an individual associated with a Ecma member organization makes a contribution to TC39-associated specifications where the member organization does not have the right to relicense the IPR, but the individual does have this right, then the individual is expected to sign the contributor IPR form as well. If neither has such a right, then the contribution should not be used.
 
 When a non-member contributor works within an organization where they do not have the authorization to license their contributed IPR, the form can be filled out with separate "signatory" and "contributor" fields, where the "contributor" is the participant in TC39 work, and the "signatory" is the member of the organization who is authorized to license the IPR. The form must be signed for each individual contributor who participates in TC39, and does not apply organization-wide.
 
 ### Ecma Royalty-Free Task Groups
 
-Ecma specifications generally have related patents from member
-organizations licensed under RAND scheme, but TC39 uses a distinct
-royalty-free policy based on the use of Ecma's ["Royalty-Free Task
-Groups"][7]. All of TC39's work actually takes place in the TC39 RFTG, with a [separately-tracked membership][8]. The period between the branch point and ratification at the GA serves as the Opt-Out Review Window. Such an Opt-Out has never been taken in TC39's history.
+Ecma specifications are generally developed under a RAND patent policy,
+but TC39 uses a distinct royalty-free policy based on the use of Ecma's ["Royalty-Free Task
+Groups"][7]. This policy also provides for a defined time window during which participants may opt out of providing an RF commitment under certain circumstances. (See footnote 1.) Such an Opt-Out has never been taken in TC39's history.
 
 ### Copyright licenses
 
 The annual ECMA-262 and ECMA-402 are licensed under Ecma's [text
 copyright policy][9].
 
-TC39 maintains a test suite for ECMA-262 and ECMA-402, called test262, which is licensed under [Ecma's software license][10]. Contributors to test262 are required to sign the separate [software submitter license][11]. Files added to test262 have a [copyright header indicating an initial author][12], following previous legal advice; it is unclear whether this is actually needed, and test262 maintainers would prefer to
-not require this header.
+TC39 maintains a test suite for ECMA-262 and ECMA-402, called test262, which is licensed under [Ecma's software license][10]. Contributors to test262 are required to sign the separate [software submitter license][11]. Files added to test262 have a [copyright header indicating an initial author][12].
 
 ### Processes to ensure contributors have granted appropriate licenses
 
 - In physical meetings, the chair and vice chairs verify that all meeting attendees are either delegates of member companies, or otherwise have chosen among the observer/invited expert options explained above. There is a quick agenda item to clarify the IPR agreements.
 - For contributions on GitHub, there is [a bot in development][13] to check that non-member contributors have signed the appropriate agreement.  Until then, the set of contributions has been manually surveyed going back to the beginning of GitHub use, and all contributors have been verified to have signed the agreement; this manual check continues for current contributions.
+
+#### Footnotes
+
+- 1: All of TC39's work actually takes place in the TC39 RFTG, with a [separately-tracked membership][8]. The opt-out period begins when the annual version is "branched" off, towards the beginning of the year, and ends before the annual version is ratified by the Ecma General Assembly, typically around the middle of the year.
 
 [1]: http://tc39.github.io/process-document/
 [2]: https://github.com/tc39/ecma262/
