@@ -1,6 +1,6 @@
 # Becoming a TC39 delegate
 
-TC39 is a part of [Ecma International](http://www.ecma-international.org/). Ecma membership is based on organizations, not individuals. To participate in physical TC39 meetings, 
+TC39 is a part of [Ecma International](http://www.ecma-international.org/). Ecma membership is based on organizations, not individuals. To participate in physical TC39 meetings, join Ecma as a member organization or attend as a delegate of an existing member organization.
 
 ## Joining Ecma
 
