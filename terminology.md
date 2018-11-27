@@ -44,7 +44,7 @@ to describe a check against a unique datatype whose creation is controlled by a 
 
 One example of this is built in JavaScript datatypes, which are unique and cannot be made in user
 space. `Array.isArray` is an example of a brand check. For reference see [this
-discussion](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3)
+discussion](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3).
 
 A common misconception is that `instanceof` is a brand check. This is a nominal type check and does
 not reliably determine the type. It used to be that a brand check was only possible for built in
