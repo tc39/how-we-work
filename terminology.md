@@ -4,7 +4,7 @@ These aren’t, by any means, meant to be taken as patterns/principles in that, 
 
 ### How to add definitions
 
-When you add a definition, make sure that the definition applies to how the TC39 uses it. Some other
+When you add a definition, make sure that the definition applies to how TC39 uses it. Some other
 communities might have similar terms, but they mean a different thing in this case. Otherwise, feel
 free to reference well known definitions so that people know what they mean.
 
@@ -32,6 +32,61 @@ name should be. We should avoid such bikeshedding.
 
 #### Sources
 [wikipedia](https://en.wiktionary.org/wiki/bikeshedding):
+
+### Brand Check
+
+#### Definition:
+
+Brand check ("brand" as in a mark, or a brand made with a branding iron) is a term used by TC39
+to describe a check against a unique datatype whose creation is controlled by a piece of code.
+
+#### Example:
+
+One example of this is built in JavaScript datatypes, which are unique and cannot be made in user
+space. `Array.isArray` is an example of a brand check. For reference see [this
+discussion](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3).
+
+A common misconception is that `instanceof` is a brand check. This is a nominal type check and does
+not reliably determine the type. It used to be that a brand check was only possible for built in
+types. For a more detailed explanation, see [this write
+up](https://github.com/tc39/how-we-work/pull/30#issuecomment-391588889).
+
+It is now possible to implement brand checks in user space as long as there is a way to identify that the object is unique.
+
+Imagine a library that implements DOM queries and returns a `query` object. The author of this
+library may be interested in being able to modify the implementation of the `query` object without
+breaking the programs of users of the library. However, returning plain objects such as ` { type:
+"queryResult", elements: [ ...... ] }` is not safe, as anyone can return such an object and create a
+forgery of a `query` object. In order to avoid this, the library must make a brand check to ensure
+that this object indeed belongs to the library. That can be done like so:
+
+```javascript
+const queries = new WeakMap();
+
+class Query {
+  // ...
+
+  performQuery(queryString) {
+    // returns the query object
+    return { type: "queryResult", elements: [ ...... ] };
+  }
+
+  get query(query) {
+    queries.get(query); // verifies that the query exists as a member of the WeakMap
+  }
+
+  set query(queryString) {
+    // generate a query object
+    const query = this.performQuery(queryString);
+    // use the object itself as the key
+    queries.set(query, ...);
+  }
+}
+```
+
+#### Sources
+- [ES Discuss comment](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3)
+- [Clarifying comment on GitHub](https://github.com/tc39/how-we-work/pull/30#issuecomment-391588889)
 
 ### Tail call, PTC (proper tail call), STC (syntactic tail call)
 
