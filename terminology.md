@@ -49,7 +49,7 @@ discussion](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefi
 A common misconception is that `instanceof` is a brand check. This is a nominal type check and does
 not reliably determine the type. It used to be that a brand check was only possible for built in
 types. For a more detailed explanation, see [this write
-up](https://github.com/tc39/how-we-work/pull/30#issuecomment-391588889)
+up](https://github.com/tc39/how-we-work/pull/30#issuecomment-391588889).
 
 It is now possible to implement brand checks in user space as long as there is a way to identify that the object is unique.
 
