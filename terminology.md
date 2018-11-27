@@ -4,7 +4,7 @@ These aren’t, by any means, meant to be taken as patterns/principles in that, 
 
 ### How to add definitions
 
-When you add a definition, make sure that the definition applies to how the TC39 uses it. Some other
+When you add a definition, make sure that the definition applies to how TC39 uses it. Some other
 communities might have similar terms, but they mean a different thing in this case. Otherwise, feel
 free to reference well known definitions so that people know what they mean.
 
@@ -37,7 +37,7 @@ name should be. We should avoid such bikeshedding.
 
 #### Definition:
 
-Brand check ("brand" as in a mark, or a brand made with a branding iron) is a term used by the TC39
+Brand check ("brand" as in a mark, or a brand made with a branding iron) is a term used by TC39
 to describe a check against a unique datatype whose creation is controlled by a piece of code.
 
 #### Example:
@@ -86,7 +86,8 @@ class Query {
 
 
 #### Sources
-[esdiscuss comment](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3)
+[ES Discuss comment](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3)
+- [Clarifying comment on GitHub](https://github.com/tc39/how-we-work/pull/30#issuecomment-391588889)
 
 ### Temporal dead zone (TDZ)
 
