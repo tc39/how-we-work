@@ -26,7 +26,7 @@ issues you see with it, and articulate them. What are the limitations? Are there
 champions can do to help their case? What sort of improvements are needed? Have requirements been
 missed? Try to move the discussion in a positive direction!
 
-## Tools for Participation
+## Tools for participation
 
 We have a few tools that help us facilitate communication. They are as follows:
 
