@@ -116,7 +116,7 @@ _Purpose_: To allow remote TC39 delegates to participate in the meeting.
 
 _How to use_:
 
-We use Google hangouts to faciliate remote attendance, unless another solution is deemed a better
+We use Google Hangouts to facilitate remote attendance, unless another solution is deemed a better
 fit for the situation. The link will be posted on a meeting by meeting basis. To attend, use the link posted at the top of
 the TC39 IRC delegates channel.
 
