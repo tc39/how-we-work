@@ -55,7 +55,7 @@ this is more useful for chairs, who can add agenda topics that are coming up nex
 associated time box.
 
 During Presentations, if you notice something a speaker says that you want a clarification of, or to
-make a comment, you can do this in the "Queue". There are three options: new topic, clarifying
+make a comment, you can do this in the queue. There are three options: new topic, clarifying
 question, and point of order. It looks something like this:
 
 ![](./images/queue.png)
