@@ -123,5 +123,5 @@ the TC39 IRC delegates channel.
 ## Tips
 
 - if you are new and not sure what to do, consider becoming a note taker!
-- talk to people during the meetings, they can help you establish context for anything that seems
+- Talk to people during the meetings, they can help you establish context for anything that seems
   strange.
