@@ -76,7 +76,7 @@ To discuss current topic is to reply to it. If you reply to the current topic, i
 immediately after the current speaker / any other replies that came before yours.
 
 A clarifying question is used when you want to continue the current topic and ask something about
-it. For example, if someone uses an example that doesnt make sense to you, you can ask them to
+it. For example, if someone uses an example that doesn't make sense to you, you can ask them to
 clarify what they meant. Clarifying questions will be added in the order they were entered into the
 queue.
 
