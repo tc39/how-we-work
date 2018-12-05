@@ -60,7 +60,7 @@ question, and point of order. It looks something like this:
 
 ![](./images/queue.png)
 
-At the top we have the Agenda item that is being discussed, followed by the queue item that is being
+At the top we have the agenda item that is being discussed, followed by the queue item that is being
 discussed. After that, we have a bunch of buttons!
 
 If you are speaking, then you will also have the option to say that you are done speaking.
