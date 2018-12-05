@@ -103,7 +103,7 @@ future.
 
 _How to use_:
 
-*Please remember: Never share this link publicly*
+**Please remember: Never share this link publicly.**
 
 For every day of the meeting we have a new Google Docs URL that is shared in the delegates IRC channel.
 
