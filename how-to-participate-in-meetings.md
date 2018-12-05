@@ -36,6 +36,7 @@ _Purpose_: A place for delegates to ask questions in a non vocal manner, useful 
 definitions or something similar!
 
 _How to use_:
+
 We use the #tc39-delegates channel on Freenode during the meetings. This channel is open to
 delegates. It is not public due to IP restrictions. The
 public channel #tc39 is useful for outside communication that is _not_ during meetings. You can find instructions for joining
