@@ -79,7 +79,7 @@ TC39 maintains a test suite for ECMA-262 and ECMA-402, called test262, which is 
 [6]: https://tc39.github.io/agreements/contributor/
 [7]: https://www.ecma-international.org/memento/Policies/Ecma_Royalty-Free_Patent_Policy_Extension_Option.htm
 [8]: https://www.ecma-international.org/memento/TC39-RF-TG.htm
-[9]: https://www.ecma-international.org/memento/Ecma%20copyright%20FAQ.htm
+[9]: https://www.ecma-international.org/memento/Ecma%20copyright%20faq.htm
 [10]: https://www.ecma-international.org/memento/Policies/Ecma_Policy_on_Submission_Inclusion_and_Licensing_of_Software.htm
 [11]: https://tc39.github.io/test262-cla/
 [12]: https://github.com/tc39/test262/blob/master/CONTRIBUTING.md#test-case-style
