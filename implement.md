@@ -6,11 +6,23 @@ Beyond specification text and conformance tests, new JavaScript features need im
 
 It's never too early to draft an implementation, but different stages indicate different levels of stability and concreteness. Many implementations use runtime or compile-time flags to switch on or off TC39 proposals. This may be used to manage incomplete implementations or to refrain from shipping earlier stage designs from developers.
 
-At Stage 4, a specification is complete and set to be included in the ECMAScript draft specification. Except in particular circumstances, the proposal is complete, stable and ready to ship. Implementations tend to turn on Stage 4 features by default, without any particular flags. Refraining from implementing and shipping a Stage 4 feature risks getting the implementation out of sync with others.
+At **Stage 4**, a specification is *complete* and set to be included in the ECMAScript draft specification. Except in particular circumstances, the proposal is complete, stable and **ready to ship**. Implementations tend to turn on Stage 4 features by default, without any particular flags. Refraining from implementing and shipping a Stage 4 feature risks getting the implementation out of sync with others.
 
-At Stage 3, the committee is strongly considering a feature and has agreed on concrete details. Implementation experience may still lead to semantic changes, and some Stage 3 features have been dropped entirely. Different projects have different policies with respect to shipping Stage 3 features by default; some implementations ship particularly advanced Stage 3 features by default, while others ship them only behind a flag.
+At **Stage 3**, the committee is strongly considering a feature and has *agreed on concrete details*. Implementation experience may still lead to semantic changes, and some Stage 3 features have been dropped entirely. Projects requiring stability tend to use a certain amount of **case-by-case judgement** before shipping Stage 3 features, if they ship them at all.
 
-At Stage 0, 1 and 2, semantic details are up in the air. The committee has not come to consensus on all of the concrete details of the proposal. Implementations at this stage should be considered experimental and speculative. Implementations at this stage can be very valuable to enable experimentation by programmers, which can help refine the language design. Implementations tend to expose this stage of feature via special flags which are not enabled by default.
+At **Stage 0, 1 and 2**, semantic details are *up in the air*. The committee has not come to consensus on all of the concrete details of the proposal. Implementations at this stage should be considered **experimental and speculative**. Implementations at this stage can be very valuable to enable experimentation by programmers, which can help refine the language design. Implementations tend to expose this stage of feature via special flags which are not enabled by default.
+
+## Transpiler implementations
+
+Early language features can be prototyped in so-called "transpilers": JavaScript-to-JavaScript compilers which include support for newer language features on older JavaScript environments. Transpiler implementations of new langauge features can help collect feedback and drive incremental adoption.
+
+One popular transpiler used for prototyping early JavaScript features is [Babel](https://babeljs.io/). For features which create new syntax, Babel's parser needs to be modified, which you can do in a fork and PR. In some cases, Babel transform plugin may be sufficient, when existing syntactic constructs can be used (but note that, due to web compatibility issues, it is difficult to change the definition of its semantics in non-error cases for existing features).
+
+## Library implementations
+
+If the proposal is a standard library feature, and it's possible to implement this feature in JavaScript, it's helpful to get this feature out to developers to try it out, so they can give feedback. As it emerges as a standard, supported in some engines and not others, it remains useful to have this implementation as a backup, often called a "polyfill". To encourage use, it's helpful to expose these implementations as modules in popular package managers such as [npm](https://www.npmjs.com/) or [Bower](https://bower.io/).
+
+The best practice for implementations for early library proposals (pre-Stage 3, and Stage 3 is borderline, as discussed above) is to expose it as a module, rather than a global or property of an existing object; this is important for the evolution of the standard, so people don't accidentally depend on an early version being the final one. See [Polyfills and the evolution of the Web](https://www.w3.org/2001/tag/doc/polyfills/) for details.
 
 ## Testing
 
