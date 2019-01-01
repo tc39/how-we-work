@@ -6,11 +6,7 @@ Although TC39 is a flat, consensus-based group, there are some particular organi
 
 ### Who is involved
 
-Rex Jaeschke: TC39 chair
-
-Leo Balter: TC39 vice-chair
-
-Daniel Ehrenberg: TC39 vice-chair
+TC39 co-chairs: Aki Braun, Brian Terlson, Yulia Startsev
 
 #### How the chair group is chosen
 
@@ -49,11 +45,9 @@ The chair group would like help in all aspects of meeting planning. Contact Dani
 
 ### Who is involved
 
-Brian Terlson: "editor-in-chief"
+Editor group for ES2019: Brian Terlson, Jordan Harband, Bradley Farias
 
-Bradley Farias: Editor group member
-
-Jordan Harband: Editor group member
+Co-editors for ES2020: Jordan Harband, Kevin Smith
 
 ### What the group does
 
@@ -70,8 +64,8 @@ Each year, a branch of the ECMA-262 specification is made, around late January/F
 ### How to get involved
 
 - Review PRs in the [ecma262 repository](https://github.com/tc39/ecma262/pulls)
-- Contact Brian Terlson to join in on editor group meetings if you are a TC39 delegate
-- Join the editor group, which is selected by TC39 annually around May.
+- Contact an editor to join in on editor group meetings if you are a TC39 delegate
+- Join the editor group, which is selected by TC39 annually.
 
 ## Code of Conduct Committee
 
