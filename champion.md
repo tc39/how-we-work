@@ -32,6 +32,8 @@ To work through the stage process, a tracking issue in the GitHub repository can
 - [ ] significant in-the-field experience
 - [ ] merge test262 tests
 - [ ] write test262 tests
+- [ ] prepare ecma262 PR
+- [ ] editor-approved ecma262 PR
 ## Stage 3
 - [ ] committee approval
 - [ ] spec editor signoff
