@@ -24,7 +24,6 @@ TC39 hosts six in-person meetings a year. If you want to host a meeting, here's 
 1. Coffee & tea should be available throughout the day.
 1. Drinks & snacks (snacks are optional but encouraged - the afternoon break at approximately 3pm is a hungry time)
 1. Please be sensitive to dietary requirements. Vegan is required. Gathering dietary requirements via reflector is encouraged.
-1. TC39 traditionally has a dinner on Wednesday for meeting attendees, jointly funded by Ecma and the host. Please work with the chair to arrange the location and financial details, and if funding is unavailable for this dinner, please notify the chair ahead of the meeting so that the committee can make alternate arrangements.
 
 ### Meeting Technology
 1. Whiteboards and markers
