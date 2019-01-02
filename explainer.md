@@ -77,7 +77,7 @@ You can try out an implementation of this proposal in the npm package [frobnicat
 - [SpiderMonkey]()
 - ...
 
-## Q/A
+## Q&A
 
 *Frequently asked questions, or questions you think might be asked. Issues on the issue tracker or questions from past reviews can be a good source for these.*
 
