@@ -14,7 +14,7 @@ At **Stage 0, 1, and 2**, semantic details are *up in the air*. The committee ha
 
 ## Transpiler implementations
 
-Early language features can be prototyped in so-called "transpilers": JavaScript-to-JavaScript compilers which include support for newer language features on older JavaScript environments. Transpiler implementations of new langauge features can help collect feedback and drive incremental adoption.
+Early language features can be prototyped in so-called "transpilers": JavaScript-to-JavaScript compilers which include support for newer language features in older JavaScript environments. Transpiler implementations of new langauge features can help collect feedback and drive incremental adoption.
 
 One popular transpiler used for prototyping early JavaScript features is [Babel](https://babeljs.io/). For features which create new syntax, Babel's parser needs to be modified, which you can do in a fork and PR. In some cases, Babel transform plugin may be sufficient, when existing syntactic constructs can be used (but note that, due to web compatibility issues, it is difficult to change the definition of its semantics in non-error cases for existing features).
 
