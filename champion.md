@@ -25,7 +25,6 @@ Each staged proposal should have a GitHub repository, included in the tc39 organ
 
 To work through the stage process, a tracking issue in the GitHub repository can be useful. Below is a template you can use for such a tracking issue:
 
-- [ ] PR to official spec
 ## Stage 4
 - [ ] committee approval
 - [ ] implement in two browsers
@@ -144,4 +143,4 @@ Leading up to Stage 4, create the following
 Once a propoal reaches Stage 4,
 - **Archive the proposal repository**. A proposal at Stage 4 will not have further changes; any future changes would be separate proposals against the main specification.
 - **Ensure that good documentation is available**. Ideally, you developed documentation earlier in the proposal process; now, it's essential that documentation at all levels be good quality for a broad community of JavaScript developers to use.
-- **Switch from shims/ponyfills to polyfills** for standard library proposals. Polyfills defer to built-in implementations and install their results on the global environment. Now that your proposal is standard, you can do the same, and benefit from better performance of native implementations when available. However, there are compatibility risks to widely deplying in polyfill form before the proposal is standard.
+- **Move polyfills from exporting as a module to conditionally patching the environment** for standard library proposals. Once a proposal is at Stage 4, it makes sense to defer to the built-in implementation when available, as there will not be more changes to the semantics. This allows developers to benefit from better performance of native implementations when available. However, there are compatibility risks to widely deplying in polyfill form before the proposal is standard.
