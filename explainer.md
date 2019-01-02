@@ -32,7 +32,7 @@ Frobnication comes up in all areas of computer science, in both front-end and ba
 frobnicate({});
 ```
 
-**Dynamic frobnicate cases**: The object is provided in a differen way, and a different sort of use case comes up, which can be met by the same feature.
+**Dynamic frobnicate cases**: The object is provided in a different way, and a different sort of use case comes up, which can be met by the same feature.
 
 ## Description
 
