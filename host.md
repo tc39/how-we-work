@@ -1,17 +1,17 @@
 # How to host a TC39 meeting
 
-Let's enumerate requirements for TC39 meeting hosts to make it easier for hosts to understand their requirements and for ECMA TC39 members to have a productive meeting. I'll take a stab:
+TC39 hosts six in-person meetings a year. If you want to host a meeting, here's what is required:
 
 ## Prior to Meeting
 1. Secure a meeting room and catering.
-1. update the agenda with meeting logistics - address, where to park, how to get in, contact details, etc.
+1. Note the meeting logistics in the TC39 Reflector -- address, where to park, how to get in, contact details, etc.
 1. At least 2 weeks prior to the meeting, the ECMA secretariat will send a Doodle registration link to the reflector to determine an approximate attendee count.
 1. Send the Doodle contacts to your registration desk so credentials can be printed early.
 1. Remove any NDA signing requirements. This may be as simple as informing reception that NDAs are not required.
 1. Reserve a restaurant for the social gathering. The day is flexible (either day 1 or day 2), and costs are shared with ECMA. Note that it is hard to actually get a room for 30+ people so getting started early is recommended.
 
 ## During the Meeting
-1. Give a short presentation on the facilities - where to find the bathroom, how to use the wifi, etc.
+1. Give a short presentation on the facilities - where to find the bathroom, how to use the WiFi, etc.
 
 ### Meeting Layout
 1. A single-layered circle or square is ideal. Lecture-style seating is discouraged.
@@ -27,10 +27,5 @@ Let's enumerate requirements for TC39 meeting hosts to make it easier for hosts 
 1. TC39 traditionally has a dinner on Wednesday for meeting attendees, jointly funded by Ecma and the host. Please work with the chair to arrange the location and financial details, and if funding is unavailable for this dinner, please notify the chair ahead of the meeting so that the committee can make alternate arrangements.
 
 ### Meeting Technology
-1.  Whiteboards and markers
+1. Whiteboards and markers
 1. Some sort of telepresence/video conferencing system is required. Please ensure the system is in working order and you know how to use it.
-
-
----
-
-[Original text](https://github.com/tc39/Reflector/issues/40) by @bterlson
