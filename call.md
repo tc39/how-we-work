@@ -33,7 +33,7 @@ Once the Doodle completes, create a calendar invite and agenda for the meeting a
 ## Writing an agenda
 
 The agenda forms an outline of the meeting and guides discussion. A typical agenda might include:
-- The title, date and time of the meeting
+- The title, date, and time of the meeting
 - Introductions of attendees (if they don't all know each other)
 - Background on the problem, motivation, where we are in solving it, etc
 - A few bullets of technical issues to work out within the problem, with links to detailed background and status
