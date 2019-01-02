@@ -57,10 +57,11 @@ Groups"][7]. This policy also provides for a defined time window during which pa
 
 ### Copyright licenses
 
-The annual ECMA-262 and ECMA-402 are licensed under Ecma's [text
-copyright policy][9].
+The specification text in annual ECMA-262 and ECMA-402 are licensed under Ecma's [text copyright policy][9], and the contained source code is licensed under [Ecma's software license][10].
 
 TC39 maintains a test suite for ECMA-262 and ECMA-402, called test262, which is licensed under [Ecma's software license][10]. Contributors to test262 are required to sign the separate [software submitter license][11]. Files added to test262 have a [copyright header indicating an initial author][12].
+
+The same copyright policy applies to ECMA-404 (JSON) and ECMA-415 (ECMAScript Suite), which are updated only occasionally.
 
 ### Processes to ensure contributors have granted appropriate licenses
 
