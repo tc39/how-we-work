@@ -49,7 +49,7 @@ These npm modules do something like the proposal:
 - [B](link)
 - [C](link)
 
-frobnicate-2018 is weird because xyz, whereas B is weird because jkl, so we take a version of the approach in C, modified by qrs
+frobnicate-2018 is weird because xyz, whereas B is weird because jkl, so we take a version of the approach in C, modified by qrs.
 
 The standard libraries of these programming languages includes related functionality:
 - APL (links to the relevant documentation for each of these)
