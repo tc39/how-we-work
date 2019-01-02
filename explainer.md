@@ -18,7 +18,7 @@ Stage: -1
 
 ## Motivation
 
-*Why is this important to have in the JavaScript language*
+*Why is this important to have in the JavaScript language?*
 
 Frobnication comes up in all areas of computer science, in both front-end and back-end programming. See [CATB](http://catb.org/jargon/html/F/frobnicate.html) for details.
 
