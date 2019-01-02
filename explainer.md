@@ -89,10 +89,6 @@ You can try out an implementation of this proposal in the npm package [frobnicat
 
 **A**: We could encourage people to continue doing this in user-space. However, that would significantly increase load time of web pages. Additionally, web browsers already have a built-in frobnicator which is higher quality.
 
-**Q**: How would this standard library proposal look in the context of built-in modules?
-
-**A**: Rather than including the `frobnicate` function as a property of the global object, it could be a built-in module `std::frobnicate`; either would work equally well, and it wouldn't result in much changes in functionality.
-
 **Q**: Is it really necessary to create such a high-level built-in construct, rather than using lower-level primitives?
 
 **A**: Instead of providing a direct `frobnicate` method, we could expose more basic primitives to compose an md5 hash with rot13. However, rot13 was demonstrated to be insecure in 2012 (citation), so exposing it as a primitive could serve as a footgun.
