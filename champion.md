@@ -28,7 +28,7 @@ To work through the stage process, a tracking issue in the GitHub repository can
 - [ ] PR to official spec
 ## Stage 4
 - [ ] committee approval
-- [ ] implement in two browsers (#14)
+- [ ] implement in two browsers
 - [ ] significant in-the-field experience
 - [ ] merge test262 tests
 - [ ] write test262 tests
