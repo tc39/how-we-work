@@ -20,7 +20,7 @@ One popular transpiler used for prototyping early JavaScript features is [Babel]
 
 ## Library implementations
 
-If the proposal is a standard library feature, and it's possible to implement this feature in JavaScript, it's helpful to get this feature out to developers to try it out, so they can give feedback. As it emerges as a standard, supported in some engines and not others, it remains useful to have this implementation as a backup, often called a "polyfill". To encourage use, it's helpful to expose these implementations as modules in popular package managers such as [npm](https://www.npmjs.com/) or [Bower](https://bower.io/).
+If the proposal is a standard library feature, and it's possible to implement this feature in JavaScript, it's helpful to get this feature out to developers to try it out, so they can give feedback. As it emerges as a standard, supported in some engines and not others, it remains useful to have this implementation as a backup, often called a "polyfill" or a “shim”. To encourage use, it's helpful to expose these implementations as modules in popular package managers such as [npm](https://www.npmjs.com/).
 
 The best practice for implementations for early library proposals (pre-Stage 3, and Stage 3 is borderline, as discussed above) is to expose it as a module, rather than a global or property of an existing object; this is important for the evolution of the standard, so people don't accidentally depend on an early version being the final one. See [Polyfills and the evolution of the Web](https://www.w3.org/2001/tag/doc/polyfills/) for details.
 
