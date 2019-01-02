@@ -10,7 +10,7 @@ At **Stage 4**, a specification is *complete* and set to be included in the ECMA
 
 At **Stage 3**, the committee is strongly considering a feature and has *agreed on concrete details*. Implementation experience may still lead to semantic changes, and some Stage 3 features have been dropped entirely. Projects requiring stability tend to use a certain amount of **case-by-case judgement** before shipping Stage 3 features, if they ship them at all.
 
-At **Stage 0, 1 and 2**, semantic details are *up in the air*. The committee has not come to consensus on all of the concrete details of the proposal. Implementations at this stage should be considered **experimental and speculative**. Implementations at this stage can be very valuable to enable experimentation by programmers, which can help refine the language design. Implementations tend to expose this stage of feature via special flags which are not enabled by default.
+At **Stage 0, 1, and 2**, semantic details are *up in the air*. The committee has not come to consensus on all of the concrete details of the proposal. Implementations at this stage should be considered **experimental and speculative**. Implementations at this stage can be very valuable to enable experimentation by programmers, which can help refine the language design. Implementations tend to expose this stage of feature via special flags which are not enabled by default.
 
 ## Transpiler implementations
 
