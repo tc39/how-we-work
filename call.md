@@ -27,6 +27,7 @@ OK, if you stil think a meeting is the best way to work through your problem, se
 - If the timezone of the attendees is not all the same, try to choose options that are plausible for everyone within normal working hours, and draw attention to the default timezone of the poll (people might assume it's in their timezone!).
 - Send the Doodle out two weeks before the meeting, and choose an option one week before the meeting.
 - Send the Doodle to everyone who you are especially interested in attending, and announce it in a place where everyone who might want to optionally attend
+- When possible, learn about any idiosyncratic constraints of attendees, e.g., some may prefer to meet before or after the ordinary work hours in their time zones, or prefer meetings scheduled on the half-hour, and offer options within these constraints.
 
 Once the Doodle completes, create a calendar invite and agenda for the meeting and send it to attendees.
 
