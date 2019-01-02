@@ -78,6 +78,7 @@ Following Stage 1 (or even before), it could be useful to do some of the followi
 - If there are some points of standing disagreement, **bring them up for discussion in GitHub issues**, and consider pursuing detailed analysis of multiple solutions.
 - **Write documentation, draft implementations, tests**, etc. about early proposed solutions.
 - **Be responsive on GitHub**, answering questions raised and considering the points raised by commenters.
+- **Move the proposal repository into the tc39 org** following [these instructions](https://github.com/tc39/proposals#onboarding-existing-proposals).
 
 ### Stage 2
 
