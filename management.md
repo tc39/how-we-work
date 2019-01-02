@@ -45,7 +45,7 @@ The chair group would like help in all aspects of meeting planning. Contact Dani
 
 ### Who is involved
 
-Editor group for ES2019: Brian Terlson, Jordan Harband, Bradley Farias
+Editor group for ES2019: Brian Terlson (@bterlson), Jordan Harband (@ljharb), Bradley Farias (@bmeck)
 
 Co-editors for ES2020: Jordan Harband (@ljharb), Kevin Smith (@zenparsing)
 
