@@ -20,28 +20,26 @@ These are common terms used while discussing language features.
 
 ### Bikeshedding
 
-#### Definition:
+#### Definition
 
 The process of discussing a trivial matter at the expense of the topic that actually
 needs discussion. This can take time away from important topics, and its important to catch
 ourselves if we start bikeshedding!
 
-#### Example:
+#### Example
 We were supposed to discuss how this new proposal should work, but we spent the entire time discussing what the
 name should be. We should avoid such bikeshedding.
 
-#### Sources
-[wikipedia](https://en.wiktionary.org/wiki/bikeshedding):
+#### References
+[wikipedia](https://en.wiktionary.org/wiki/bikeshedding)
 
 ### Brand Check
 
-#### Definition:
-
+#### Definition
 Brand check ("brand" as in a mark, or a brand made with a branding iron) is a term used by TC39
 to describe a check against a unique datatype whose creation is controlled by a piece of code.
 
-#### Example:
-
+#### Example
 One example of this is built in JavaScript datatypes, which are unique and cannot be made in user
 space. `Array.isArray` is an example of a brand check. For reference see [this
 discussion](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3).
@@ -84,16 +82,16 @@ class Query {
 }
 ```
 
-#### Sources
+#### References
 - [ES Discuss comment](https://esdiscuss.org/topic/tostringtag-spoofing-for-null-and-undefined#content-3)
 - [Clarifying comment on GitHub](https://github.com/tc39/how-we-work/pull/30#issuecomment-391588889)
 
 ### Tail call, PTC (proper tail call), STC (syntactic tail call)
 
-#### Definition:
+#### Definition
 A _tail call_ is a call which occurs as the final operation of a function and whose value is returned immediately. It is possible for such a call to reuse or replace the current stack frame, in which case it is known as a _proper_ tail call (PTC). PTC semantics are part of the standard as of ES6, but their implementation in various engines has been fraught with controversy. In particular, reluctance to the automatic nature of PTC led to an alternative _syntactic_ tail call (STC) proposal, in which users would consciously choose this behavior by means of a keyword. PTC is currently only shipped by JSC, while STC remains an open but inactive proposal.
 
-#### Example:
+#### Example
 ```js
 function factorial(n) {
   // Not a tail call -- we still need to multiply by n after the call
@@ -111,44 +109,103 @@ function factorial(n, acc = 1) {
 }
 ```
 
-#### Sources
+#### References
 - [PTC specification](https://tc39.github.io/ecma262/#sec-tail-position-calls)
 - [STC proposal](https://github.com/tc39/proposal-ptc-syntax)
 - [Wikipedia](https://en.wikipedia.org/wiki/Tail_call)
 
 ### Temporal dead zone (TDZ)
 
-#### Definition:
-
+#### Definition
 Refers to a period of time during which a variable has been declared, but has
 not been assigned, and is therefore unavailable. This results in a ReferenceError. This happens when
 a `const` or a `let` is defined in the scope, but not yet. This is different from `var`, which will
 return undefined. Here is an example:
 
-#### Example:
-
+#### Example
 ```javascript
 console.log(bar) // ReferenceError TDZ
 console.log(baz) // undefined
 
-let bar;
-var baz;
-bar = 1;
-baz = 2;
+let bar = 1;
+var baz = 2;
 
 console.log(bar) // 1
 console.log(baz) // 2
 ```
 
-#### Sources
-[ECMAScript source](https://www.ecma-international.org/ecma-262/8.0/index.html#sec-let-and-const-declarations)
+#### References
+- [Let and Const Declarations](https://tc39.github.io/ecma262/#sec-let-and-const-declarations) -- the ECMAScript specification
+- [Temporal Dead Zone](https://wesbos.com/temporal-dead-zone/) -- blog post by Wes Bos which describes the term
 
-#### Related definitions
-[Early errors](#early-errors)
+### Cover grammar
+
+#### Definition
+A "cover grammar" is a sort of technique used in the JavaScript grammar to remain context free and unambiguous when parsing from left to right with only one token of lookahead, while later tokens might lead to syntactic restrictions for earlier ones. Informally, one grammar is said to "cover" another if the second grammar is a subset of the first, with a corresponding subset of corresponding parse trees.
+
+#### Example
+The [CoverParenthesizedExpressionAndArrowParameterList](https://tc39.github.io/ecma262/#prod-CoverParenthesizedExpressionAndArrowParameterList) production in the ECMAScript specification allows expressions and destructuring parameters of arrow functions to be interpreted together. If a `=>` is reached, the expression is reinterpreted as arrow function parameters, with additional restrictions applied.
+
+#### References
+The definition of [covering](https://tc39.github.io/ecma262/#sec-syntactic-grammar) in the ECMAScript specification, used to check whether it's valid to reinterpret one grammatical production as another.
+
+### Web compatibility/"Don't break the web"
+
+#### Definition
+A change to JavaScript is considered "**web compatible**" if it preserves the current behavior of existing websites. If it changes the behavior of existing websites, it's considered to "**break the web**".
+
+The definition here is a bit fuzzy and empirical--it's always possible to construct a website which will break under any particular change or addition to JavaScript, and the key is how common the broken websites are. If too many websites break, then web browsers will refuse to ship the change.
+
+**"Don't break the web"** is a shared goal of TC39 and all web standards bodies: We aim to preserve web compatibility as we evolve the language. If we didn't, we'd be breaking the web!
+
+#### Example
+There was an effort to add a method `Array.prototype.contains`. However, this broke many websites ([reference](https://esdiscuss.org/topic/having-a-non-enumerable-array-prototype-contains-may-not-be-web-compatible)). As a result, the method was named as [`Array.prototype.includes`](https://github.com/tc39/Array.prototype.includes/) instead.
+
+----
+
+ES2015 changed RegExp semantics to make `RegExp.prototype` not a RegExp instance, and to make `RegExp.prototype.sticky` a getter which threw when accessed on a non-RegExp. It turned out that this change was not web-compatible--data from Chrome showed that .05% of web page loads hit this case. As a result, TC39 agreed to make an allowance in `RegExp.prototype.sticky` and similar getters to permit `RegExp.prototype` as a receiver. See [this slide deck](https://docs.google.com/presentation/d/1BZiysQL4YMXgexwTmcZTFOD0nxGSAGz7PbzAotoDiGw/edit#slide=id.p) for details.
+
+#### Sources
+- [#SmooshGate FAQ](https://developers.google.com/web/updates/2018/03/smooshgate) by Mathias Bynens
+
+### Meta-object protocol
+
+#### Definition
+"Meta-object protocol" is a fancy term to describe the basic operations in an object system. For example, in JavaScript, getting a property is one operation in the meta-object protocol. The term originated in the Lisp community, and is used in TC39 because we can take a lot of inspiration from the developments in the Common Lisp Object System.
+
+#### Example
+Each operation in JavaScript's meta-object protocol is a method in [Reflect](https://tc39.github.io/ecma262/#sec-reflect-object), and each of these is also a [Proxy](https://tc39.github.io/ecma262/#sec-proxy-objects) trap.
+
+In the issue [Implement meta-object trap(s) to make an object's [[Prototype]] immutable](https://github.com/tc39/ecma262/issues/538), there is discussion about adding another fundamental object operation to freeze the prototype of an object (without performing a full `preventExtensions`). The title of the issue includes "meta-object" as a reference to the meta-object protocol, as the addition of this feature would require new Proxy and Reflect APIs.
+
+#### References
+- [The Art of the Metaobject Protocol](https://mitpress.mit.edu/books/art-metaobject-protocol) -- the book which introduced the term
+- [Object Internal Methods and Internal Slots](https://tc39.github.io/ecma262/#sec-object-internal-methods-and-internal-slots) -- JavaScript's meta-object protocol
 
 ### Early errors
 
-To be defined!
+#### Definition
+An "early error" is an error which is thrown in the parsing phase of JavaScript code, before executing. This error is usually a `SyntaxError`, but other error types may be early errors as well. These early errors are produced even if the relevant code is not executed. Early errors are contrasted with runtime errors, which happen in the course of executing JavaScript code.
+
+When a JavaScript script, module or `eval`'d string contains an early error, none of it is run.
+
+#### Example
+Multiple declarations of the same lexical variable produces an early error. For example, the following produces an early `SyntaxError`.
+
+```js
+const x = 1;
+const x = 2;
+```
+
+By contrast, referencing a variable which is not defined is a runtime error, specifically a `ReferenceError`.
+
+```js
+let abc = 1;
+console.log(abd);  // runtime error
+```
+
+#### References
+- [early error](https://tc39.github.io/ecma262/#early-error) defined in the ECMAScript specification editor's draft.
 
 .....
 
@@ -187,7 +244,7 @@ TODO(goto): expand on each one of these terms, make them linkable.
 * syntax budget
 * orthogonal
 * "Needs Consensus PR"
-* web reality, web compatability
+* web reality
 * normative, non-normative
 * (meeting) minutes
 * editor, editor group, project editors
@@ -233,7 +290,7 @@ These are common considerations that come up while discussing the technical meri
 * Readability and writability: more people read than write
 * Forward compatibility
 * Tennent’s Correspondence Principle (dherman)
-* Backwards compatibility / Web compatibility / Don’t Break The Web (domenic, jordan)
+* Backwards compatibility (domenic, jordan)
 
 ## Security
 
