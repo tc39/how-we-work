@@ -6,7 +6,7 @@ Although TC39 is a flat, consensus-based group, there are some particular organi
 
 ### Who is involved
 
-TC39 co-chairs: Aki Braun, Brian Terlson, Yulia Startsev
+TC39 co-chairs: Aki Braun (@gesa), Brian Terlson (@bterlson), Yulia Startsev (@codehag)
 
 #### How the chair group is chosen
 
