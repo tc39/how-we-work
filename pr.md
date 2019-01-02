@@ -6,7 +6,7 @@ All changes to the JavaScript specification ultimately become a pull request (PR
 
 To make a pull request (PR), [fork](https://help.github.com/articles/fork-a-repo/) the [ecma262](https://github.com/tc39/ecma262), apply changes to the spec.html, and upload it to your fork on GitHub, using the web interface to file a pull request. Locally, to see how your change renders in HTML, use `npm run build` (via [ecmarkup](https://github.com/bterlson/ecmarkup)) to build spec.html into an actual HTML file.
 
-**Which repo should the PR target?**: Almost all specifications PRs should target the ecma262 repo; ecma402 is juse used for the Intl specification, which provides a standard library for internationalization.
+**Which repo should the PR target?**: Almost all specifications PRs should target the ecma262 repo; ecma402 is just used for the Intl specification, which provides a standard library for internationalization.
 
 Commits in pull requests should have a first line which starts with a tag, followed by a colon, indicating which type of patch they are:
   * `Normative:` changes impacting JavaScript behavior in some way. These changes are called "observable" because it is possible to write code to "observe" the change in behavior.
