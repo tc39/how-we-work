@@ -12,7 +12,8 @@ The rest of this page can be used as a template, to put in your README.md. Not a
 
 ## Status
 
-Champion(s): *your name(s)*
+Champion(s): *champion name(s)*
+Author(s): *non-champion author(s), if applicable*
 Stage: -1
 
 ## Motivation
