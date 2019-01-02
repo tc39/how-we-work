@@ -12,7 +12,7 @@ First, think, what problem are you trying to solve? Is a meeting the best way to
 Remember that a meeting is not just taking your time to organize, but also the attendees' time, including the context switches involved (whereas asynchronous text-based communication can be scheduled by the participant). This is a heavy-weight tool to be used only when actually helpful.
 
 If these other modes of communication would work well, great, go for it. Here are some cases where a call might help in addition:
-- If there's a lot of back-and-forth to work through, to the point where written communcations end up being much more time-consuming than a synchronous discussion.
+- If there's a lot of back-and-forth to work through, to the point where written communcations end up being much more time-consuming than a synchronous discussion
 - If you want to engage people who can't physically attend a TC39 meeting, and where it's impractical to use written communcation (e.g., the volume is too high, and everyone is overwhelmed with GitHub notifications)
 - If there's a lot going on, and there's a need to coordinate on a high level among collaborators
 
