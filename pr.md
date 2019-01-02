@@ -31,7 +31,7 @@ Normative PRs change what JavaScript programs do, potentially requiring action t
 - There must be tests proposed in [test262](https://github.com/tc39/test262/) for the PR.
 - The PR must be brought up in committee. In some cases, this can be a quick description by the editor group or author, and if no concerns are raised, the proposal is considered to "have consensus". Other times, if the proposal is controversial, it's useful to [prepare a presentation](https://github.com/tc39/how-we-work/blob/master/presenting.md) explaining the motivation in more detail, with a discussion following it to discuss whether the committee can come to consensus on the proposal. For this reason, controversial normative PRs are tagged "needs consensus".
 
-If you have a PR that you've proposed, and you'd like to push it forward, write test262 tests for it and put it on the agenda for an upcoming TC39 meeting. If you're not the committee, it's important to find a TC39 delegate to champion the proposal and help push it through the committee's process, including giving the presentation.
+If you have a PR that you've proposed, and you'd like to push it forward, write test262 tests for it and put it on the agenda for an upcoming TC39 meeting. If you're not on the committee, it's important to find a TC39 delegate to champion the proposal and help push it through the committee's process, including giving the presentation.
 
 ### "Web reality" PRs
 
