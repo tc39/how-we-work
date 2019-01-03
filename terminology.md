@@ -171,7 +171,7 @@ ES2015 changed RegExp semantics to make `RegExp.prototype` not a RegExp instance
 ### Meta-object protocol
 
 #### Definition
-"Meta-object protocol" is a fancy term to describe the basic operations in an object system. For example, in JavaScript, getting a property is one operation in the meta-object protocol. The term originated in the Lisp community, and is used in TC39 because we can take a lot of inspiration from the developments in the Common Lisp Object System.
+"Meta-object protocol" (often abbreviated as "MOP") is a fancy term to describe the basic operations in an object system. For example, in JavaScript, getting a property is one operation in the meta-object protocol. The term originated in the Lisp community, and is used in TC39 because we can take a lot of inspiration from the developments in the Common Lisp Object System.
 
 #### Example
 Each operation in JavaScript's meta-object protocol is a method in [Reflect](https://tc39.github.io/ecma262/#sec-reflect-object), and each of these is also a [Proxy](https://tc39.github.io/ecma262/#sec-proxy-objects) trap.
