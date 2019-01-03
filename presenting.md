@@ -6,7 +6,7 @@ Ahead of a TC39 meeting, produce public documentation about your proposal. GitHu
 
 Your proposal to TC39 should be towards a particular purpose: Think through what you're trying to communicate to the committee and what you'd like to get out of the presentation. Possible goals include:
 - Advancing a proposal to a particular stage
-- Introducing a new idea or way of thinking to the group to think over, which may be built on or developed in the future
+- Introducing a new idea or way of thinking to the group to consider which may be built on or developed in the future
 - Getting consensus on a normative or editorial pull request
 - Reporting progress on an ongoing effort, to solicit feedback
 
