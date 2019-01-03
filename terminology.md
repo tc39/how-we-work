@@ -156,7 +156,7 @@ A change to JavaScript is considered "**web compatible**" if it preserves the cu
 
 The definition here is a bit fuzzy and empirical--it's always possible to construct a website which will break under any particular change or addition to JavaScript, and the key is how common the broken websites are. If too many websites break, then web browsers will refuse to ship the change.
 
-**"Don't break the web"** is a shared goal of TC39 and all web standards bodies: We aim to preserve web compatibility as we evolve the language. If we didn't, we'd be breaking the web!
+**"Don't break the web"** is a shared goal of TC39 and all web standards bodies: We aim to preserve web compatibility as we evolve the language. Even if a change would be convenient for developers, it's not worth it if we hurt lots of users in the process!
 
 #### Example
 There was an effort to add a method `Array.prototype.contains`. However, this broke many websites ([reference](https://esdiscuss.org/topic/having-a-non-enumerable-array-prototype-contains-may-not-be-web-compatible)). As a result, the method was named as [`Array.prototype.includes`](https://github.com/tc39/Array.prototype.includes/) instead.
