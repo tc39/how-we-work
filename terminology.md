@@ -187,7 +187,7 @@ In the issue [Implement meta-object trap(s) to make an object's [[Prototype]] im
 #### Definition
 An "early error" is an error which is thrown in the parsing phase of JavaScript code, before executing. This error is usually a `SyntaxError`, but other error types may be early errors as well. These early errors are produced even if the relevant code is not executed. Early errors are contrasted with runtime errors, which happen in the course of executing JavaScript code.
 
-When a JavaScript script, module or `eval`'d string contains an early error, none of it is run.
+When a JavaScript Script, Module or `eval`'d string contains an early error, none of it is run.
 
 #### Example
 Multiple declarations of the same lexical variable produces an early error. For example, the following produces an early `SyntaxError`.
