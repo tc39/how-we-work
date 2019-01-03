@@ -3,7 +3,7 @@
 Online and in person at TC39 meetings, we're always giving feedback on proposals. There are some suggestions for making sure that your feedback is actionable and helpful.
 
 - Follow the TC39 [Code of Conduct](https://tc39.github.io/code-of-conduct/) in all proposal feedback
-- Keep feedback respectful, constructive and actionable.
+- Keep feedback respectful, constructive, and actionable.
 - When you see a problem, explain the problem as much as possible. Proposing a solution can be helpful, but sometimes jumping to and insisting on a particular solution can be counter-productive.
 - When you don't understand the motivation for a part of a proposal, one good strategy is to ask a question about it, rather than assuming that it's poorly designed.
 - We're all coming from different perspectives and have partial knowledge of the universe. Give your feedback from wherever you're at. For example, there is no need to dress up feedback in formal language if your thought process doesn't correspond to that.
