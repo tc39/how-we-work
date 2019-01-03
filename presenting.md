@@ -10,7 +10,7 @@ Your proposal to TC39 should be towards a particular purpose: Think through what
 - Getting consensus on a normative or editorial pull request
 - Reporting progress on an ongoing effort, to solicit feedback
 
-When possible, do work towards your proposal ahead of the committee meeting. This pre-work can include
+Take time to work on your proposal ahead of the committee meeting. This pre-work can include
 - Thinking through the idea in depth
 - Talking it over with various people, both inside and outside of the committee, in person, GitHub issues, IRC, etc.
 - Writing up supporting documents explaining the idea, including in more depth than might fit in a presentation
