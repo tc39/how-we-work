@@ -207,12 +207,39 @@ console.log(abd);  // runtime error
 #### References
 - [early error](https://tc39.github.io/ecma262/#early-error) defined in the ECMAScript specification editor's draft.
 
+### Memoization
+
+#### Definition
+"Memoization" is an optimization technique to reduce the run time of a program by using a cache to store results and avoid recomputation. In essence, it is a trade-off of space in exchange for time.
+
+#### Example
+Non-memoized Fibonacci
+```js
+function fib(num) {
+  if (num <= 1) return 1;
+
+  return fib(num - 1) + fib(num - 2);
+}
+```
+
+Memoized Fibonacci
+```js
+function memoizedFib(num, memo = {}) {
+  if (memo[num]) return memo[num];
+  if (num <= 1) return 1;
+
+  return memo[num] = memoizedFib(num - 1, memo) + memoizedFib(num - 2, memo);
+}
+```
+
+#### References
+- [memoization](https://en.wikipedia.org/wiki/Memoization)
+
 .....
 
 TODO(goto): expand on each one of these terms, make them linkable.
 
 * [hoisting](https://www.w3schools.com/js/js_hoisting.asp)
-* [memoization](https://en.wikipedia.org/wiki/Memoization)
 * [IIFE](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)
 * [hyrum’s law](https://twitter.com/onoffleftright/status/885627206033997825)
 * POLA: Principle Of Least Authority
