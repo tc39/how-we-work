@@ -238,7 +238,7 @@ function memoizedFib(num, memo = {}) {
 ### REPL
 
 #### Definition
-A read-eval-print loop, i.e. “REPL”, is a interactive programming environment that allows a user to input a single expression whose result will be evaulated and returned. After each read-eval-print the environment returns to the initial read state, creating a loop, which is only terminated once the environment is closed.
+A read-eval-print loop, i.e. "REPL", is a interactive programming environment that allows a user to input a single expression whose result will be evaulated and returned. After each read-eval-print the environment returns to the initial read state, creating a loop, which is only terminated once the environment is closed.
 
 #### Example
 In Firefox's Web Console the [command line interpreter](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/The_command_line_interpreter) is a JavaScript REPL.
