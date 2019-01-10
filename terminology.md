@@ -235,7 +235,7 @@ function memoizedFib(num, memo = {}) {
 #### References
 - [memoization](https://en.wikipedia.org/wiki/Memoization)
 
-###REPL
+### REPL
 
 #### Definition
 A read-eval-print loop, i.e. “REPL”, is a interactive programming environment that allows a user to input a single expression whose result will be evaulated and returned. After each read-eval-print the environment returns to the initial read state, creating a loop, which is only terminated once the environment is closed.
