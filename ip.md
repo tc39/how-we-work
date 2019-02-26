@@ -38,8 +38,7 @@ submit to Ecma International, for Ecma International’s purposes of
 standardisation, while we retain all the rights we may have on those
 contributions.
 
-Ecma members who participate in TC39 must sign the RFTG agreement as
-well, described below.
+The above sections grant Ecma the license to copyright over contributions from the member organization. Ecma members who participate in TC39 must sign the RFTC agreement as well, described below, which licenses patents on a royalty-free basis.
 
 ### Contributor IPR license
 
@@ -49,19 +48,21 @@ If an individual associated with a Ecma member organization makes a contribution
 
 When a non-member contributor works within an organization where they do not have the authorization to license their contributed IPR, the form can be filled out with separate "signatory" and "contributor" fields, where the "contributor" is the participant in TC39 work, and the "signatory" is the member of the organization who is authorized to license the IPR. The form must be signed for each individual contributor who participates in TC39, and does not apply organization-wide.
 
-### Ecma Royalty-Free Task Groups
+### Ecma Royalty-Free Technical Committee
 
-Ecma specifications are generally developed under a RAND patent policy,
-but TC39 uses a distinct royalty-free policy based on the use of Ecma's ["Royalty-Free Task
-Groups"][7]. This policy also provides for a defined time window during which participants may opt out of providing an RF commitment under certain circumstances. (See footnote 1.) Such an Opt-Out has never been taken in TC39's history.
+Ecma specifications are generally developed under a RAND patent policy, but TC39 uses a distinct royalty-free policy based on the use of Ecma's ["Ecma International Royalty-Free Patent Policy Extension Option"][7]. TC39 is a Royalty Free Technical Committee (RFTC) within Ecma, meaning that standards produced by Ecma TC39 and approved by the Ecma General Assembly include a "royalty-free patent license statement that applies to any patent claims owned or controlled" by TC39 participants.
+
+Participating organizations in TC39 are required to sign a particular form which includes them in the annual RF patent grant. Ecma's RF patent policy provides for a defined time window during which participants may opt out of providing an RF commitment under certain circumstances. (See footnote 1.) Such an Opt-Out has never been taken in TC39's history.
 
 ### Copyright licenses
 
-The specification text in annual ECMA-262 and ECMA-402 are licensed under Ecma's [text copyright policy][9], and the contained source code is licensed under [Ecma's software license][10].
+The specification text in annual, GA-approved ECMA-262 and ECMA-402 are licensed under Ecma's [text copyright policy][9], and the contained source code is licensed under [Ecma's software license][10].
 
 TC39 maintains a test suite for ECMA-262 and ECMA-402, called test262, which is licensed under [Ecma's software license][10]. Contributors to test262 are required to sign the separate [software submitter license][11]. Files added to test262 have a [copyright header indicating an initial author][12].
 
 The same copyright policy applies to ECMA-404 (JSON) and ECMA-415 (ECMAScript Suite), which are updated only occasionally.
+
+ECMAScript specification drafts are licensed under the [draft copyright license][14]. Proposals have copyright [reserved by their author][15], but many proposal authors secondarily license their proposal with another license, visible in the proposal repository.
 
 ### Processes to ensure contributors have granted appropriate licenses
 
@@ -70,7 +71,7 @@ The same copyright policy applies to ECMA-404 (JSON) and ECMA-415 (ECMAScript Su
 
 #### Footnotes
 
-- 1: All of TC39's work actually takes place in the TC39 RFTG, with a [separately-tracked membership][8]. The opt-out period begins when the annual version is "branched" off, towards the beginning of the year, and ends before the annual version is ratified by the Ecma General Assembly, typically around the middle of the year.
+- 1: Historically, all of TC39's work actually takes place in the TC39 RFTG, with a [separately-tracked membership][8]. Today, the entire committee has converted to an RFTC. The opt-out period begins when the annual version is "branched" off, towards the beginning of the year, and ends before the annual version is ratified by the Ecma General Assembly, typically around the middle of the year.
 
 [1]: http://tc39.github.io/process-document/
 [2]: https://github.com/tc39/ecma262/
@@ -85,3 +86,5 @@ The same copyright policy applies to ECMA-404 (JSON) and ECMA-415 (ECMAScript Su
 [11]: https://tc39.github.io/test262-cla/
 [12]: https://github.com/tc39/test262/blob/master/CONTRIBUTING.md#test-case-style
 [13]: https://github.com/IgnoredAmbience/tc39-bot/
+[14]: https://github.com/bterlson/ecmarkup/blob/master/boilerplate/draft-copyright.html
+[15]: https://github.com/bterlson/ecmarkup/blob/master/boilerplate/proposal-copyright.html
