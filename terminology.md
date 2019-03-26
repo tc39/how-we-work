@@ -235,6 +235,14 @@ function memoizedFib(num, memo = {}) {
 #### References
 - [memoization](https://en.wikipedia.org/wiki/Memoization)
 
+### Primordial
+
+#### Definition
+A primordial is any object except the global object that the ECMAScript specification mandates must exist before any code starts running. This includes, for example, `Array`, `Array.prototype`, and `Array.prototype.push`.
+
+#### References
+- [Definition by Mark S. Miller in a GitHub issue](https://github.com/ajvincent/es-membrane/issues/61)
+
 ### REPL
 
 #### Definition
