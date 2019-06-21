@@ -110,7 +110,7 @@ function factorial(n, acc = 1) {
 ```
 
 #### References
-- [PTC specification](https://tc39.github.io/ecma262/#sec-tail-position-calls)
+- [PTC specification](https://tc39.es/ecma262/#sec-tail-position-calls)
 - [STC proposal](https://github.com/tc39/proposal-ptc-syntax)
 - [Wikipedia](https://en.wikipedia.org/wiki/Tail_call)
 
@@ -135,7 +135,7 @@ console.log(baz) // 2
 ```
 
 #### References
-- [Let and Const Declarations](https://tc39.github.io/ecma262/#sec-let-and-const-declarations) -- the ECMAScript specification
+- [Let and Const Declarations](https://tc39.es/ecma262/#sec-let-and-const-declarations) -- the ECMAScript specification
 - [Temporal Dead Zone](https://wesbos.com/temporal-dead-zone/) -- blog post by Wes Bos which describes the term
 
 ### Cover grammar
@@ -144,10 +144,10 @@ console.log(baz) // 2
 A "cover grammar" is a technique used in the JavaScript grammar to remain context free and unambiguous when parsing from left to right with only one token of lookahead, while later tokens might lead to syntactic restrictions for earlier ones. Informally, one grammar is said to "cover" another if the second grammar is a subset of the first, with a corresponding subset of corresponding parse trees.
 
 #### Example
-The [CoverParenthesizedExpressionAndArrowParameterList](https://tc39.github.io/ecma262/#prod-CoverParenthesizedExpressionAndArrowParameterList) production in the ECMAScript specification allows expressions and destructuring parameters of arrow functions to be interpreted together. If a `=>` is reached, the expression is reinterpreted as arrow function parameters, with additional restrictions applied.
+The [CoverParenthesizedExpressionAndArrowParameterList](https://tc39.es/ecma262/#prod-CoverParenthesizedExpressionAndArrowParameterList) production in the ECMAScript specification allows expressions and destructuring parameters of arrow functions to be interpreted together. If a `=>` is reached, the expression is reinterpreted as arrow function parameters, with additional restrictions applied.
 
 #### References
-The definition of [covering](https://tc39.github.io/ecma262/#sec-syntactic-grammar) in the ECMAScript specification, used to check whether it's valid to reinterpret one grammatical production as another.
+The definition of [covering](https://tc39.es/ecma262/#sec-syntactic-grammar) in the ECMAScript specification, used to check whether it's valid to reinterpret one grammatical production as another.
 
 ### Web compatibility/"Don't break the web"
 
@@ -174,13 +174,13 @@ ES2015 changed RegExp semantics to make `RegExp.prototype` not a RegExp instance
 "Meta-object protocol" (often abbreviated as "MOP") is a fancy term to describe the basic operations in an object system. For example, in JavaScript, getting a property is one operation in the meta-object protocol. The term originated in the Lisp community, and is used in TC39 because we can take a lot of inspiration from the developments in the Common Lisp Object System.
 
 #### Example
-Each operation in JavaScript's meta-object protocol is a method in [Reflect](https://tc39.github.io/ecma262/#sec-reflect-object), and each of these is also a [Proxy](https://tc39.github.io/ecma262/#sec-proxy-objects) trap.
+Each operation in JavaScript's meta-object protocol is a method in [Reflect](https://tc39.es/ecma262/#sec-reflect-object), and each of these is also a [Proxy](https://tc39.es/ecma262/#sec-proxy-objects) trap.
 
 In the issue [Implement meta-object trap(s) to make an object's [[Prototype]] immutable](https://github.com/tc39/ecma262/issues/538), there is discussion about adding another fundamental object operation to freeze the prototype of an object (without performing a full `preventExtensions`). The title of the issue includes "meta-object" as a reference to the meta-object protocol, as the addition of this feature would require new Proxy and Reflect APIs.
 
 #### References
 - [The Art of the Metaobject Protocol](https://mitpress.mit.edu/books/art-metaobject-protocol) -- the book which introduced the term
-- [Object Internal Methods and Internal Slots](https://tc39.github.io/ecma262/#sec-object-internal-methods-and-internal-slots) -- JavaScript's meta-object protocol
+- [Object Internal Methods and Internal Slots](https://tc39.es/ecma262/#sec-object-internal-methods-and-internal-slots) -- JavaScript's meta-object protocol
 
 ### Early errors
 
@@ -205,7 +205,7 @@ console.log(abd);  // runtime error
 ```
 
 #### References
-- [early error](https://tc39.github.io/ecma262/#early-error) defined in the ECMAScript specification editor's draft.
+- [early error](https://tc39.es/ecma262/#early-error) defined in the ECMAScript specification editor's draft.
 
 ### Memoization
 

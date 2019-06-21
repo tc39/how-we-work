@@ -71,12 +71,12 @@ Each year, a branch of the ECMA-262 specification is made, around late January/F
 
 ### Who is involved
 
-See the list [in the Code of Conduct](https://tc39.github.io/code-of-conduct/#code-of-conduct-committee).
+See the list [in the Code of Conduct](https://tc39.es/code-of-conduct/#code-of-conduct-committee).
 
 ### What the group does
 
-The Code of Conduct (CoC) Committee is responsible for responding to conduct reports. See the [Code of Conduct](https://tc39.github.io/code-of-conduct/) for more information.
+The Code of Conduct (CoC) Committee is responsible for responding to conduct reports. See the [Code of Conduct](https://tc39.es/code-of-conduct/) for more information.
 
 ### How to get involved
 
-The CoC Committee is elected annually, in the November TC39 meeting. We're always looking for help from inside or outside of the group; please contact one of [the members](https://tc39.github.io/code-of-conduct/#code-of-conduct-committee) for more information.
+The CoC Committee is elected annually, in the November TC39 meeting. We're always looking for help from inside or outside of the group; please contact one of [the members](https://tc39.es/code-of-conduct/#code-of-conduct-committee) for more information.

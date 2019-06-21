@@ -30,4 +30,4 @@ Ecma and TC39 don't set a limit on who attends TC39 from a member organization, 
 
 Before attending a meeting, be sure to sign the meeting's Doodle that is sent out to all delegates.
 
-If your organization does not have the right to license the intellectual property that you would contribute to Ecma (most employers do have such an agreement), then sign [the contributor IP form](https://tc39.github.io/agreements/contributor/).
+If your organization does not have the right to license the intellectual property that you would contribute to Ecma (most employers do have such an agreement), then sign [the contributor IP form](https://tc39.es/agreements/contributor/).

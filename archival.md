@@ -24,7 +24,7 @@ Make PRs against the proposals repository to update the information there as thi
 
 ## Archiving materials
 
-TC39 has historically used a Bugzilla bug tracker and a wiki for collaboration, before transitioning to GitHub. Thomas Wood has [archived](https://tc39.github.io/archives/bugzilla/) the old bug tracker, and Dave Herman has [various archive versions](https://github.com/tc39/archives/issues/1) of the wiki, which otherwise is only available through the [WayBack Machine](https://web.archive.org/web/20100701214135/http://wiki.ecmascript.org:80/doku.php?id=harmony:harmony).
+TC39 has historically used a Bugzilla bug tracker and a wiki for collaboration, before transitioning to GitHub. Thomas Wood has [archived](https://tc39.es/archives/bugzilla/) the old bug tracker, and Dave Herman has [various archive versions](https://github.com/tc39/archives/issues/1) of the wiki, which otherwise is only available through the [WayBack Machine](https://web.archive.org/web/20100701214135/http://wiki.ecmascript.org:80/doku.php?id=harmony:harmony).
 
 ### How to get involved
 

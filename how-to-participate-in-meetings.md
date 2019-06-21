@@ -6,7 +6,7 @@ manageable, and make it possible for everyone to be heard!
 
 ## Guidelines
 
-We have a [Code of Conduct](https://tc39.github.io/code-of-conduct/). Please read through the CoC
+We have a [Code of Conduct](https://tc39.es/code-of-conduct/). Please read through the CoC
 and remember to be respectful and considerate when participating in meetings. It is key that we keep
 our discussion friendly, patient, and considerate as we are discussing proposals.
 

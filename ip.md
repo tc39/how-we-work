@@ -73,17 +73,17 @@ ECMAScript specification drafts are licensed under the [draft copyright license]
 
 - 1: Historically, all of TC39's work actually takes place in the TC39 RFTG, with a [separately-tracked membership][8]. Today, the entire committee has converted to an RFTC. The opt-out period begins when the annual version is "branched" off, towards the beginning of the year, and ends before the annual version is ratified by the Ecma General Assembly, typically around the middle of the year.
 
-[1]: http://tc39.github.io/process-document/
+[1]: http://tc39.es/process-document/
 [2]: https://github.com/tc39/ecma262/
 [3]: https://github.com/tc39/ecma402/
 [4]: https://github.com/tc39/proposals/
 [5]: http://www.ecma-international.org/memento/join.htm
-[6]: https://tc39.github.io/agreements/contributor/
+[6]: https://tc39.es/agreements/contributor/
 [7]: https://www.ecma-international.org/memento/Policies/Ecma_Royalty-Free_Patent_Policy_Extension_Option.htm
 [8]: https://www.ecma-international.org/memento/TC39-RF-TG.htm
 [9]: https://www.ecma-international.org/memento/Ecma%20copyright%20faq.htm
 [10]: https://www.ecma-international.org/memento/Policies/Ecma_Policy_on_Submission_Inclusion_and_Licensing_of_Software.htm
-[11]: https://tc39.github.io/test262-cla/
+[11]: https://tc39.es/test262-cla/
 [12]: https://github.com/tc39/test262/blob/master/CONTRIBUTING.md#test-case-style
 [13]: https://github.com/IgnoredAmbience/tc39-bot/
 [14]: https://github.com/bterlson/ecmarkup/blob/master/boilerplate/draft-copyright.html
