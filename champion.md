@@ -3,7 +3,7 @@
 
 # Championing a proposal at TC39
 
-So, you want to propose a new feature for JavaScript? That proposal needs a TC39 delegate as a champion to move it through the [stage process](https://tc39.github.io/process-document/). This document describes how to do that.
+So, you want to propose a new feature for JavaScript? That proposal needs a TC39 delegate as a champion to move it through the [stage process](https://tc39.es/process-document/). This document describes how to do that.
 
 Championing a proposal is an exercise is of parallel work in developing a proposal outside of committee, together with presentations to the committee to collect more ideas, feedback, and eventually to advance proposals through stages. The work outside of committee rarely needs to block on progress in the committee, but committee stage advancement can be a good acknowledgement of milestones and buy-in. Promotion to Stage 4 is required for a feature to be added to the JavaScript specification.
 
@@ -19,7 +19,7 @@ Most of the work supporting a proposal can be done outside of TC39, without bloc
 
 ### Managing a GitHub repository
 
-Each staged proposal should have a GitHub repository, included in the tc39 organization once the proposal is presented to the committee. This repository includes resources like the explainer, draft specification text, and sometimes draft implementations or example programs. The repository's issue tracker can be used to discuss design issues with the committee and the community. These proposal repositories are managed in accordance with [TC39's Code of Conduct](https://tc39.github.io/code-of-conduct/).
+Each staged proposal should have a GitHub repository, included in the tc39 organization once the proposal is presented to the committee. This repository includes resources like the explainer, draft specification text, and sometimes draft implementations or example programs. The repository's issue tracker can be used to discuss design issues with the committee and the community. These proposal repositories are managed in accordance with [TC39's Code of Conduct](https://tc39.es/code-of-conduct/).
 
 #### Stage process tracking issue
 
@@ -49,7 +49,7 @@ To work through the stage process, a tracking issue in the GitHub repository can
 
 ## Moving through the stages in committee
 
-Building on the [authoritiative documentation for the stage process](https://tc39.github.io/process-document/), this section builds on that with some additional practical advice for activities which may be helpful at various stages.
+Building on the [authoritiative documentation for the stage process](https://tc39.es/process-document/), this section builds on that with some additional practical advice for activities which may be helpful at various stages.
 
 Stage advancement happens in TC39 meetings, when a proposal is presented to the committee, based on consensus of the committee that the proposal should advance to the stage. See [presentation advice](https://github.com/tc39/how-we-work/blob/master/presenting.md) for more details.
 

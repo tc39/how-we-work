@@ -1,6 +1,6 @@
 # Stage 3 Proposal Reviews
 
-According to [the TC39 process document](https://tc39.github.io/process-document), to advance from Stage 2 to Stage 3, reviewers and the editor group must sign off on the spec text. This document describes the Stage 3 review process.
+According to [the TC39 process document](https://tc39.es/process-document), to advance from Stage 2 to Stage 3, reviewers and the editor group must sign off on the spec text. This document describes the Stage 3 review process.
 
 ## Choosing reviewers
 

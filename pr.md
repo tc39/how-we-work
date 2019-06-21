@@ -17,7 +17,7 @@ Commits in pull requests should have a first line which starts with a tag, follo
 
 ## Stage 4 proposal PRs (`Normative:`)
 
-Stage 4 of the [TC39 Stage Process](http://tc39.github.io/process-document/) requires a proposal to be written up as a PR against the specification; a review of this PR from the [editor group](https://github.com/tc39/how-we-work/blob/master/management.md#ecma-262-editor-group) is required to reach Stage 4, and after Stage 4, the PR is merged.
+Stage 4 of the [TC39 Stage Process](http://tc39.es/process-document/) requires a proposal to be written up as a PR against the specification; a review of this PR from the [editor group](https://github.com/tc39/how-we-work/blob/master/management.md#ecma-262-editor-group) is required to reach Stage 4, and after Stage 4, the PR is merged.
 
 ## Non-normative PRs
 
