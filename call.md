@@ -12,8 +12,8 @@ First, think, what problem are you trying to solve? Is a meeting the best way to
 Remember that a meeting is not just taking your time to organize, but also the attendees' time, including the context switches involved (whereas asynchronous text-based communication can be scheduled by the participant). This is a heavy-weight tool to be used only when actually helpful.
 
 If these other modes of communication would work well, great, go for it. Here are some cases where a call might help in addition:
-- If there's a lot of back-and-forth to work through, to the point where written communcations end up being much more time-consuming than a synchronous discussion
-- If you want to engage people who can't physically attend a TC39 meeting, and where it's impractical to use written communcation (e.g., the volume is too high, and everyone is overwhelmed with GitHub notifications)
+- If there's a lot of back-and-forth to work through, to the point where written communications end up being much more time-consuming than a synchronous discussion
+- If you want to engage people who can't physically attend a TC39 meeting, and where it's impractical to use written communication (e.g., the volume is too high, and everyone is overwhelmed with GitHub notifications)
 - If there's a lot going on, and there's a need to coordinate on a high level among collaborators
 
 OK, if you stil think a meeting is the best way to work through your problem, see below for some suggestions for how to make it happen. Note that these are just ideas; feel free to organize and run your meetings however you'd like.
@@ -38,7 +38,7 @@ The agenda forms an outline of the meeting and guides discussion. A typical agen
 - Introductions of attendees (if they don't all know each other)
 - Background on the problem, motivation, where we are in solving it, etc
 - A few bullets of technical issues to work out within the problem, with links to detailed background and status
-- Wrapping up and determing next steps
+- Wrapping up and determining next steps
   - During the meeting, list action items and owners
   - Including whether the meeting should reoccur and at what frequency/for how long
 
@@ -65,7 +65,7 @@ Some tips:
 - Wait a couple minutes at the start for attendees to arrive if necessary, but usually no more than 5 minutes.
 - Designate a note-take or note-takers, ideally worked out informally ahead of the meeting. This could be you if you're good at multi-tasking, or could be an attendee. Set clear guidelines for where the notes will be taken (e.g., inline in the agenda) and what style of notes are expected for the meeting (e.g., documenting carefully who said what (as in TC39 meetings), or just high-level points that are made).
 - Introduce yourself and the purpose of the meeting; encourage everyone to do introductions if needed.
-- Control for time: Wrap up certain discussion topics if they are taking too long and there are other important topics on the agenda that need to be discussed in this particluar meeting.
+- Control for time: Wrap up certain discussion topics if they are taking too long and there are other important topics on the agenda that need to be discussed in this particular meeting.
 - Don't talk too little or too much, as the meeting leader: Ensure that topics are adequately introduced with sufficient context, but otherwise try to get out of the way so attendees can share their insights. Moderate the meeting so that everyone can be heard.
 
 ## Next steps after the meeting
