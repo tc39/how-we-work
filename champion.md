@@ -11,7 +11,7 @@ Championing a proposal is an exercise is of parallel work in developing a propos
 
 Most of the work supporting a proposal can be done outside of TC39, without blocking on the committee's approval. Moving this work ahead can build more evidence for advancing stages in TC39. Some components of this work are:
 
-- **[Explainer](https://github.com/tc39/how-we-work/pull/46)**: A well-written README in your proposal repository which explains the purpose and shape of the proposal at a high level.
+- **[Explainer](https://github.com/tc39/how-we-work/blob/master/explainer.md)**: A well-written README in your proposal repository which explains the purpose and shape of the proposal at a high level.
 - **[Documentation](https://github.com/tc39/how-we-work/issues/49)**: Explanations written for JavaScript developers to use the proposal.
 - **[Implementations](https://github.com/tc39/how-we-work/blob/master/implement.md)**: Allow programmers to experiment with the proposal, whether it's in transpilers/polyfills or behind a flag/in a branch of a native implementation.
 - **[Tests](https://github.com/tc39/how-we-work/issues/6)**: Tests that check the correctness of implementations--these can initially be checked in alongside implementations, but useful to eventually migrate to test262.
@@ -68,7 +68,7 @@ Acceptance signifies:
 
 Leading up to Stage 1,
 - **Identify a champion (or champion group) in committee**. Unfortunately, TC39 doesn't have a comprehensive way for non-committee members to find committee mentors/champions for their proposals, but existing forums include [es-discuss mailing list](https://esdiscuss.org); another is the IRC channel #tc39 on Freenode ([instructions](https://freenode.net/kb/answer/chat)). Many TC39 delegates can be found on Twitter as well.
-- **Write an explainer**. See [explainer.md](https://github.com/tc39/how-we-work/pull/46) for advice on how to write the introductory document to fulfill the rest of the Stage 1 requirements.
+- **Write an explainer**. See [explainer.md](https://github.com/tc39/how-we-work/blob/master/explainer.md) for advice on how to write the introductory document to fulfill the rest of the Stage 1 requirements.
 - **Prepare a presentation** to get the committee thinking about what they want to do in this design area, and if you have specific ideas, make the case for moving in that direction. See [presenting.md](https://github.com/tc39/how-we-work/blob/master/presenting.md) for advice about presentations.
 
 Stage 1 represents more that the committee is thinking into this design space, rather than any sort of consensus on moving JavaScript in a particular direction.
