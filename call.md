@@ -16,7 +16,7 @@ If these other modes of communication would work well, great, go for it. Here ar
 - If you want to engage people who can't physically attend a TC39 meeting, and where it's impractical to use written communication (e.g., the volume is too high, and everyone is overwhelmed with GitHub notifications)
 - If there's a lot going on, and there's a need to coordinate on a high level among collaborators
 
-OK, if you stil think a meeting is the best way to work through your problem, see below for some suggestions for how to make it happen. Note that these are just ideas; feel free to organize and run your meetings however you'd like.
+OK, if you still think a meeting is the best way to work through your problem, see below for some suggestions for how to make it happen. Note that these are just ideas; feel free to organize and run your meetings however you'd like.
 
 ## Scheduling a meeting
 
