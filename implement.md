@@ -14,7 +14,7 @@ At **Stage 0, 1, and 2**, semantic details are *up in the air*. The committee ha
 
 ## Transpiler implementations
 
-Early language features can be prototyped in so-called "transpilers": JavaScript-to-JavaScript compilers which include support for newer language features in older JavaScript environments. Transpiler implementations of new langauge features can help collect feedback and drive incremental adoption.
+Early language features can be prototyped in so-called "transpilers": JavaScript-to-JavaScript compilers which include support for newer language features in older JavaScript environments. Transpiler implementations of new language features can help collect feedback and drive incremental adoption.
 
 One popular transpiler used for prototyping early JavaScript features is [Babel](https://babeljs.io/). For features which create new syntax, Babel's parser needs to be modified, which you can do in a fork and PR. In some cases, a Babel transform plugin may be sufficient, when existing syntactic constructs can be used (but note that, due to web compatibility issues, it is difficult to change the definition of its semantics in non-error cases for existing features).
 
@@ -34,6 +34,6 @@ test262 includes tests for all Stage 4 proposals and some Stage 3 proposals. Ear
 
 TC39 appreciates implementers! In addition to getting features to JS developers, the process of implementation gives detailed sense of the feature within the language as a whole and its various interactions, leading to important insights about the design.
 
-All kinds of feedback are appreciated from implementers, whether it's about the motivation, high-level design, integration with various other systems, implementation complexity, or the semantics of edge cases. The best way to give feedback is through filing bugs in the GitHub repository. Feel free to make PRs against the draft proposal specfication for suggested semantic changes, as well.
+All kinds of feedback are appreciated from implementers, whether it's about the motivation, high-level design, integration with various other systems, implementation complexity, or the semantics of edge cases. The best way to give feedback is through filing bugs in the GitHub repository. Feel free to make PRs against the draft proposal specification for suggested semantic changes, as well.
 
 Champions want to hear from you. If you're working on an implementation and, e.g., are having trouble understanding the proposal or want help with an edge case, get in touch with the champion, either by filing the question as an issue in GitHub, writing them an email, or even asking for a call to go over things.
