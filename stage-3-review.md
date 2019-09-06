@@ -16,7 +16,7 @@ When reviewing a TC39 proposal, read the specification text, README and other do
 - Does the proposal fit in well when combined with other JavaScript language features (both current and proposed, a.k.a. "cross-cutting concerns")? Will the interactions between features be surprising or strange?
 - Does the proposal scope make sense, or would this make more sense as a larger or smaller proposal?
 - Does the specification text completely cover every aspect of the proposal, or are some things unstated?
-- Is the specification text logical and consistent, matching the rest of the JavaScript specifcation?
+- Is the specification text logical and consistent, matching the rest of the JavaScript specification?
 - Do all of the details and edge cases seem reasonably motivated?
 
 To give your feedback to the champion group, file issues in GitHub, or make pull requests with proposed changes.
