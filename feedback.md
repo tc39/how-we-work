@@ -4,7 +4,6 @@ Online and in person at TC39 meetings, we're always giving feedback on proposals
 
 - Follow the TC39 [Code of Conduct](https://tc39.github.io/code-of-conduct/) in all proposal feedback
 - Keep feedback respectful, constructive, and actionable.
-- When you see a problem, explain the problem as much as possible.
     - When you see a problem, explain the problem as much as possible. Proposing a solution can be helpful, but sometimes jumping to and insisting on a particular solution can be counter-productive.
       - Try to explain how the proposal presents problems for a use case, how a use case is not fully satisfied by the proposal, or why a different or modified proposal works well for a use case.
       - If you have ideas for modifications, consider providing them with an explanation of their motivation, but keep in mind that many different constraints and use cases are being balanced against each other.
