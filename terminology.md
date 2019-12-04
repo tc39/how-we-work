@@ -254,7 +254,7 @@ An Agent is a thread that holds all state within a JavaScript VM instance.
 
 ### Realm
 #### Definition
-A realm consists of a set of [intrinsic](###Intrinsic) objects, an ECMAScript global environment, all of the ECMAScript code that is loaded within the scope of that global environment, and other associated state and resources (i.e. a global object and an associated set of [primordial](###Primoridal) objects). Objects within a realm implicitly share these primordials and can therefore easily disrupt each other by primordial poisoning -- modifying these objects to behave badly. Today, in the browser, realms can be created via same origin iframes.
+A realm consists of a set of [intrinsic](###Intrinsic) objects, an ECMAScript global environment, all of the ECMAScript code that is loaded within the scope of that global environment, and other associated state and resources (i.e. a global object and an associated set of [primordial](###Primoridal) objects). Today, in the browser, realms can be created via same origin iframes.
 #### References
 [ECMA262 Spec](https://tc39.es/ecma262/#sec-code-realms)
 
@@ -284,7 +284,6 @@ Secure ECMAScript. A subset of ECMAScript.
 ### Plenary
 #### Definition
 Meeting of all available TC39 delegates. Occurs around 6 times a year.
-
 
 ### Refactoring Hazard
 #### Definition
