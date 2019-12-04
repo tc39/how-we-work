@@ -258,23 +258,22 @@ A realm consists of a set of [intrinsic](###Intrinsic) objects, an ECMAScript gl
 #### References
 [ECMA262 Spec](https://tc39.es/ecma262/#sec-code-realms)
 
+
+### Intrinsic
+#### Definition
+All objects that can be observed by a program, whether it is via a global ref, or some other mechanism to access those objects, and then those that can be accessed via syntax/grammar. A reference such as %name% means the intrinsic object.
+#### Example
+`[]`
+
 ### Primordial
 #### Definition
 Globlal, mutable objects that must exist before any code runs.
 #### Example
 `%ArrayPrototype%`
 
-
-### Intrinsic
-#### Definition
-All objects that can be observed by a program, whether it is via a global ref, or some other mechanism to access those objects, and then those that can be accessed via syntax/grammar
-#### Example
-`[]`
-
 ### Normative
 #### Definition
 The existing way something is done (i.e. status quo)
-
 
 ### SES
 #### Definition
