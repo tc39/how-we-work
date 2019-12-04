@@ -258,7 +258,6 @@ A realm consists of a set of [intrinsic](###Intrinsic) objects, an ECMAScript gl
 #### References
 [ECMA262 Spec](https://tc39.es/ecma262/#sec-code-realms)
 
-
 ### Intrinsic
 #### Definition
 All objects that can be observed by a program, whether it is via a global ref, or some other mechanism to access those objects, and then those that can be accessed via syntax/grammar. A reference such as %name% means the intrinsic object.
@@ -280,6 +279,8 @@ The existing way something is done (i.e. status quo)
 ### SES
 #### Definition
 Secure ECMAScript. A subset of ECMAScript.
+#### Reference
+[Useful diagram](https://github.com/Agoric/Jessie/blob/master/README.md)
 
 ### Plenary
 #### Definition
@@ -287,7 +288,7 @@ Meeting of all available TC39 delegates. Occurs around 6 times a year.
 
 ### Refactoring Hazard
 #### Definition
-A seemingly simple change (i.e. semantically equivalent) that seems like a drop in replacement for an existing piece of code but has specific edge cases that make it not work as expected. As you refactor code from "old pattern" to "new pattern", it would be easy to cause unintentional effects (bugs, etc).
+A seemingly simple change (i.e. thought to be semantically equivalent) that seems like a drop in replacement for an existing piece of code but has specific edge cases that make it not work as expected. As you refactor code from "old pattern" to "new pattern", it would be easy to cause unintentional effects (bugs, etc).
 
 TEMPLATE
 ### [NAME HERE]
