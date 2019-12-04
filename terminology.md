@@ -271,6 +271,16 @@ All objects that can be observed by a program, whether it is via a global ref, o
 #### Example
 `[]`
 
+### Normative
+#### Definition
+The existing way something is done (i.e. status quo)
+
+
+### SES
+#### Definition
+Secure ECMAScript. A subset of ECMAScript.
+
+
 
 TEMPLATE
 ### [NAME HERE]
