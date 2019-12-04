@@ -264,6 +264,8 @@ A realm consists of a set of [intrinsic](###Intrinsic) objects, an ECMAScript gl
 All objects that can be observed by a program, whether it is via a global ref, or some other mechanism to access those objects, and then those that can be accessed via syntax/grammar. A reference such as %name% means the intrinsic object.
 #### Example
 `[]`
+#### Reference
+[ECMA262 Spec](https://tc39.es/ecma262/#sec-well-known-intrinsic-objects)
 
 ### Primordial
 #### Definition
