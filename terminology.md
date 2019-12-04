@@ -283,8 +283,12 @@ Secure ECMAScript. A subset of ECMAScript.
 
 ### Plenary
 #### Definition
-Meeting of all available TC39 delegates.
+Meeting of all available TC39 delegates. Occurs around 6 times a year.
 
+
+### Refactoring Hazard
+#### Definition
+A seemingly simple change (i.e. semantically equivalent) that seems like a drop in replacement for an existing piece of code but has specific edge cases that make it not work as expected. As you refactor code from "old pattern" to "new pattern", it would be easy to cause unintentional effects (bugs, etc).
 
 TEMPLATE
 ### [NAME HERE]
