@@ -247,6 +247,41 @@ In Firefox's Web Console the [command line interpreter](https://developer.mozill
 - [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
 .....
 
+### Agent
+
+#### Definition
+An Agent is a thread that holds all state within a JavaScript VM instance.
+
+### Realm
+#### Definition
+A realm consists of a set of [intrinsic](###Intrinsic) objects, an ECMAScript global environment, all of the ECMAScript code that is loaded within the scope of that global environment, and other associated state and resources (i.e. a global object and an associated set of [primordial](###Primoridal) objects). Objects within a realm implicitly share these primordials and can therefore easily disrupt each other by primordial poisoning -- modifying these objects to behave badly. Today, in the browser, realms can be created via same origin iframes.
+#### References
+[ECMA262 Spec](https://tc39.es/ecma262/#sec-code-realms)
+
+### Primordial
+#### Definition
+Globlal, mutable objects that must exist before any code runs.
+#### Example
+`%ArrayPrototype%`
+
+
+### Intrinsic
+#### Definition
+All objects that can be observed by a program, whether it is via a global ref, or some other mechanism to access those objects, and then those that can be accessed via syntax/grammar
+#### Example
+`[]`
+
+
+TEMPLATE
+### [NAME HERE]
+
+#### Definition
+
+#### Example
+
+#### References
+
+
 TODO(goto): expand on each one of these terms, make them linkable.
 
 * [hoisting](https://www.w3schools.com/js/js_hoisting.asp)
@@ -345,6 +380,3 @@ These are common considerations that come up while discussing the technical meri
 * Other Standards (@jordan, overlap of HTML and now WASM, coordinating between standards communities, e.g. should standard libraries go to WHATWG or should them be JS, where do we draw the line?, tie the hands of TC39 when others move first, and vice versa)
 * Fragmentation, convergence and the role of Standards
 * Die on that hill
-
-
-
