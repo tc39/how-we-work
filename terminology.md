@@ -281,6 +281,9 @@ The existing way something is done (i.e. status quo)
 #### Definition
 Secure ECMAScript. A subset of ECMAScript.
 
+### Plenary
+#### Definition
+Meeting of all available TC39 delegates.
 
 
 TEMPLATE
