@@ -250,7 +250,9 @@ In Firefox's Web Console the [command line interpreter](https://developer.mozill
 ### Agent
 
 #### Definition
-An Agent is a thread that holds all state within a JavaScript VM instance.
+An agent is a comprised of three things: a container for a set of job queues, related execution state, and an execution thread. The execution state is exclusive to the agent while the execution thread can be shared with other agents.
+#### Reference
+[ECMA262 Spec](https://tc39.es/ecma262/#sec-agents)
 
 ### Realm
 #### Definition
@@ -268,13 +270,13 @@ All objects that can be observed by a program, whether it is via a global ref, o
 
 ### Primordial
 #### Definition
-Globlal, mutable objects that must exist before any code runs.
+Global, mutable objects that must exist before any code runs.
 #### Example
 `%ArrayPrototype%`
 
 ### Normative
 #### Definition
-The existing way something is done (i.e. status quo)
+Statements that constrain the observable behavior of implementations (i.e., the behavior that conforming implementations are allowed to exhibit).
 
 ### SES
 #### Definition
