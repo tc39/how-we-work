@@ -248,7 +248,6 @@ In Firefox's Web Console the [command line interpreter](https://developer.mozill
 .....
 
 ### Agent
-
 #### Definition
 An agent is a comprised of three things: a container for a set of job queues, related execution state, and an execution thread. The execution state is exclusive to the agent while the execution thread can be shared with other agents.
 #### Reference
@@ -262,7 +261,7 @@ A realm consists of a set of [intrinsic](###Intrinsic) objects, an ECMAScript gl
 
 ### Intrinsic
 #### Definition
-All objects that can be observed by a program, whether it is via a global ref, or some other mechanism to access those objects, and then those that can be accessed via syntax/grammar. A reference such as %name% means the intrinsic object.
+Built-in objects that are explicitly referenced by the algorithms of the ECMA262 specification.
 #### Example
 `[]`
 #### Reference
