@@ -247,6 +247,60 @@ In Firefox's Web Console the [command line interpreter](https://developer.mozill
 - [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
 .....
 
+### Agent
+#### Definition
+An agent is a comprised of three things: a container for a set of job queues, related execution state, and an execution thread. The execution state is exclusive to the agent while the execution thread can be shared with other agents.
+#### Reference
+[ECMA262 Spec](https://tc39.es/ecma262/#sec-agents)
+
+### Realm
+#### Definition
+A realm consists of a set of [intrinsic](###Intrinsic) objects, an ECMAScript global environment, all of the ECMAScript code that is loaded within the scope of that global environment, and other associated state and resources (i.e. a global object and an associated set of [primordial](###Primoridal) objects). Today, in the browser, realms can be created via same origin iframes.
+#### References
+[ECMA262 Spec](https://tc39.es/ecma262/#sec-code-realms)
+
+### Intrinsic
+#### Definition
+Built-in objects that are explicitly referenced by the algorithms of the ECMA262 specification.
+#### Example
+`[]`
+#### Reference
+[ECMA262 Spec](https://tc39.es/ecma262/#sec-well-known-intrinsic-objects)
+
+### Primordial
+#### Definition
+Global, mutable objects that must exist before any code runs.
+#### Example
+`%ArrayPrototype%`
+
+### Normative
+#### Definition
+Statements that constrain the observable behavior of implementations (i.e., the behavior that conforming implementations are allowed to exhibit).
+
+### SES
+#### Definition
+Secure ECMAScript. A subset of ECMAScript.
+#### Reference
+[Useful diagram](https://github.com/Agoric/Jessie/blob/master/README.md)
+
+### Plenary
+#### Definition
+Meeting of all available TC39 delegates. Occurs around 6 times a year.
+
+### Refactoring Hazard
+#### Definition
+A seemingly simple change (i.e. thought to be semantically equivalent) that seems like a drop in replacement for an existing piece of code but has specific edge cases that make it not work as expected. As you refactor code from "old pattern" to "new pattern", it would be easy to cause unintentional effects (bugs, etc).
+
+TEMPLATE
+### [NAME HERE]
+
+#### Definition
+
+#### Example
+
+#### References
+
+
 TODO(goto): expand on each one of these terms, make them linkable.
 
 * [hoisting](https://www.w3schools.com/js/js_hoisting.asp)
@@ -345,6 +399,3 @@ These are common considerations that come up while discussing the technical meri
 * Other Standards (@jordan, overlap of HTML and now WASM, coordinating between standards communities, e.g. should standard libraries go to WHATWG or should them be JS, where do we draw the line?, tie the hands of TC39 when others move first, and vice versa)
 * Fragmentation, convergence and the role of Standards
 * Die on that hill
-
-
-
