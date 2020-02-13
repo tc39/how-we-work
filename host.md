@@ -27,4 +27,5 @@ TC39 hosts six in-person meetings a year. If you want to host a meeting, here's 
 
 ### Meeting Technology
 1. Whiteboards and markers
+1. Provide nametags. This helps note takers and new members. Pre-printed ones are not necessary. Attendees can fill out their own.
 1. Some sort of telepresence/video conferencing system is required. Please ensure the system is in working order and you know how to use it.
