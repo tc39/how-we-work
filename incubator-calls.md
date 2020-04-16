@@ -8,7 +8,9 @@ Incubator calls seek to speed up the process by having a sanctioned bi-weekly
 timeslot for stakeholders to present constraints. The general guiding principle
 of the incubator calls is:
 
-_To present and receive feedback that is relevant for eventual stage advancement._
+<p align=center>
+  <i>To present and receive feedback that is relevant for eventual stage advancement.</i>
+</p>
 
 The incubator calls should be a low-stakes environment. While stage advancement
 remains the eventual goal, the call is a venue to keep engaged and discuss
