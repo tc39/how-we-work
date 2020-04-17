@@ -4,9 +4,9 @@ A model of the TC39 working mode is this flowchart:
 
 ![TC39 Working Mode](images/tc39-working-mode.svg)
 
-Incubator calls seek to speed up the process by having a sanctioned bi-weekly
-timeslot for stakeholders to present constraints. The general guiding principle
-of the incubator calls is:
+Incubator calls seek to speed up the process by having a sanctioned timeslot
+every two weeks for stakeholders to present constraints. The general guiding
+principle of the incubator calls is:
 
 <p align=center>
   <i>To present and receive feedback that is relevant for eventual stage advancement.</i>
@@ -25,7 +25,9 @@ issues without feeling the pressure to drive or to block consensus.
 
 ## Before the Call: Setting the Agenda
 
-To focus on the guiding principle of providing and receiving relevant feedback, the agenda items should be scoped. Open ended calls for feedback are discouraged.
+To focus on the guiding principle of presenting and receiving relevant feedback,
+the agenda items should be scoped. Open ended calls for feedback are
+discouraged.
 
 ### Champions
 
@@ -123,7 +125,8 @@ the scope of the current agenda item. For example, if we're talking about one
 area of concern, and participants bring up another, facilitators may decide to
 queue that new area to be discussed later in the meeting. Or, if participants
 bring up an explicitly out-of-scope item, the facilitators may remind
-participants about the meeting scope.
+participants about the meeting scope. Action items should be made to document
+such novel out-of-scope items in new GitHub issues or Discourse threads.
 
 General timeline:
 1. Quick introduction
@@ -145,4 +148,4 @@ itself, if particularly controversial.
 # After the Call
 
 Participants are encouraged to review the notes, which will be published 7 days
-after the meeting.
+after the meeting in [tc39/notes](https://github.com/tc39/notes).
