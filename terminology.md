@@ -261,17 +261,23 @@ A realm consists of a set of [intrinsic](#Intrinsic) objects, an ECMAScript glob
 
 ### Intrinsic
 #### Definition
-Built-in objects that are explicitly referenced by the algorithms of the ECMA262 specification.
+Built-in objects (usually realm-specific) that are explicitly referenced by the algorithms of the ECMA262 specification.
 #### Example
-`[]`
+%ForInIteratorPrototype%
 #### Reference
 [ECMA262 Spec](https://tc39.es/ecma262/#sec-well-known-intrinsic-objects)
 
 ### Primordial
 #### Definition
-Global, mutable objects that must exist before any code runs.
+The subset of [intrinsic](#Intrinsic) objects that are accessible to ECMAScript code.
 #### Example
-`%ArrayPrototype%`
+%Array% is accessible as `Array`.
+
+### Undeniable
+#### Definition
+The subset of [primordial](#Primordial) objects that are accessible to ECMAScript code without reference to named bindings (i.e., by means of syntax alone).
+#### Example
+%ArrayPrototype% is accessible as `[].__proto__`.
 
 ### Normative
 #### Definition
@@ -346,7 +352,6 @@ TODO(goto): expand on each one of these terms, make them linkable.
 * Proposal
 * Disjointed proposals
 * Host
-* Intrinsics
 * Engines: v8, SpiderMonkey, Chakra, JavaScriptCore
 * Timebox
 * Spec/Spec text
