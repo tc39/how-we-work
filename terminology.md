@@ -261,7 +261,9 @@ A realm consists of a set of [intrinsic](#Intrinsic) objects, an ECMAScript glob
 
 ### Intrinsic
 #### Definition
-Built-in values that are required by the ECMA262 specification. Where observable (e.g., as [primordial](#Primordial)), they are realm-specific.
+Built-in values that are required by the ECMA262 specification.
+Where observable (e.g., as [primordial](#Primordial)), intrinsic objects are realm-specific while intrinsic symbols are shared by all realms.
+The specification itself references "well-known" intrinsics with special notation (%&lt;name>% for objects; @@&lt;name> for symbols).
 #### Example
 %ForInIteratorPrototype% is the prototype of internal iterators that can be used to implement **`for (`** _Identifier_ **`in`** _Expression_ **`)`** statements
 #### Reference
