@@ -263,7 +263,7 @@ A realm consists of a set of [intrinsic](#Intrinsic) objects, an ECMAScript glob
 #### Definition
 Built-in values that are required by the ECMA262 specification. Where observable (e.g., as [primordial](#Primordial)), they are realm-specific.
 #### Example
-%ForInIteratorPrototype%
+%ForInIteratorPrototype% is the prototype of internal iterators that can be used to implement **`for (`** _Identifier_ **`in`** _Expression_ **`)`** statements
 #### Reference
 [ECMA262 (objects)](https://tc39.es/ecma262/#sec-well-known-intrinsic-objects),
 [ECMA262 (symbols)](https://tc39.es/ecma262/#sec-well-known-symbols)
@@ -272,13 +272,13 @@ Built-in values that are required by the ECMA262 specification. Where observable
 #### Definition
 The subset of [intrinsic](#Intrinsic) values that are accessible to ECMAScript code and required to exist before any ECMAScript code runs.
 #### Example
-%Array% is accessible as `Array`.
+%Array%, the initial value of a realm's Array constructor, is accessible as `Array`.
 
 ### Undeniable
 #### Definition
 The subset of [primordial](#Primordial) values that are accessible to ECMAScript code without reference to named bindings (i.e., by means of syntax alone).
 #### Example
-%ArrayPrototype% is accessible as `[].__proto__`.
+%Array.prototype%, the initial value of a realm's Array prototype is accessible as `[].__proto__`.
 
 ### Normative
 #### Definition
