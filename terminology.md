@@ -270,7 +270,7 @@ Built-in values that are required by the ECMA262 specification. Where observable
 
 ### Primordial
 #### Definition
-The subset of [intrinsic](#Intrinsic) values that are accessible to ECMAScript code and required to exist before it runs.
+The subset of [intrinsic](#Intrinsic) values that are accessible to ECMAScript code and required to exist before any ECMAScript code runs.
 #### Example
 %Array% is accessible as `Array`.
 
