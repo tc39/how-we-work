@@ -261,7 +261,7 @@ A realm consists of a set of [intrinsic](#Intrinsic) objects, an ECMAScript glob
 
 ### Intrinsic
 #### Definition
-Built-in objects (usually realm-specific) that are explicitly referenced by the algorithms of the ECMA262 specification.
+Built-in objects that are required by the ECMA262 specification. Where observable (e.g., as [primordial](#Primordial)), they are realm-specific.
 #### Example
 %ForInIteratorPrototype%
 #### Reference
@@ -269,7 +269,7 @@ Built-in objects (usually realm-specific) that are explicitly referenced by the 
 
 ### Primordial
 #### Definition
-The subset of [intrinsic](#Intrinsic) objects that are accessible to ECMAScript code.
+The subset of [intrinsic](#Intrinsic) objects that are accessible to ECMAScript code and required to exist before it runs.
 #### Example
 %Array% is accessible as `Array`.
 
