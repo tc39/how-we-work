@@ -291,6 +291,18 @@ Meeting of all available TC39 delegates. Occurs around 6 times a year.
 #### Definition
 A seemingly simple change (i.e. thought to be semantically equivalent) that seems like a drop in replacement for an existing piece of code but has specific edge cases that make it not work as expected. As you refactor code from "old pattern" to "new pattern", it would be easy to cause unintentional effects (bugs, etc).
 
+### Reify
+
+#### Definition
+To make something a first-class concept in a language specification, such that it can be passed around, inspected, or manipulated by user code.
+
+#### Examples
+- The C programming language reifies the concept of memory addresses with pointers.
+- ECMAScript reifies its own interpreter with `eval`.
+
+#### References
+- [Reification](https://en.wikipedia.org/wiki/Reification_(computer_science))
+
 TEMPLATE
 ### [NAME HERE]
 
