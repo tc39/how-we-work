@@ -261,7 +261,7 @@ A realm consists of a set of [intrinsic](#Intrinsic) objects, an ECMAScript glob
 
 ### Intrinsic
 #### Definition
-Built-in values that are required by the ECMA262 specification.
+A built-in value that is required by the ECMA262 specification.
 Where observable (e.g., as [primordial](#Primordial)), intrinsic objects are realm-specific while intrinsic symbols are shared by all realms.
 The specification itself references "well-known" intrinsics with special notation (%&lt;name>% for objects; @@&lt;name> for symbols).
 #### Example
@@ -272,13 +272,13 @@ The specification itself references "well-known" intrinsics with special notatio
 
 ### Primordial
 #### Definition
-The subset of [intrinsic](#Intrinsic) values that are accessible to ECMAScript code and required to exist before any ECMAScript code runs.
+An [intrinsic](#Intrinsic) value that is accessible to ECMAScript code and required to exist before any ECMAScript code runs.
 #### Example
 %Array%, the initial value of a realm's Array constructor, is accessible as `Array`.
 
 ### Effectively Undeniable
 #### Definition
-The subset of [primordial](#Primordial) values that are accessible to ECMAScript code without reference to named bindings other than those for prototype and property descriptor reflection (i.e., solely by syntax, `__proto__`, and primordial `getPrototypeOf`/`getOwnPropertyDescriptor`/`getOwnPropertyDescriptors` functions).
+A [primordial](#Primordial) value that is accessible to ECMAScript code without reference to named bindings other than those for prototype and property descriptor reflection (i.e., solely by syntax, `__proto__`, and primordial `getPrototypeOf`/`getOwnPropertyDescriptor`/`getOwnPropertyDescriptors` functions).
 #### Examples
 %Array.prototype%, the initial value of a realm's Array prototype, is accessible as `[].__proto__`.
 %ThrowTypeError%, a realm's special TypeError-throwing function, is accessible as `(function(){ 'use strict'; return Object.getOwnPropertyDescriptor(arguments, 'callee').get; })()`.
