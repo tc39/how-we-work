@@ -276,11 +276,12 @@ The subset of [intrinsic](#Intrinsic) values that are accessible to ECMAScript c
 #### Example
 %Array%, the initial value of a realm's Array constructor, is accessible as `Array`.
 
-### Undeniable
+### Effectively Undeniable
 #### Definition
-The subset of [primordial](#Primordial) values that are accessible to ECMAScript code without reference to named bindings (i.e., by means of syntax alone).
-#### Example
-%Array.prototype%, the initial value of a realm's Array prototype is accessible as `[].__proto__`.
+The subset of [primordial](#Primordial) values that are accessible to ECMAScript code without reference to named bindings other than those for prototype and property descriptor reflection (i.e., solely by syntax, `__proto__`, and primordial `getPrototypeOf`/`getOwnPropertyDescriptor`/`getOwnPropertyDescriptors` functions).
+#### Examples
+%Array.prototype%, the initial value of a realm's Array prototype, is accessible as `[].__proto__`.
+%ThrowTypeError%, a realm's special TypeError-throwing function, is accessible as `(function(){ 'use strict'; return Object.getOwnPropertyDescriptor(arguments, 'callee').get; })()`.
 
 ### Normative
 #### Definition
