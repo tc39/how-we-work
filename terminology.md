@@ -261,17 +261,27 @@ A realm consists of a set of [intrinsic](#Intrinsic) objects, an ECMAScript glob
 
 ### Intrinsic
 #### Definition
-Built-in objects that are explicitly referenced by the algorithms of the ECMA262 specification.
+A built-in value that is required by the ECMA262 specification.
+Where observable (e.g., as [primordial](#Primordial)), intrinsic objects are realm-specific while intrinsic symbols are shared by all realms.
+The specification itself references "well-known" intrinsics with special notation (%&lt;name>% for objects; @@&lt;name> for symbols).
 #### Example
-`[]`
+%ForInIteratorPrototype% is the prototype of internal iterators that can be used to implement **`for (`** _Identifier_ **`in`** _Expression_ **`)`** statements
 #### Reference
-[ECMA262 Spec](https://tc39.es/ecma262/#sec-well-known-intrinsic-objects)
+[ECMA262 (objects)](https://tc39.es/ecma262/#sec-well-known-intrinsic-objects),
+[ECMA262 (symbols)](https://tc39.es/ecma262/#sec-well-known-symbols)
 
 ### Primordial
 #### Definition
-Global, mutable objects that must exist before any code runs.
+An [intrinsic](#Intrinsic) value that is accessible to ECMAScript code and required to exist before any ECMAScript code runs.
 #### Example
-`%ArrayPrototype%`
+%Array%, the initial value of a realm's Array constructor, is accessible as `Array`.
+
+### Effectively Undeniable
+#### Definition
+A [primordial](#Primordial) value that is accessible to ECMAScript code without reference to named bindings other than those for prototype and property descriptor reflection (i.e., solely by syntax, `__proto__`, and primordial `getPrototypeOf`/`getOwnPropertyDescriptor`/`getOwnPropertyDescriptors` functions).
+#### Examples
+%Array.prototype%, the initial value of a realm's Array prototype, is accessible as `[].__proto__`.
+%ThrowTypeError%, a realm's special TypeError-throwing function, is accessible as `(function(){ 'use strict'; return Object.getOwnPropertyDescriptor(arguments, 'callee').get; })()`.
 
 ### Normative
 #### Definition
@@ -358,7 +368,6 @@ TODO(goto): expand on each one of these terms, make them linkable.
 * Proposal
 * Disjointed proposals
 * Host
-* Intrinsics
 * Engines: v8, SpiderMonkey, Chakra, JavaScriptCore
 * Timebox
 * Spec/Spec text
