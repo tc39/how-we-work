@@ -313,6 +313,27 @@ To make something a first-class concept in a language specification, such that i
 #### References
 - [Reification](https://en.wikipedia.org/wiki/Reification_(computer_science))
 
+### Handler
+
+#### Definition
+
+A parameter value that is a JavaScript object with properties looked up lazily. It is used to configure behavior of a function. Methods on the options bag object should be invoked with the handler as the default value for `this`. It is expected that this parameter has specific well known properties in their structure. Handlers are expected to potentially be extended over time.
+
+The definition here is a bit fuzzy as some parameters are objects but not options bags.
+
+#### Example
+
+```js
+const handler = {
+  getCount: 0,
+  get(target, key, receiver) {
+    const count = this.getCount++;
+    return count;
+  }
+};
+new Proxy(obj, handler);
+```
+
 TEMPLATE
 ### [NAME HERE]
 
