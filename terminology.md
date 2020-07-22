@@ -204,7 +204,10 @@ let abc = 1;
 console.log(abd);  // runtime error
 ```
 
-### Options bag
+#### References
+- [early error](https://tc39.es/ecma262/#early-error) defined in the ECMAScript specification editor's draft.
+
+### Options Bag
 
 #### Definition
 
