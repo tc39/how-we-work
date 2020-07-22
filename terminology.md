@@ -218,8 +218,9 @@ The definition here is a bit fuzzy as some parameters are objects but not option
 #### Example
 
 ```js
-const optionsBag =  { style: 'currency', currency: 'EUR' };
-new Intl.NumberFormat('de-DE', optionsBag);
+// options is an options bag
+const options =  { style: 'currency', currency: 'EUR' };
+new Intl.NumberFormat('de-DE', options);
 ```
 
 ### Memoization
