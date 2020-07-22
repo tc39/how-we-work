@@ -313,7 +313,7 @@ To make something a first-class concept in a language specification, such that i
 #### References
 - [Reification](https://en.wikipedia.org/wiki/Reification_(computer_science))
 
-### Handler
+### Handler Object
 
 #### Definition
 
