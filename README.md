@@ -29,6 +29,7 @@ For an introduction to getting involved in TC39, see [CONTRIBUTING.md](https://g
 
 - Admin
   - [Becoming a TC39 delegate](join-tc39.md)
+  - [Becoming a TC39 invited expert](invited-expert.md)
   - [TC39 management](management.md)
   - [TC39 and IP](ip.md)
 
