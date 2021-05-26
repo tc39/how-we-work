@@ -60,7 +60,7 @@
 
 ## Coming from IRC
 
-If you're used to IRC and using the Element.io web client, you can make the transition less jarring by changing some options. You can get to the settings by clicking your username in the upper-left corner and selecting "All Settings" from the dropdown.
+If you're used to IRC and using the Element Web or Desktop clients, you can make the transition less jarring by changing some options. You can get to the settings by clicking your username in the upper-left corner and selecting "All Settings" from the dropdown.
 
 Suggested settings to change:
 
