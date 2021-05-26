@@ -10,7 +10,7 @@
 
 1. Create an account
 
-    (Skip this step if you already have a matrix account).
+    (Skip this step if you already have a Matrix account).
 
     1. Choose a homeserver
 
