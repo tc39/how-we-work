@@ -45,18 +45,6 @@
         1. [#tc39-inclusion] - an informal working group with the goal of making TC39 a more inclusive committee in which to participate
         1. [#tc39-website] - for development of [tc39.es](https://tc39.es)
 
-[Element]: https://element.io/
-[list of clients]: https://matrix.org/clients/
-
-[#tc39-general]: https://matrix.to/#/!wbACpffbfxANskIFZq:matrix.org
-[#tc39-delegates]: https://matrix.to/#/!WgJwmjBNZEXhJnXHXw:matrix.org
-[#temporaldeadzone]: https://matrix.to/#/!RKGOsXKqdKdyWOiTEA:matrix.org
-[#tc39-implementers]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
-[#tc39-ecma402]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
-[#tc39-beginners]: https://matrix.to/#/!OXhgybpQzCtnugpzuz:matrix.org
-[#tc39-inclusion]: https://matrix.to/#/!DgpygRnlCHLTRbahDa:matrix.org
-[#tc39-website]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
-
 
 ## Coming from IRC
 
@@ -68,3 +56,16 @@ Suggested settings to change:
 - Preferences -> Timeline -> Show read receipts sent by other users -> off \[keep them on if you like; many people find the animations distracting\]
 - Preferences -> Timeline -> Show chat effects (animations when receiving e.g. confetti) -> off
 - Notifications -> Enable email notifications -> off \[unless you want them\]
+
+
+[Element]: https://element.io/
+[list of clients]: https://matrix.org/clients/
+
+[#tc39-general]: https://matrix.to/#/!wbACpffbfxANskIFZq:matrix.org
+[#tc39-delegates]: https://matrix.to/#/!WgJwmjBNZEXhJnXHXw:matrix.org
+[#temporaldeadzone]: https://matrix.to/#/!RKGOsXKqdKdyWOiTEA:matrix.org
+[#tc39-implementers]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
+[#tc39-ecma402]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
+[#tc39-beginners]: https://matrix.to/#/!OXhgybpQzCtnugpzuz:matrix.org
+[#tc39-inclusion]: https://matrix.to/#/!DgpygRnlCHLTRbahDa:matrix.org
+[#tc39-website]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
