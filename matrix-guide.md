@@ -38,7 +38,7 @@
 
         1. [#tc39-general] - public conversation, open to community members
         1. [#tc39-delegates] - publicly viewable conversation, participation restricted to delegates
-        1. [#temporaldeadzone] - off-topic conversations and bachkchanneling. Technically public, but intended for delegates
+        1. [#temporaldeadzone] - off-topic conversations and backchanneling. Technically public, but intended for delegates
         1. [#tc39-implementers] - space for discussions regarding maintenance and development of the JavaScript engines
         1. [#tc39-ecma402] - space for discussion regarding maintenance and development of the `Intl` spec
         1. [#tc39-beginners] - space for clarifying questions on terminology, process, history, etc
