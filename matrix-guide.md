@@ -48,11 +48,11 @@
 [Element]: https://element.io/
 [list of clients]: https://matrix.org/clients/
 
-[#tc39-general]: https://matrix.to/#/!wbACpffbfxANskIFZq:matrix.org?via=matrix.org&via=igalia.com&via=mozilla.org
-[#tc39-delegates]: https://matrix.to/#/!WgJwmjBNZEXhJnXHXw:matrix.org?via=matrix.org&via=igalia.com&via=mozilla.org
-[#temporaldeadzone]: https://matrix.to/#/!RKGOsXKqdKdyWOiTEA:matrix.org?via=matrix.org&via=igalia.com
-[#tc39-implementers]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org?via=matrix.org&via=igalia.com&via=mozilla.org
-[#tc39-ecma402]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org?via=matrix.org&via=igalia.com&via=mozilla.org
-[#tc39-beginners]: https://matrix.to/#/!OXhgybpQzCtnugpzuz:matrix.org?via=matrix.org&via=igalia.com
-[#tc39-inclusion]: https://matrix.to/#/!DgpygRnlCHLTRbahDa:matrix.org?via=matrix.org&via=igalia.com&via=mozilla.org
-[#tc39-website]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org?via=matrix.org&via=igalia.com&via=mozilla.org
+[#tc39-general]: https://matrix.to/#/!wbACpffbfxANskIFZq:matrix.org
+[#tc39-delegates]: https://matrix.to/#/!WgJwmjBNZEXhJnXHXw:matrix.org
+[#temporaldeadzone]: https://matrix.to/#/!RKGOsXKqdKdyWOiTEA:matrix.org
+[#tc39-implementers]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
+[#tc39-ecma402]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
+[#tc39-beginners]: https://matrix.to/#/!OXhgybpQzCtnugpzuz:matrix.org
+[#tc39-inclusion]: https://matrix.to/#/!DgpygRnlCHLTRbahDa:matrix.org
+[#tc39-website]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
