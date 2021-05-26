@@ -36,14 +36,14 @@
 
         You can click through the following links to join the various official TC39 channels in your preferred client. They all correspond to the similarly titled channels on Freenode.
 
-        1. [#tc39-general]
-        1. [#tc39-delegates]
-        1. [#temporaldeadzone]
-        1. [#tc39-implementers]
-        1. [#tc39-ecma402]
-        1. [#tc39-beginners]
-        1. [#tc39-inclusion]
-        1. [#tc39-website]
+        1. [#tc39-general] - public conversation, open to community members
+        1. [#tc39-delegates] - publicly viewable conversation, participation restricted to delegates
+        1. [#temporaldeadzone] - off-topic conversations and bachkchanneling. Technically public, but intended for delegates
+        1. [#tc39-implementers] - space for discussions regarding maintenance and development of the JavaScript engines
+        1. [#tc39-ecma402] - space for discussion regarding maintenance and development of the `Intl` spec
+        1. [#tc39-beginners] - space for clarifying questions on terminology, process, history, etc
+        1. [#tc39-inclusion] - an informal working group with the goal of making TC39 a more inclusive committee in which to participate
+        1. [#tc39-website] - for development of [tc39.es](https://tc39.es)
 
 [Element]: https://element.io/
 [list of clients]: https://matrix.org/clients/
