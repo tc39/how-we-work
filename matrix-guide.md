@@ -56,3 +56,15 @@
 [#tc39-beginners]: https://matrix.to/#/!OXhgybpQzCtnugpzuz:matrix.org
 [#tc39-inclusion]: https://matrix.to/#/!DgpygRnlCHLTRbahDa:matrix.org
 [#tc39-website]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
+
+
+## Coming from IRC
+
+If you're used to IRC and using the Element.io web client, you can make the transition less jarring by changing some options. You can get to the settings by clicking your username in the upper-left corner and selecting "All Settings" from the dropdown.
+
+Suggested settings to change:
+
+- Appearance -> 'Show Advanced' (at the bottom) -> Enable experimental, compact IRC style layout \[this will significantly increase the number of lines on screen at a time\]
+- Preferences -> Timeline -> Show read receipts sent by other users -> off \[keep them on if you like; many people find the animations distracting\]
+- Preferences -> Timeline -> Show chat effects (animations when receiving e.g. confetti) -> off
+- Notifications -> Enable email notifications -> off \[unless you want them\]
