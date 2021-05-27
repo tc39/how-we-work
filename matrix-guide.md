@@ -45,6 +45,19 @@
         1. [#tc39-inclusion] - an informal working group with the goal of making TC39 a more inclusive committee in which to participate
         1. [#tc39-website] - for development of [tc39.es](https://tc39.es)
 
+
+## Coming from IRC
+
+If you're used to IRC and using the Element Web or Desktop clients, you can make the transition less jarring by changing some options. You can get to the settings by clicking your username in the upper-left corner and selecting "All Settings" from the dropdown.
+
+Suggested settings to change:
+
+- Appearance -> 'Show Advanced' (at the bottom) -> Enable experimental, compact IRC style layout \[this will significantly increase the number of lines on screen at a time\]
+- Preferences -> Timeline -> Show read receipts sent by other users -> off \[keep them on if you like; many people find the animations distracting\]
+- Preferences -> Timeline -> Show chat effects (animations when receiving e.g. confetti) -> off
+- Notifications -> Enable email notifications -> off \[unless you want them\]
+
+
 [Element]: https://element.io/
 [list of clients]: https://matrix.org/clients/
 
