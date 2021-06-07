@@ -45,6 +45,59 @@
         1. [#tc39-inclusion] - an informal working group with the goal of making TC39 a more inclusive committee in which to participate
         1. [#tc39-website] - for development of [tc39.es](https://tc39.es)
 
+    1. Check that you have the correct permissions
+
+        If you are a TC39 delegate, you should be able to post messages in [#tc39-delegates].
+        This corresponds to a "power level" of 10.
+        This should have been set during your onboarding as a delegate.
+        If it wasn't, or if you joined Matrix in the initial migration and you don't have this yet, ask one of the TC39 chairs to give you this permission.
+
+        If you are not a delegate, then you should have a power level of less than 10 and only be able to view messages in [#tc39-delegates].
+
+## How To...
+
+(These "how to"s apply if you are using the Element client, but other Matrix clients have similar ways to accomplish the same thing.)
+
+### ...see who is in the channel?
+
+Click on "Room Info" (the 🛈 circled-**i** icon in the top right hand corner). Note that not all homeservers expose online/offline info to everyone, so someone may be online even if they are marked as offline.
+
+### ...DM someone?
+
+Click on their avatar in front of one of their messages, or click on their avatar in the list in "Room Info" (the 🛈 circled-**i** icon in the top right hand corner). Then click "Direct Message" (in the menu near the bottom of the right hand panel) to start a private one-to-one room.
+
+To do this IRC-style, you can also type `/msg jsfan hi, what's up?` to start a DM room (in this case with the user `jsfan`).
+
+### ...start a chat with a small group?
+
+Click on the **+** (plus sign) next to "Rooms" (in the room list on the left sidebar).
+You can choose to make it public (discoverable in the public room list) or private (invite-only).
+End-to-end encryption is probably fine to leave on.
+
+### ...use formatting in messages?
+
+Clicking the smiley face icon at the bottom left, or typing <kbd>:</kbd> brings up the emoji picker.
+At the moment the emoji picker is slightly clunky in Element, unfortunately, compared to other chat clients.
+
+You can use Markdown formatting in your messages: `*` for bold, `_` for italics, backticks for code.
+You can even do code blocks with syntax highlighting, using triple backticks; to add a newline in the message without sending it, use <kbd>Shift</kbd>+<kbd>Enter</kbd>.
+(That is, <kbd>&grave;</kbd>, <kbd>&grave;</kbd>, <kbd>&grave;</kbd>, <kbd>J</kbd>, <kbd>S</kbd>, <kbd>Shift</kbd>+<kbd>Enter</kbd>, <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste your code, <kbd>Shift</kbd>+<kbd>Enter</kbd>, <kbd>&grave;</kbd>, <kbd>&grave;</kbd>, <kbd>&grave;</kbd>, <kbd>Enter</kbd>).
+
+Unordered and ordered lists also work the same way as they do in markdown, so <kbd>Shift</kbd>+<kbd>Enter</kbd> comes in handy there as well.
+
+### ...correct mistakes in messages?
+
+You can edit your own messages if you make a typo. To do this, hover over the message and click the pencil icon.
+
+As a shortcut, to edit your most recent message, you can press the up arrow <kbd>↑</kbd>.
+
+You can also remove your message if you post it by mistake (for example, in the wrong channel). To do this, hover over the message and click the **…** (ellipsis), then click "Remove". A "Message deleted" will show up in its place.
+
+### ...mute someone in case of toxic behaviour?
+
+To mute someone so that you don't see their messages, click on their avatar in front of one of their messages, or click on their avatar in the list in "Room Info" (the 🛈 circled-**i** icon in the top right hand corner). Then click "Ignore" (in red at the bottom of the menu in the right hand panel).
+
+In case of harassment, please also [submit a report](https://tc39.es/code-of-conduct/#reporting-guidelines) to the Code of Conduct committee.
 
 ## Coming from IRC
 
