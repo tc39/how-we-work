@@ -114,11 +114,11 @@ Suggested settings to change:
 [Element]: https://element.io/
 [list of clients]: https://matrix.org/clients/
 
-[#tc39-general]: https://matrix.to/#/!wbACpffbfxANskIFZq:matrix.org
-[#tc39-delegates]: https://matrix.to/#/!WgJwmjBNZEXhJnXHXw:matrix.org
-[#temporaldeadzone]: https://matrix.to/#/!RKGOsXKqdKdyWOiTEA:matrix.org
-[#tc39-implementers]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
-[#tc39-ecma402]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
-[#tc39-beginners]: https://matrix.to/#/!OXhgybpQzCtnugpzuz:matrix.org
-[#tc39-inclusion]: https://matrix.to/#/!DgpygRnlCHLTRbahDa:matrix.org
-[#tc39-website]: https://matrix.to/#/!hmsRHUEXriRovkvcin:matrix.org
+[#tc39-general]: https://matrix.to/#tc39-general:matrix.org
+[#tc39-delegates]: https://matrix.to/#tc39-delegates:matrix.org
+[#temporaldeadzone]: https://matrix.to/#temporaldeadzone:matrix.org
+[#tc39-implementers]: https://matrix.to/#tc39-implementers:matrix.org
+[#tc39-ecma402]: https://matrix.to/#tc39-ecma402:matrix.org
+[#tc39-beginners]: https://matrix.to/#tc39-beginners:matrix.org
+[#tc39-inclusion]: https://matrix.to/#tc39-inclusion:matrix.org
+[#tc39-website]: https://matrix.to/#tc39-website:matrix.org
