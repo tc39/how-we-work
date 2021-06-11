@@ -207,6 +207,22 @@ console.log(abd);  // runtime error
 #### References
 - [early error](https://tc39.es/ecma262/#early-error) defined in the ECMAScript specification editor's draft.
 
+### Options Bag
+
+#### Definition
+
+A parameter value that is a JavaScript object with properties looked up eagerly. It is used to configure behavior of a function. Methods on the options bag object should be invoked with `undefined` as the default value for `this`
+
+The definition here is a bit fuzzy as some parameters are objects but not options bags.
+
+#### Example
+
+```js
+// options is an options bag
+const options =  { style: 'currency', currency: 'EUR' };
+new Intl.NumberFormat('de-DE', options);
+```
+
 ### Memoization
 
 #### Definition
