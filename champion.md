@@ -19,7 +19,7 @@ Most of the work supporting a proposal can be done outside of TC39, without bloc
 
 ### Managing a GitHub repository
 
-Each staged proposal should have a GitHub repository, included in the tc39 organization once the proposal is presented to the committee. This repository includes resources like the explainer, draft specification text, and sometimes draft implementations or example programs. The repository's issue tracker can be used to discuss design issues with the committee and the community. These proposal repositories are managed in accordance with [TC39's Code of Conduct](https://tc39.es/code-of-conduct/).
+Each staged proposal should have a GitHub repository, included in the tc39 organization once the proposal is presented to the committee. A good place to start is by copying (not forking) the [template-for-proposals](https://github.com/tc39/template-for-proposals#create-your-proposal-repo) repository. Your proposal's repository should include resources like the explainer, draft specification text, and sometimes draft implementations or example programs. The repository's issue tracker can be used to discuss design issues with the committee and the community. These proposal repositories are managed in accordance with [TC39's Code of Conduct](https://tc39.es/code-of-conduct/).
 
 #### Stage process tracking issue
 
