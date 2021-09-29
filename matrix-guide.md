@@ -122,3 +122,19 @@ Suggested settings to change:
 [#tc39-beginners]: https://matrix.to/#/#tc39-beginners:matrix.org
 [#tc39-inclusion]: https://matrix.to/#/#tc39-inclusion:matrix.org
 [#tc39-website]: https://matrix.to/#/#tc39-website:matrix.org
+
+# Creating a new channel on Matrix for TC39 use
+(This assumes that you're using the Element client)
+
+1. Click the plus icon next to "Rooms" in the sidebar
+1. Give the room a name, like "TC39 Delegates"
+1. Give the room a topic, if desired
+1. Enable "Make this room public"
+1. Make the room address a lowercase, dashed version of the name you input earlier, like "tc39-delegates"
+1. Click "Create Room"
+1. Click the three-dot menu button that appears when you hover over the new room in the sidebar, then click "Settings" in the menu that appears
+1. In General, add the TC39 logo as the room's image. You can find the logo [here](https://avatars0.githubusercontent.com/u/1725583?s=280&v=4).
+1. At the bottom of General, enable URL previews by default for participants in this room
+1. In Security & Privacy, set "Who can access this room?" to "Anyone who knows the room's link, including guests". Also set "Who can read history?" to "Anyone".
+1. In Advanced, copy the internal room ID. Go back to General, and add a link to the logs in the room topic, like so: "Public logs at https://view.matrix.org/room/!WgJwmjBNZEXhJnXHXw:matrix.org/".
+1. Ask one of the chairs to add the room to the [TC39 space](https://app.element.io/#/room/!hmsRHUEXriRovkvcin:matrix.org).
