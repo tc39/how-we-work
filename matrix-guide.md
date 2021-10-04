@@ -138,3 +138,4 @@ Suggested settings to change:
 1. In Security & Privacy, set "Who can access this room?" to "Anyone who knows the room's link, including guests". Also set "Who can read history?" to "Anyone".
 1. In Advanced, copy the internal room ID. Go back to General, and add a link to the logs in the room topic, like so: "Public logs at https://view.matrix.org/room/!WgJwmjBNZEXhJnXHXw:matrix.org/".
 1. Ask one of the chairs to add the room to the [TC39 space](https://app.element.io/#/room/!hmsRHUEXriRovkvcin:matrix.org).
+1. Once the room is in the TC39 space it will automatically get logged on https://matrixlogs.bakkot.com/. You can change the topic to refer to the relevant channel there instead.
