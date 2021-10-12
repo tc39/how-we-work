@@ -30,17 +30,17 @@ missed? Try to move the discussion in a positive direction!
 
 We have a few tools that help us facilitate communication. They are as follows:
 
-### IRC
+### Matrix
 
 _Purpose_: A place for delegates to ask questions in a non vocal manner, useful if you need
 definitions or something similar!
 
 _How to use_:
 
-We use the #tc39-delegates channel on Freenode during the meetings. This channel is open to
-delegates. It is not public due to IP restrictions. The
-public channel #tc39 is useful for outside communication that is _not_ during meetings. You can find instructions for joining
-[here](https://freenode.net/kb/answer/chat).
+We use the #tc39-delegates channel on Matrix during the meetings. This channel
+is open to delegates. The public channel #tc39-general is useful for outside
+communication that is _not_ during meetings. You can find instructions for
+joining [here](matrix-guide.md).
 
 ### [Queue](https://tcq.app/)
 
@@ -48,8 +48,10 @@ _Purpose_: To organize people's responses to a topic, and make sure everyone is 
 
 _How to use_:
 
-When the meeting starts, a link to the tcq meeting will be added to the delegates IRC channel topic.
+When the meeting starts, a link to the tcq meeting will be added to the delegates Matrix channel topic.
 At the top you will see "Agenda" and "Queue".
+
+These links (and more helpful information) are also available on the pinned Reflector issue for the given plenary.
 
 If you are interested in knowing what is coming up, you can take a look at the agenda page. However
 this is more useful for chairs, who can add agenda topics that are coming up next, and their
@@ -106,7 +108,7 @@ _How to use_:
 
 **Please remember: Never share this link publicly.**
 
-For every day of the meeting we have a new Google Docs URL that is shared in the delegates IRC channel.
+For every day of the meeting we have a new Google Docs URL that is shared in the delegates Matrix channel.
 
 Everyone is encouraged to help taking notes, and this is a good way to get involved if you are new.
 For more information, please take a look at our [how to be a note taker](./how-to-take-notes.md) documentation.
@@ -117,9 +119,9 @@ _Purpose_: To allow remote TC39 delegates to participate in the meeting.
 
 _How to use_:
 
-We use Google Hangouts to facilitate remote attendance, unless another solution is deemed a better
+We use Jitsi (hosted on [8x8](https://8x8.vc)) to facilitate remote attendance, unless another solution is deemed a better
 fit for the situation. The link will be posted on a meeting by meeting basis. To attend, use the link posted at the top of
-the TC39 IRC delegates channel.
+the delegates Matrix channel.
 
 ## Tips
 
