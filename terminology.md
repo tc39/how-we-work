@@ -313,6 +313,26 @@ To make something a first-class concept in a language specification, such that i
 #### References
 - [Reification](https://en.wikipedia.org/wiki/Reification_(computer_science))
 
+### SDO (2 definitions)
+#### Definition (1)
+SDOs are syntax-directed operations in the ECMA-262 specification. These are the operations that are defined piecewise over the parse tree rather than by having a single algorithm. In other terms it is a particular style of algorithm in the specification.
+
+#### Example (1)
+Evaluation is an SDO because Evaluation is defined piecewise over several productions.
+
+#### References (1)
+https://tc39.es/ecma262/multipage/notational-conventions.html#sec-algorithm-conventions-syntax-directed-operations
+
+#### Definition (2)
+SDO is short for a Standards Developing Organization. 
+
+#### Examples (2)
+- ECMA
+- Unicode Consortium
+
+#### References (2)
+https://en.wikipedia.org/wiki/Standards_organization
+
 TEMPLATE
 ### [NAME HERE]
 
