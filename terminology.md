@@ -321,7 +321,7 @@ SDOs are syntax-defined operations in the ECMA-262 specification. These are the 
 Evaluation is an SDO because Evaluation is defined piecewise over several productions.
 
 #### References (1)
-https://tc39.es/ecma262/#sec-algorithm-conventions-syntax-directed-operations
+https://tc39.es/ecma262/multipage/notational-conventions.html#sec-algorithm-conventions-syntax-directed-operations
 
 #### Definition (2)
 SDO is short for a Standards Developing Organization. 
