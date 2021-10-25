@@ -315,7 +315,7 @@ To make something a first-class concept in a language specification, such that i
 
 ### SDO (2 definitions)
 #### Definition (1)
-SDOs are syntax-defined operations in the ECMA-262 specification. These are the operations that are defined piecewise over the parse tree rather than by having a single algorithm. In other terms it is a particular style of algorithm in the specification.
+SDOs are syntax-directed operations in the ECMA-262 specification. These are the operations that are defined piecewise over the parse tree rather than by having a single algorithm. In other terms it is a particular style of algorithm in the specification.
 
 #### Example (1)
 Evaluation is an SDO because Evaluation is defined piecewise over several productions.
