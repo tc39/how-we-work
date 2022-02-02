@@ -30,6 +30,6 @@ The purpose of this role, as agreed with Ecma, is to allow individuals working o
 
 1. Chairs will post the off-boarding form on [the Admin & Business repo](https://github.com/tc39/Admin-and-Business/issues) and send an email to the individual and the sponsor.
 
-1. There are 7 days for other delegates to re-propose the individual should they wish to extend their tenure as an invited expect.  Renewal is handled in the same way as the Joining Process.
+1. There are 7 days for other delegates to re-propose the individual should they wish to extend their tenure as an invited expert. Renewal is handled in the same way as the Joining Process.
 
 1. Assuming there is no renewal, the Chairs execute the off-boarding checklist.
