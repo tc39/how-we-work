@@ -10,7 +10,7 @@ The purpose of this role, as agreed with Ecma, is to allow individuals working o
 
 1. A delegate from an Ecma member acting as the ***sponsor*** proposes an individual to become an Invited Expert by completing the *TC39 Invited Expert Nomination Form* on TC39 Admin & Business repo.  This includes stating the reason for the nomination.
 
-1. There are 7 days for other delegates to provide supporting statements or objections on the issue.
+1. There are 7 days for other delegates to provide supporting statements or objections on the issue, or in private communication to the Chairs.
 
 1. The Chairs review the nomination responses and decide whether to:
    - approve (recording the conditions of participation such as time-limits or roles)
