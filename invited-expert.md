@@ -19,7 +19,7 @@ The purpose of this role, as agreed with Ecma, is to allow individuals working o
 
 1. Once approved, the Chairs request approval from the Ecma Secretariat.
 
-1. Once the Ecma Secretariat has approved and the Invited Expert has signed the *Ecma Invited Expert Form*, the Chairs will execute the onboarding checklist.
+1. Once the Ecma Secretariat has approved and the Invited Expert has signed the [Ecma Invited Expert Form](https://www.ecma-international.org/invited-expert-form/), the Chairs will execute the onboarding checklist.
 
 ## Leaving Process
 
