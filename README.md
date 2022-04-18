@@ -2,7 +2,7 @@ Ecma International's TC39 is the standards committee which defines ECMAScript (J
 
 This repository is an early work in progress!
 
-For an introduction to getting involved in TC39, see [CONTRIBUTING.md](https://github.com/tc39/ecma262/blob/master/CONTRIBUTING.md).
+For an introduction to getting involved in TC39, see [CONTRIBUTING.md](https://github.com/tc39/ecma262/blob/HEAD/CONTRIBUTING.md).
 
 # Table of Contents
 
