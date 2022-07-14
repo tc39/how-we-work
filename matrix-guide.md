@@ -93,7 +93,7 @@ As a shortcut, to edit your most recent message, you can press the up arrow <kbd
 
 You can also remove your message if you post it by mistake (for example, in the wrong channel). To do this, hover over the message and click the **…** (ellipsis), then click "Remove". A "Message deleted" will show up in its place.
 
-### ...mute someone in case of toxic behaviour?
+### ...mute someone in case of toxic behavior?
 
 To mute someone so that you don't see their messages, click on their avatar in front of one of their messages, or click on their avatar in the list in "Room Info" (the 🛈 circled-**i** icon in the top right hand corner). Then click "Ignore" (in red at the bottom of the menu in the right hand panel).
 
