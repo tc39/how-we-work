@@ -1,18 +1,4 @@
-The purpose of this doc is to collect some of the most common terms/considerations that come up while designing features for Javascript at TC39.
-
-These aren’t, by any means, meant to be taken as patterns/principles in that, often, they inform rather than prescribe: historically, they are never taken as a hard design constraint or direction but rather considerations that inform tradeoffs between design choices.
-
-### How to add definitions
-
-When you add a definition, make sure that the definition applies to how TC39 uses it. Some other
-communities might have similar terms, but they mean a different thing in this case. Otherwise, feel
-free to reference well known definitions so that people know what they mean.
-
-Anatomy of a good definition:
-- in simple words, what is it? Imagine describing it to someone who has no experience
-- a minimal example
-- sources and resources where people can learn more
-- related definitions (optional)
+_The purpose of this doc is to collect the most common terms/considerations that come up while designing features for JavaScript at TC39. It's a work in progress and needs your help to grow! See [below](#contributing-to-this-document) for instructions as well as terms/considerations in need of definition._
 
 # Glossary
 
@@ -362,17 +348,31 @@ SDO is short for a Standards Developing Organization.
 ### References (2)
 https://en.wikipedia.org/wiki/Standards_organization
 
-# TEMPLATE
-
 ## {{Your term here}}
 
 ### Definition
 ### Example
 ### References
 
-# TODO
+# Contributing to This Document
 
-Expand on each one of these terms, make them linkable.
+Here are some tips and ideas for adding a [new definition](#your-term-here) to this document. 
+
+## How to add definitions
+
+When you add a definition, make sure that the definition applies to how TC39 uses it. Some other
+communities might have similar terms, but they mean a different thing in this case. Otherwise, feel
+free to reference well known definitions so that people know what they mean.
+
+Anatomy of a good definition:
+- in simple words, what is it? Imagine describing it to someone who has no experience
+- a minimal example
+- sources and resources where people can learn more
+- related definitions (optional)
+
+## TODO: Terms
+
+These are terms which have been previously identified as worthy of defining.
 
 * [hoisting](https://www.w3schools.com/js/js_hoisting.asp)
 * [IIFE](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression)
@@ -425,7 +425,7 @@ Expand on each one of these terms, make them linkable.
 * self-hosted
 * overhead
 
-# Considerations
+## TODO: Considerations
 
 These are common considerations that come up while discussing the technical merits of language features.
 
