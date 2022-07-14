@@ -1,27 +1,19 @@
-<!-- markdownlint-disable MD024 --> <!-- (Multiple headings with the same content) -->
-
 # Glossary
-
 _The purpose of this doc is to collect the most common terms/considerations that come up while designing features for JavaScript at TC39. It's a work in progress and needs your help to grow! See [below](#contributing-to-this-document) for instructions as well as terms/considerations in need of definition._
-
-These are common terms used while discussing language features.
-
+These are common terms used while discussing language features.   
 ## Bikeshedding
-
 ### Definition
-
 The process of discussing a trivial matter at the expense of the topic that actually
 needs discussion. This can take time away from important topics, and its important to catch
 ourselves if we start bikeshedding!
 
 ### Example
-
 We were supposed to discuss how this new proposal should work, but we spent the entire time discussing what the
 name should be. We should avoid such bikeshedding.
 
 ### References
 
-[wikipedia](https://en.wiktionary.org/wiki/bikeshedding)
+https://en.wiktionary.org/wiki/bikeshedding
 
 ## Brand check
 
