@@ -394,7 +394,7 @@ Evaluation is an SDO because Evaluation is defined piecewise over several produc
 
 ### References (1)
 
-<https://tc39.es/ecma262/multipage/notational-conventions.html#sec-algorithm-conventions-syntax-directed-operations>
+[Specification](https://tc39.es/ecma262/multipage/notational-conventions.html#sec-algorithm-conventions-syntax-directed-operations)
 
 ### Definition (2)
 
@@ -407,7 +407,7 @@ SDO is short for a Standards Developing Organization.
 
 ### References (2)
 
-<https://en.wikipedia.org/wiki/Standards_organization>
+[Wikipedia](https://en.wikipedia.org/wiki/Standards_organization)
 
 # Contributing to This Document
 
