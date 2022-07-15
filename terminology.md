@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD024 --> <!-- (Multiple headings with the same content) -->
+<!-- markdownlint-disable MD013 --> <!-- (Line length) -->
 
 # Glossary
 

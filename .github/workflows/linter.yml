@@ -47,6 +47,7 @@ jobs:
         uses: github/super-linter/slim@v4
         env:
           VALIDATE_ALL_CODEBASE: false
+          VALIDATE_JAVASCRIPT_STANDARD: false
           VALIDATE_NATURAL_LANGUAGE: false
           # Change if your main branch differs
           DEFAULT_BRANCH: main
