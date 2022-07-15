@@ -1,0 +1,23 @@
+{
+  "name": "how-we-work",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ecma International's TC39 is the standards committee which defines ECMAScript (JavaScript). This repository is intended to provide documentation into how TC39 works.",
+  "main": "echo \"Error: no main specified\" && exit 1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tc39/how-we-work.git"
+  },
+  "author": "TC39",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/tc39/how-we-work/issues"
+  },
+  "homepage": "https://github.com/tc39/how-we-work#readme",
+  "devDependencies": {
+    "eslint": "^8.19.0"
+  }
+}
