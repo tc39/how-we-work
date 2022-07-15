@@ -15,26 +15,32 @@ for (let i = 0; i < termMDLines.length; i++) {
   const l = termMDLines[i];
   setBegin(i, l);
 
-  // console.log(l);
+  if (iBegin) { // only proceed if we found the 'BEGIN TERMS' marker
 
-  // term
-  if (l.startsWith(`${termPrefix} `)) {
+    // term
+    if (l.startsWith(`${termPrefix} `)) {
 
-    // found a new term, so add previous term to map
-    if (currentTermStart) {
-      addTerm(i);
+      // found a new term, so add previous term
+      if (currentTermStart) {
+        addTerm(i);
+      }
+
+      currentTermStart = i;
+
     }
 
-    currentTermStart = i;
-
-  }
-
-  if (isEnd(l)) {
+    if (isEnd(l)) {
     // add the last term
-    addTerm(i);
-    break;
+      addTerm(i);
+      break;
+    }
+
   }
 
+}
+
+if (terms.length < 3) {
+  console.error('no terms found. there is a problem with this script or terminology.md');
 }
 
 if (fix) {
