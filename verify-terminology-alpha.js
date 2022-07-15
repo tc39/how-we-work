@@ -1,3 +1,4 @@
+'use strict';
 const fs = require('fs');
 
 const termMD = fs.readFileSync('./terminology.md', 'utf-8');
