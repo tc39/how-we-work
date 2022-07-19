@@ -418,8 +418,8 @@ SDO is short for a Standards Developing Organization.
 
 The idea that there's an upper bound on how much syntactic complexity a language can reasonably contain, expressed as a metaphorical budget.
 
-A proposal without syntactic implications, such as the addition of a new method to a built-in, may be relatively uncontroversial, but a proposal that introduces new syntax is expected to prove that the cost is justified.
-This means both that (1) it addresses a significant developer need in a way that would not be reasonably achieved without new syntax and (2) the specific syntax being proposed does not obstruct another proposal expected to advance in the foreseeable future.
+A proposal without syntactic implications, such as the addition of a new method to a built-in, may be relatively uncontroversial, but a proposal that introduces new syntax is expected to justify its cost against this budget.
+This means demonstrating both (1) that it addresses a significant developer need in a way that would not be reasonably achieved without new syntax and (2) that the specific syntax being proposed does not obstruct another proposal expected to advance in the foreseeable future.
 
 Additionally, in a shorter-term sense, it could overwhelm developers to have too many syntax-heavy features ship in too narrow of a timeframe.
 
