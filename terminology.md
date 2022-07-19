@@ -83,7 +83,8 @@ class Query {
 
 ### Definition
 
-A _tail call_ is a call which occurs as the final operation of a function and whose value is returned immediately. It is possible for such a call to reuse or replace the current stack frame, in which case it is known as a _proper_ tail call (PTC). PTC semantics are part of the standard as of ES6, but their implementation in various engines has been fraught with controversy. In particular, reluctance to the automatic nature of PTC led to an alternative _syntactic_ tail call (STC) proposal, in which users would consciously choose this behavior by means of a keyword. PTC is currently only shipped by JSC, while STC remains an open but inactive proposal.
+A _tail call_ is a call which occurs as the final operation of a function and whose value is returned immediately. It is possible for such a call to reuse or replace the current stack frame, in which case it is known as a _proper_ tail call (PTC). PTC semantics are part of the standard as of ES6, but their implementation in various engines has been fraught with controversy.
+In particular, reluctance to the automatic nature of PTC led to an alternative _syntactic_ tail call (STC) proposal, in which users would consciously choose this behavior by means of a keyword. PTC is currently only shipped by JSC, while STC remains an open but inactive proposal.
 
 ### Example
 
@@ -167,7 +168,8 @@ There was an effort to add a method `Array.prototype.contains`. However, this br
 
 ----
 
-ES2015 changed RegExp semantics to make `RegExp.prototype` not a RegExp instance, and to make `RegExp.prototype.sticky` a getter which threw when accessed on a non-RegExp. It turned out that this change was not web-compatible--data from Chrome showed that .05% of web page loads hit this case. As a result, TC39 agreed to make an allowance in `RegExp.prototype.sticky` and similar getters to permit `RegExp.prototype` as a receiver. See [this slide deck](https://docs.google.com/presentation/d/1BZiysQL4YMXgexwTmcZTFOD0nxGSAGz7PbzAotoDiGw/edit#slide=id.p) for details.
+ES2015 changed RegExp semantics to make `RegExp.prototype` not a RegExp instance, and to make `RegExp.prototype.sticky` a getter which threw when accessed on a non-RegExp. It turned out that this change was not web-compatible--data from Chrome showed that .05% of web page loads hit this case.
+As a result, TC39 agreed to make an allowance in `RegExp.prototype.sticky` and similar getters to permit `RegExp.prototype` as a receiver. See [this slide deck](https://docs.google.com/presentation/d/1BZiysQL4YMXgexwTmcZTFOD0nxGSAGz7PbzAotoDiGw/edit#slide=id.p) for details.
 
 ### References
 
@@ -183,7 +185,8 @@ ES2015 changed RegExp semantics to make `RegExp.prototype` not a RegExp instance
 
 Each operation in JavaScript's meta-object protocol is a method in [Reflect](https://tc39.es/ecma262/#sec-reflect-object), and each of these is also a [Proxy](https://tc39.es/ecma262/#sec-proxy-objects) trap.
 
-In the issue [Implement meta-object trap(s) to make an object's [[Prototype]] immutable](https://github.com/tc39/ecma262/issues/538), there is discussion about adding another fundamental object operation to freeze the prototype of an object (without performing a full `preventExtensions`). The title of the issue includes "meta-object" as a reference to the meta-object protocol, as the addition of this feature would require new Proxy and Reflect APIs.
+In the issue [Implement meta-object trap(s) to make an object's [[Prototype]] immutable](https://github.com/tc39/ecma262/issues/538), there is discussion about adding another fundamental object operation to freeze the prototype of an object (without performing a full `preventExtensions`).
+The title of the issue includes "meta-object" as a reference to the meta-object protocol, as the addition of this feature would require new Proxy and Reflect APIs.
 
 ### References
 
@@ -415,7 +418,8 @@ SDO is short for a Standards Developing Organization.
 
 The idea that there's an upper bound on how much syntactic complexity a language can reasonably contain, expressed as a metaphorical budget.
 
-A proposal without syntactic implications, such as the addition of a new method to a built-in, may be relatively uncontroversial, but a proposal that introduces new syntax is expected to prove that the cost is justified. This means both that (1) it addresses a significant developer need in a way that would not be reasonably achieved without new syntax and (2) the specific syntax being proposed does not obstruct another proposal expected to advance in the foreseeable future.
+A proposal without syntactic implications, such as the addition of a new method to a built-in, may be relatively uncontroversial, but a proposal that introduces new syntax is expected to prove that the cost is justified.
+This means both that (1) it addresses a significant developer need in a way that would not be reasonably achieved without new syntax and (2) the specific syntax being proposed does not obstruct another proposal expected to advance in the foreseeable future.
 
 Additionally, in a shorter-term sense, it could overwhelm developers to have too many syntax-heavy features ship in too narrow of a timeframe.
 
