@@ -409,6 +409,16 @@ SDO is short for a Standards Developing Organization.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Standards_organization)
 
+## Syntax budget
+
+### Definition
+
+The idea that there's an upper bound on how much syntactic complexity a language can reasonably contain, expressed as a metaphorical budget.
+
+A proposal without syntactic implications, such as the addition of a new method to a built-in, may be relatively uncontroversial, but a proposal that introduces new syntax is expected to prove that the cost is justified. This means both that (1) it addresses a significant developer need in a way that would not be reasonably achieved without new syntax and (2) the specific syntax being proposed does not obstruct another proposal expected to advance in the foreseeable future.
+
+Additionally, in a shorter-term sense, it could overwhelm developers to have too many syntax-heavy features ship in too narrow of a timeframe.
+
 # Contributing to This Document
 
 Here are some tips and ideas for adding a [new definition](#Definition-template) to this document.
@@ -475,7 +485,6 @@ These are terms which have been previously identified as worthy of defining.
 - 3 Passes: (a) parsing, (b) go over it ahead of time for “early errors”, (c) execute (runtime errors)
 - Proxies/membranes (mark miller, @tvcutsem),
 - Currying operation -- wycats
-- syntax budget
 - orthogonal
 - "Needs Consensus PR"
 - web reality
