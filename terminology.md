@@ -1,5 +1,3 @@
-<!-- markdownlint-disable MD024 --> <!-- (Multiple headings with the same content) -->
-
 # Glossary
 
 _The purpose of this doc is to collect the most common terms/considerations that come up while designing features for JavaScript at TC39. It's a work in progress and needs your help to grow! See [below](#contributing-to-this-document) for instructions as well as terms/considerations in need of definition._

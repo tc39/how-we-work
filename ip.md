@@ -1,5 +1,3 @@
-<!-- markdownlint-disable MD013 --> <!-- (Line length) -->
-
 # TC39 and IP
 
 ## How TC39 works
