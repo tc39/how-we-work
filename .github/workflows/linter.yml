@@ -48,6 +48,7 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_NATURAL_LANGUAGE: false
+          LINTER_RULES_PATH: ${{ github.workspace }}
           MARKDOWN_CONFIG_FILE: .markdownlint.yaml
           # Change if your main branch differs
           DEFAULT_BRANCH: main
