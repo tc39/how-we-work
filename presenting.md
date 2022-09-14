@@ -41,7 +41,7 @@ To propose a presentation for a TC39 meeting, make a pull request against the [a
 
 ## Temperature Checks
 
-The discussion management tool ([TCQ](http://tcq.app/)) includes a feature called "Temperature checks".  These allow meeting attendees to engage in a light-weight poll on a given statement, with expression options that include:
+The discussion management tool ([TCQ](http://tcq.app/)) includes a feature called "Temperature checks". These allow meeting attendees to engage in a light-weight poll on a given statement, with expression options that include:
 
 - ♥ Strong Positive
 - 👍 Positive
@@ -56,9 +56,9 @@ Temperature checks are intended as a way to gauge the committee's general opinio
 - They are meant to surface information, not to sway opinion.
 - They are **not** an alternative to seeking consensus.
 
-Presenters may request a temperature check at any point whilst they are presenting.  The Chair will decide whether to grant this or not.  In order to maximize the chance of it being granted, it is recommended that the temperature check be planned ahead of time to ensure it is appropriate, clear, and will ensure best use of time.  If you wish to use this facility, please prepare a **single slide** ahead of time that includes:
+Presenters may request a temperature check at any point whilst they are presenting. The Chair will decide whether to grant this or not. In order to maximize the chance of it being granted, it is recommended that the temperature check be planned ahead of time to ensure it is appropriate, clear, and will ensure best use of time. If you wish to use this facility, please prepare a **single slide** ahead of time that includes:
 
-- A description of what uncertainty exists.
-- The statement or question upon which the meeting attendees will express an opinion.
+ - A description of what uncertainty exists.
+ - The statement or question upon which the meeting attendees will express an opinion.
 
-It is important that the statement be formulated in a way that naturally lends itself to the options available, e.g. “We should go left” is good statement.  Please avoid mapping the options to choices, e.g. “Pick _Positive_ to go left, Pick _Following_ to go right” is an undesirable formulation.
+It is important that the statement be formulated in a way that naturally lends itself to the options available, e.g. “We should go left” is good statement. Please avoid mapping the options to choices, e.g. “Pick _Positive_ to go left, Pick _Following_ to go right” is an undesirable formulation.
