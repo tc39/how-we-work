@@ -58,7 +58,7 @@ Temperature checks are intended as a way to gauge the committee's general opinio
 
 Presenters may request a temperature check at any point whilst they are presenting. The Chair will decide whether to grant this or not. In order to maximize the chance of it being granted, it is recommended that the temperature check be planned ahead of time to ensure it is appropriate, clear, and will ensure best use of time. If you wish to use this facility, please prepare a **single slide** ahead of time that includes:
 
- - A description of what uncertainty exists.
- - The statement or question upon which the meeting attendees will express an opinion.
+- A description of what uncertainty exists.
+- The statement or question upon which the meeting attendees will express an opinion.
 
 It is important that the statement be formulated in a way that naturally lends itself to the options available, e.g. “We should go left” is good statement. Please avoid mapping the options to choices, e.g. “Pick _Positive_ to go left, Pick _Following_ to go right” is an undesirable formulation.
