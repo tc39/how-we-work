@@ -35,3 +35,27 @@ To propose a presentation for a TC39 meeting, make a pull request against the [a
 - **Plan for questions.** Review your material for likely questions and try to answer them before they're asked. Chat with other delegates ahead of time to see what questions they commonly have. Leave time for discussion and questions at the end of your presentation. 
 - **Expect some bikeshedding.** This is a group of people who are here _because of_ our opinions, and it's easy to wander into bikeshed territory when given the opportunity. One clever way to work around this is to identify ahead of time which trivial details are the most likely candidates for bikeshedding and create threads for them on the proposal's github repo. Point people to the issue threads to keep them on task during your allotted meeting time.
 - **Keep in mind the diversity of the audience.** Some people will be familiar with concepts that you're basing the proposal on, and some people won't. The audience will have varying combinations of backgrounds in theory, JS engine development background, and JS application development; nobody knows everything, and our strength is in harnessing this diversity. If you can make your presentation accessible to the entire audience, you can be more persuasive.
+
+## Temperature Checks
+
+The discussion management tool ([TCQ](http://tcq.app/)) includes a feature called "Temperature checks".  These allow meeting attendees to engage in a light-weight poll on a given statement, with expression options that include:
+
+- ♥ Strong Positive
+- 👍 Positive
+- 👀 Following
+- ❓ Confused
+- 🤷 Indifferent
+- 😕 Unconvinced
+
+Temperature checks are intended as a way to gauge the committee's general opinion in a situation where the champions are uncertain about which path to pursue.
+
+- They are non-binding and merely inform the committee.
+- They are meant to surface information, not to sway opinion.
+- They are **not** an alternative to seeking consensus.
+
+Presenters may request a temperature check at any point whilst they are presenting.  The Chair will decide whether to grant this or not.  In order to maximize the chance of it being granted, it is recommended that the temperature check be planned ahead of time to ensure it is appropriate, clear, and will ensure best use of time.  If you wish to use this facility, please prepare a **single slide** ahead of time that includes:
+
+- A description of what uncertainty exists.
+- The statement or question upon which the meeting attendees will express an opinion.
+
+It is important that the statement be formulated in a way that naturally lends itself to the options available, e.g. “We should go left” is good statement.  Please avoid mapping the options to choices, e.g. “Pick _Positive_ to go left, Pick _Following_ to go right” is an undesirable formulation.
