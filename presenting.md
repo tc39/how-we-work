@@ -5,12 +5,14 @@
 Ahead of a TC39 meeting, produce public documentation about your proposal. GitHub is the typical place for this--very early proposals may be a Gist, and small proposals may be documented in an issue or pull request, but large proposals live best in their own repository (initially a personal repository, but later transferred to the tc39 organization if it achieves Stage 1).
 
 Your proposal to TC39 should be towards a particular purpose: Think through what you're trying to communicate to the committee and what you'd like to get out of the presentation. Possible goals include:
+
 - Advancing a proposal to a particular stage
 - Introducing a new idea or way of thinking to the group to consider which may be built on or developed in the future
 - Getting consensus on a normative or editorial pull request
 - Reporting progress on an ongoing effort, to solicit feedback
 
 Take time to work on your proposal ahead of the committee meeting. This pre-work can include
+
 - Thinking through the idea in depth
 - Talking it over with various people, both inside and outside of the committee, in person, GitHub issues, IRC, etc.
 - Writing up supporting documents explaining the idea, including in more depth than might fit in a presentation
@@ -19,6 +21,7 @@ Take time to work on your proposal ahead of the committee meeting. This pre-work
 ### Creating Slides
 
 A slide presentation is not required, but it can help the audience follow the presentation. Some tips for effective slide presentations:
+
 - **State the goal of your presentation up front.** No need for theatrics, given that you've already published the presentation online. Being clear in emphasizing your main points will make the presentation easier to follow.
 - **Don't include too much text on the slides.** You want the audience to follow your talk, not reading the fine print on the slides. Also keep in mind, different people have different capabilities for vision (and it can be difficult to raise the issue if everyone else is acting like they have no problem)--using large text will ensure that more of the audience can read the slides.
 - **Include examples.** Programming language design can be abstract sometimes; let's bring it down to earth with applications and code samples.
