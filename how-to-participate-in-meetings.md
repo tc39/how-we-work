@@ -34,8 +34,7 @@ Committee consensus is required to advance a proposal to a subsequent stage and 
 1. When discussion has concluded, a call for consensus can be made, as follows:
     1. The presenter asks the committee for consensus on $xyz.
          1. (Note, the chair may encourage the presenter to make this request if it appears that the committee conversation has settled, or the presenter may decide to ask this directly.)
-    1. One TC39 attendee states, “I nominate $xyz for consensus.”
-    1. Another states, “I second $xyz for consensus.”
+    1. Attendees are asked if they support the proposal advancing, giving space for people to explain why they want the proposal to advance. To proceed, at least one delegate must provide explicit support. The typical expectation is to hear from at least two people at this point, as a proposal should have broad, active support from the committee to advance.
     1. The chair will then ask the committee, “Does anyone object to $xyz for consensus?”
     1. If there are no objections, the chair states, “$xyz has achieved consensus”.
     1. This result is recorded in the minutes and reviewed by the proposer. This is perhaps the most important part. Note that the consensus may come with certain “strings attached”, e.g., certain edits made. This is known as “conditional consensus” and must be fully recorded in the minutes as well.
