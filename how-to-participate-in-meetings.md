@@ -35,8 +35,9 @@ Committee consensus is required to advance a proposal to a subsequent stage and 
     1. The presenter asks the committee for consensus on $xyz.
          1. (Note, the chair may encourage the presenter to make this request if it appears that the committee conversation has settled, or the presenter may decide to ask this directly.)
     1. Attendees are asked if they support the proposal advancing, giving space for people to explain why they want the proposal to advance. To proceed, at least one delegate must provide explicit support. The typical expectation is to hear from at least two people at this point, as a proposal should have broad, active support from the committee to advance.
-    1. The chair will then ask the committee, “Does anyone object to $xyz for consensus?”
-    1. If there are no objections, the chair states, “$xyz has achieved consensus”.
+    1. Attendees are asked if they have any concerns about the proposal. These concerns may or may not be objections to consensus. Explicit statements of "non-blocking" concerns (that is, concerns which are not full objections) are very much welcome, whether these are requests for changes at a future stage or simply doubt which does not rise to the level of wanting to stop the proposal from happening. If a concern expressed here is non-blocking, it is best to explicit identify it as such, to avoid misunderstandings.
+    1. If no blocking concern was raised, and the champion wishes to proceed in light of any concerns raised so far, the chair will then ask the committee, “Does anyone object to $xyz for consensus?”
+    1. If there are objections, the chair states, “$xyz has achieved consensus”.
     1. This result is recorded in the minutes and reviewed by the proposer. This is perhaps the most important part. Note that the consensus may come with certain “strings attached”, e.g., certain edits made. This is known as “conditional consensus” and must be fully recorded in the minutes as well.
 
 If a proposition does not reach consensus, note that the committee may revisit it at any time in the future, given that this procedure is followed appropriately. At the same time, once the committee has reached consensus on a proposition, it is considered to have established the consensus, and it would take consensus in a different direction to change course. For example, advancing a proposal to a further stage requires consensus, as does retracting it to the previous stage–a single objection is not enough to undo consensus after it is established.
@@ -45,7 +46,7 @@ Objections to consensus need to be accompanied by a rationale which is appropria
 
 The only exception where consensus may be “undone” soon after it was made is due to inappropriate exclusion of someone from the discussion, e.g., if the item hadn’t been placed on the agenda by the deadline, leading a delegate to not attend a meeting where they would have objected to the consensus.  Self-exclusion does not qualify, e.g. people choosing not to attend or not reading the agenda ahead of time.
 
-The process to achieve consensus requires explicit support from two attendees besides the presenter. This requirement exists to ensure that there is active support in committee from the proposal aside from the champion, rather than simply a lack of explicit objections.
+The process to achieve consensus requires explicit support from committee members (ideally multiple) aside from the presenter. This requirement exists to ensure that there is active support in committee from the proposal aside from the champion, rather than simply a lack of explicit objections.
 
 ## Tools for participation
 
