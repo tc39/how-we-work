@@ -421,6 +421,18 @@ This means demonstrating both (1) that it addresses a significant developer need
 
 Additionally, in a shorter-term sense, it could overwhelm developers to have too many syntax-heavy features ship in too narrow of a timeframe.
 
+## STR
+
+### Definition
+
+STR is short for "steps to reproduce". This is a list of steps a program or user can take to reproduce some behaviour.
+
+More commonly this is referred to as a "test case" or a "reproduction".
+
+### Example
+
+- I was unable to follow the STR you provided in the issue.
+
 # Contributing to This Document
 
 Here are some tips and ideas for adding a [new definition](#Definition-template) to this document.
