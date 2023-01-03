@@ -6,7 +6,7 @@ Although TC39 is a flat, consensus-based group, there are some particular organi
 
 ### Who is involved
 
-TC39 co-chairs: Aki Braun (@gesa), Brian Terlson (@bterlson), Yulia Startsev (@codehag)
+TC39 co-chairs: Brian Terlson (@bterlson), Rob Palmer (@robpalme), Ujjwal Sharma (@ryzokuken)
 
 #### How the chair group is chosen
 
@@ -28,7 +28,7 @@ The chair group runs the actual TC39 meetings. This involves
 - Make your agenda modifications, including slide links, schedule constraints, and priority ordering, ahead of the start of the TC39 meeting.
 - Help develop communication tools like TCQ -- get in contact with Brian Terlson for next steps
 - When contributing to committee discussion, use the queue tool to get in line to speak. Other interruptions should be limited strictly to clarifying questions.
-- If you want to get involved in meeting organization further, contact a member of the chair group.
+- If you want to get involved in meeting organization further, contact [the chair group](tc39chairs@ecma-international.org).
 
 #### Organizing meeting locations
 
@@ -39,7 +39,7 @@ Every year, the chair group organizes meeting locations for the following year. 
 
 ##### How to help
 
-The chair group would like help in all aspects of meeting planning. Contact Daniel Ehrenberg (littledan@igalia.com) if you're interested in getting involved.
+The chair group would like help in all aspects of meeting planning. Contact [the chair group](tc39chairs@ecma-international.org) if you're interested in getting involved.
 
 #### Administrating chat channels
 
