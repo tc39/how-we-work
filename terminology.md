@@ -421,6 +421,34 @@ This means demonstrating both (1) that it addresses a significant developer need
 
 Additionally, in a shorter-term sense, it could overwhelm developers to have too many syntax-heavy features ship in too narrow of a timeframe.
 
+## In-Band
+
+### Definition
+
+Used mainly in opposition to [Out of band](#out-of-band), denoting that all configuration of a feature or a behavior is done within the context of ECMASCript source.
+
+### Example
+
+- The stage 3 Import assertions proposal assert pragma
+
+### References
+
+[Import assertions proposal FAQ](https://github.com/tc39/proposal-import-assertions/blob/ae28137f45f6acd7fc61be4f7193759570a776ff/README.md#why-not-out-of-band) in opposition to out-of-band
+
+## Out-of-band
+
+### Definition
+
+Used to denote a behavior that applies to the execution of a ECMAScript module or script that is configured outside of ECMAScript source text.
+
+### Example
+
+An example of out-of-band configuration is Import Maps.  With this feature, the module specifier used in an import statement or the dynamic import function is interpreted by the host differently based on the import map configuration that is defined within a non-ECMAScript source.  This may be a HTML `<script>` tag with the `importmap` type in the browser, or in a configuration file like `package.json` in a Node.js project.
+
+### References
+
+[Import map proposal](https://github.com/WICG/import-maps#supplying-out-of-band-metadata-for-each-module)
+
 # Contributing to This Document
 
 Here are some tips and ideas for adding a [new definition](#Definition-template) to this document.
@@ -503,7 +531,6 @@ These are terms which have been previously identified as worthy of defining.
 - Engines: v8, SpiderMonkey, Chakra, JavaScriptCore
 - Timebox
 - Spec/Spec text
-- Out-of-band, in-band
 - cargo-cult
 - One JS
 - lazy parsing
