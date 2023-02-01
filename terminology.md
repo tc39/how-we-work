@@ -447,7 +447,7 @@ Used to denote a behavior that applies to the execution of a ECMAScript module o
 
 An example of out-of-band configuration is Import Maps.  With this feature, the module specifier used in an import statement or the dynamic import function is interpreted by the host differently based on the import map configuration that is defined within a non-ECMAScript source.  This may be a HTML `<script>` tag with the `importmap` type in the browser, or in a configuration file like `package.json` in a Node.js project.
 
-Another example is whether an ECMAScript source file will be executed as a script or a module based on the `type` attribute of the `<script>` tag that caused the User Agent to fetch and load it within a browser context.  The same is done in Node.js throug the use of the .mjs extension or by specifying that the package is of type `"module"` in the `pacakge.json` file.
+Another example is whether an ECMAScript source file will be executed as a script or a module based on the `type` attribute of the `<script>` tag that caused the User Agent to fetch and load it within a browser context.  The same is done in Node.js through the use of the .mjs extension or by specifying that the package is of type `"module"` in the `pacakge.json` file.
 
 ### References
 
