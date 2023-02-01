@@ -296,7 +296,7 @@ An agent is a comprised of three things: a container for a set of job queues, re
 
 ### Definition
 
-A realm consists of a set of [intrinsic](#Intrinsic) objects, an ECMAScript global environment, all of the ECMAScript code that is loaded within the scope of that global environment, and other associated state and resources (i.e. a global object and an associated set of [primordial](#Primordial) objects). Today, in the browser, realms can be created via same origin iframes.
+A realm consists of a set of [intrinsic](#intrinsic) objects, an ECMAScript global environment, all of the ECMAScript code that is loaded within the scope of that global environment, and other associated state and resources (i.e. a global object and an associated set of [primordial](#primordial) objects). Today, in the browser, realms can be created via same origin iframes.
 
 ### References
 
@@ -307,7 +307,7 @@ A realm consists of a set of [intrinsic](#Intrinsic) objects, an ECMAScript glob
 ### Definition
 
 A built-in value that is required by the ECMA262 specification.
-Where observable (e.g., as [primordial](#Primordial)), intrinsic objects are realm-specific while intrinsic symbols are shared by all realms.
+Where observable (e.g., as [primordial](#primordial)), intrinsic objects are realm-specific while intrinsic symbols are shared by all realms.
 The specification itself references "well-known" intrinsics with special notation (%&lt;name>% for objects; @@&lt;name> for symbols).
 
 ### Example
@@ -323,7 +323,7 @@ The specification itself references "well-known" intrinsics with special notatio
 
 ### Definition
 
-An [intrinsic](#Intrinsic) value that is accessible to ECMAScript code and required to exist before any ECMAScript code runs.
+An [intrinsic](#intrinsic) value that is accessible to ECMAScript code and required to exist before any ECMAScript code runs.
 
 ### Example
 
@@ -333,7 +333,7 @@ An [intrinsic](#Intrinsic) value that is accessible to ECMAScript code and requi
 
 ### Definition
 
-A [primordial](#Primordial) value that is accessible to ECMAScript code without reference to named bindings other than those for prototype and property descriptor reflection (i.e., solely by syntax, `__proto__`, and primordial `getPrototypeOf`/`getOwnPropertyDescriptor`/`getOwnPropertyDescriptors` functions).
+A [primordial](#primordial) value that is accessible to ECMAScript code without reference to named bindings other than those for prototype and property descriptor reflection (i.e., solely by syntax, `__proto__`, and primordial `getPrototypeOf`/`getOwnPropertyDescriptor`/`getOwnPropertyDescriptors` functions).
 
 ### Example
 
