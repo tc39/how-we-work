@@ -430,7 +430,7 @@ Used mainly in opposition to [Out of band](#out-of-band), denoting that all conf
 ### Example
 
 - The stage 3 Import assertions proposal assert pragma
-- The "use strict" directive, an in-band way to define the semantics of the script contained in the scope where it is used.
+- The "use strict" directive, an in-band way to enable strict mode for some portion of code.
 
 
 ### References
