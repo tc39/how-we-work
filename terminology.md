@@ -432,7 +432,6 @@ Used mainly in opposition to [Out of band](#out-of-band), denoting that all conf
 - The stage 3 Import assertions proposal assert pragma
 - The "use strict" directive, an in-band way to enable strict mode for some portion of code.
 
-
 ### References
 
 [Import assertions proposal FAQ](https://github.com/tc39/proposal-import-assertions/blob/ae28137f45f6acd7fc61be4f7193759570a776ff/README.md#why-not-out-of-band) in opposition to out-of-band
@@ -455,7 +454,7 @@ Another example is whether an ECMAScript source file will be executed as a scrip
 
 # Contributing to This Document
 
-Here are some tips and ideas for adding a [new definition](#Definition-template) to this document.
+Here are some tips and ideas for adding a [new definition](#definition-template) to this document.
 
 ## How to add definitions
 
