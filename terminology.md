@@ -296,7 +296,7 @@ An agent is a comprised of three things: a container for a set of job queues, re
 
 ### Definition
 
-A realm consists of a set of [intrinsic](#Intrinsic) objects, an ECMAScript global environment, all of the ECMAScript code that is loaded within the scope of that global environment, and other associated state and resources (i.e. a global object and an associated set of [primordial](#Primordial) objects). Today, in the browser, realms can be created via same origin iframes.
+A realm consists of a set of [intrinsic](#intrinsic) objects, an ECMAScript global environment, all of the ECMAScript code that is loaded within the scope of that global environment, and other associated state and resources (i.e. a global object and an associated set of [primordial](#primordial) objects). Today, in the browser, realms can be created via same origin iframes.
 
 ### References
 
@@ -307,7 +307,7 @@ A realm consists of a set of [intrinsic](#Intrinsic) objects, an ECMAScript glob
 ### Definition
 
 A built-in value that is required by the ECMA262 specification.
-Where observable (e.g., as [primordial](#Primordial)), intrinsic objects are realm-specific while intrinsic symbols are shared by all realms.
+Where observable (e.g., as [primordial](#primordial)), intrinsic objects are realm-specific while intrinsic symbols are shared by all realms.
 The specification itself references "well-known" intrinsics with special notation (%&lt;name>% for objects; @@&lt;name> for symbols).
 
 ### Example
@@ -323,7 +323,7 @@ The specification itself references "well-known" intrinsics with special notatio
 
 ### Definition
 
-An [intrinsic](#Intrinsic) value that is accessible to ECMAScript code and required to exist before any ECMAScript code runs.
+An [intrinsic](#intrinsic) value that is accessible to ECMAScript code and required to exist before any ECMAScript code runs.
 
 ### Example
 
@@ -333,7 +333,7 @@ An [intrinsic](#Intrinsic) value that is accessible to ECMAScript code and requi
 
 ### Definition
 
-A [primordial](#Primordial) value that is accessible to ECMAScript code without reference to named bindings other than those for prototype and property descriptor reflection (i.e., solely by syntax, `__proto__`, and primordial `getPrototypeOf`/`getOwnPropertyDescriptor`/`getOwnPropertyDescriptors` functions).
+A [primordial](#primordial) value that is accessible to ECMAScript code without reference to named bindings other than those for prototype and property descriptor reflection (i.e., solely by syntax, `__proto__`, and primordial `getPrototypeOf`/`getOwnPropertyDescriptor`/`getOwnPropertyDescriptors` functions).
 
 ### Example
 
@@ -421,9 +421,40 @@ This means demonstrating both (1) that it addresses a significant developer need
 
 Additionally, in a shorter-term sense, it could overwhelm developers to have too many syntax-heavy features ship in too narrow of a timeframe.
 
+## In-Band
+
+### Definition
+
+Used mainly in opposition to [Out of band](#out-of-band), denoting that all configuration of a feature or a behavior is done within the context of ECMASCript source.
+
+### Example
+
+- The stage 3 Import assertions proposal assert pragma
+- The "use strict" directive, an in-band way to enable strict mode for some portion of code.
+
+### References
+
+[Import assertions proposal FAQ](https://github.com/tc39/proposal-import-assertions/blob/ae28137f45f6acd7fc61be4f7193759570a776ff/README.md#why-not-out-of-band) in opposition to out-of-band
+
+## Out-of-band
+
+### Definition
+
+Used to denote a behavior that applies to the execution of a ECMAScript module or script that is configured outside of ECMAScript source text.
+
+### Example
+
+An example of out-of-band configuration is Import Maps.  With this feature, the module specifier used in an import statement or the dynamic import function is interpreted by the host differently based on the import map configuration that is defined within a non-ECMAScript source.  This may be a HTML `<script>` tag with the `importmap` type in the browser, or in a configuration file like `package.json` in a Node.js project.
+
+Another example is whether an ECMAScript source file will be executed as a script or a module based on the `type` attribute of the `<script>` tag that caused the User Agent to fetch and load it within a browser context.  The same is done in Node.js through the use of the .mjs extension or by specifying that the package is of type `"module"` in the `pacakge.json` file.
+
+### References
+
+[Import map proposal](https://github.com/WICG/import-maps#supplying-out-of-band-metadata-for-each-module)
+
 # Contributing to This Document
 
-Here are some tips and ideas for adding a [new definition](#Definition-template) to this document.
+Here are some tips and ideas for adding a [new definition](#definition-template) to this document.
 
 ## How to add definitions
 
@@ -503,7 +534,6 @@ These are terms which have been previously identified as worthy of defining.
 - Engines: v8, SpiderMonkey, Chakra, JavaScriptCore
 - Timebox
 - Spec/Spec text
-- Out-of-band, in-band
 - cargo-cult
 - One JS
 - lazy parsing
