@@ -6,7 +6,7 @@ Although TC39 is a flat, consensus-based group, there are some particular organi
 
 ### Who is involved
 
-TC39 co-chairs: Aki Braun (@gesa), Brian Terlson (@bterlson), Yulia Startsev (@codehag)
+TC39 co-chairs: Brian Terlson (@bterlson), Rob Palmer (@robpalme), Ujjwal Sharma (@ryzokuken)
 
 #### How the chair group is chosen
 
@@ -19,6 +19,7 @@ See the [Ecma Rules](https://www.ecma-international.org/memento/EcmaRules.htm), 
 #### Running meetings
 
 The chair group runs the actual TC39 meetings. This involves
+
 - Finalizing the agenda and arranging items during the meeting to meet committee requirements
 - Administering the TCQ queue tool and calling on the next person to speak
 - Maintaining committee decorum, including starting meetings on time, administering the timebox, and setting breaks
@@ -28,23 +29,25 @@ The chair group runs the actual TC39 meetings. This involves
 - Make your agenda modifications, including slide links, schedule constraints, and priority ordering, ahead of the start of the TC39 meeting.
 - Help develop communication tools like TCQ -- get in contact with Brian Terlson for next steps
 - When contributing to committee discussion, use the queue tool to get in line to speak. Other interruptions should be limited strictly to clarifying questions.
-- If you want to get involved in meeting organization further, contact a member of the chair group.
+- If you want to get involved in meeting organization further, contact [the chair group](tc39chairs@ecma-international.org).
 
 #### Organizing meeting locations
 
 Every year, the chair group organizes meeting locations for the following year. Meetings are organized within the following guidelines:
+
 - Dates: Meetings are generally held Tuesday-Thursday of the last week of odd-numbered months. On top of that formula, adjustments can be made to avoid holidays and conflicting events which are important to delegates, and to accommodate the requirements of meeting hosts. It is best to publish the meeting dates internally to committee members as soon as possible, to allow delegates to plan around the dates.
 - Locations: TC39 traditionally holds some meetings each year in some in the western North America (including in the SF Bay Area and Seattle), eastern North America, and one meeting in Europe. Meeting location preferences of delegates should be reassessed each year to take into account changes in committee composition.
 - Hosts: TC39 meetings are often hosted at member organization offices, but there is no restriction for this. The chair group finds meeting hosts by asking around in committee for who wants to host a meeting, within date and location requirements.
 
 ##### How to help
 
-The chair group would like help in all aspects of meeting planning. Contact Daniel Ehrenberg (littledan@igalia.com) if you're interested in getting involved.
+The chair group would like help in all aspects of meeting planning. Contact [the chair group](tc39chairs@ecma-international.org) if you're interested in getting involved.
 
 #### Administrating chat channels
 
 The chairs are the administrators of TC39's [chat channels](./matrix-guide.md).
 They are responsible for:
+
 - Giving delegates the appropriate permission levels when they are onboarded and offboarded.
 - Moderating the channels, for example blocking spammers and trolls when necessary.
 
