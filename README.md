@@ -1,10 +1,12 @@
+# TC39 - How We Work
+
 Ecma International's TC39 is the standards committee which defines ECMAScript (JavaScript). This repository is intended to provide documentation into how TC39 works.
 
 This repository is an early work in progress!
 
 For an introduction to getting involved in TC39, see [CONTRIBUTING.md](https://github.com/tc39/ecma262/blob/HEAD/CONTRIBUTING.md).
 
-# Table of Contents
+## Table of Contents
 
 - Meta  
   - [Introduction and Table of Contents for this repo (this file)](README.md)

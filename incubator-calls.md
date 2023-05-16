@@ -8,9 +8,7 @@ Incubator calls seek to speed up the process by having a sanctioned timeslot
 every two weeks for stakeholders to present constraints. The general guiding
 principle of the incubator calls is:
 
-<p align=center>
-  <i>To present and receive feedback that is relevant for eventual stage advancement.</i>
-</p>
+- **To present and receive feedback that is relevant for eventual stage advancement.**
 
 The incubator calls should be a low-stakes environment. While stage advancement
 remains the eventual goal, the call is a venue to keep engaged and discuss
@@ -45,6 +43,7 @@ committee, would not benefit from further feedback, or are inactionable.
 This should be done no later than 7 days before the call.
 
 Examples of bullet points to include on an agenda:
+
 - Request for feedback: FinalizationRegistry API change to per-item callback ([proposal-weakrefs#155](https://github.com/tc39/proposal-weakrefs/issues/155))
 - Request for feedback: How should we rename FinalizationGroup ([proposal-weakrefs#180](https://github.com/tc39/proposal-weakrefs/issues/180))
 - Out of scope: whether we should make GC observable (prior resolution: it is OK that WeakRefs make GC observable)
@@ -71,7 +70,8 @@ Core stakeholders should challenge out-of-scope limitations if they
 disagree. This can be done out-of-band or on the GitHub thread.
 
 Example feedback to add to the agenda ahead of the meeting:
-- Feedback (from <NAME>): FinalizationRegistry should allow users to express backpressure.
+
+- Feedback (from `<NAME>`): FinalizationRegistry should allow users to express backpressure.
 
 Note that core stakeholders and other participants are always welcome to give
 additional feedback in meetings, as long as it's in scope for the discussion. We
@@ -129,12 +129,14 @@ participants about the meeting scope. Action items should be made to document
 such novel out-of-scope items in new GitHub issues or Discourse threads.
 
 General timeline:
+
 1. Quick introduction
 1. Adopting the agenda
 1. Agenda items
 1. Heads up announcements for next call
 
 For each agenda item:
+
 1. Participant provide ~5 min intro and context-setting
 1. Discussion
 1. Identify action items for champions and core stakeholders, such as following up on a thread
@@ -145,7 +147,7 @@ their feedback instead of attempting to resolve the feedback in the
 moment. Resolving the issue should ideally be done asynchronously, or in plenary
 itself, if particularly controversial.
 
-# After the Call
+## After the Call
 
 Participants are encouraged to review the notes, which will be published 7 days
 after the meeting in [tc39/notes](https://github.com/tc39/notes).

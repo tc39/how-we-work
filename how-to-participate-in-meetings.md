@@ -61,7 +61,7 @@ During presentations, if you notice something a speaker says that you want a cla
 make a comment, you can do this in the queue. There are three options: new topic, clarifying
 question, and point of order. It looks something like this:
 
-![](./images/queue.png)
+![queue](./images/queue.png)
 
 At the top we have the agenda item that is being discussed, followed by the queue item that is being
 discussed. After that, we have a bunch of buttons!
@@ -70,7 +70,7 @@ If you are speaking, then you will also have the option to say that you are done
 
 As for the other four buttons!
 
-![](./images/queue-buttons.png)
+![queue buttons](./images/queue-buttons.png)
 
 A new topic breaks with the current topic, and starts a new thread to which clarifying questions
 might be added. New topics are ordered by when they are added to the queue.

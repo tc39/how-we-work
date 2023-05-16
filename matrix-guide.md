@@ -19,8 +19,8 @@
         We recommend using the officially maintained matrix.org homeserver, unless you have a reason to do otherwise. Matrix.org is the default on most clients. This is the server our channels are hosted on and a majority of delegates are registered to.
 
         Other servers are also available. For instance, Mozilla and Igalia delegates tend to use their own corporate homeservers. If you want to explore other servers, you can find many to choose from in the following lists:
-        - https://www.hello-matrix.net/public_servers.php
-        - https://publiclist.anchel.nl/
+        - <https://www.hello-matrix.net/public_servers.php>
+        - <https://publiclist.anchel.nl/>
 
     1. Create your account
 
@@ -54,7 +54,7 @@
 
         If you are not a delegate, then you should have a power level of less than 10 and only be able to view messages in [#tc39-delegates].
 
-## How To...
+## How To
 
 (These "how to"s apply if you are using the Element client, but other Matrix clients have similar ways to accomplish the same thing.)
 
@@ -110,7 +110,6 @@ Suggested settings to change:
 - Preferences -> Timeline -> Show chat effects (animations when receiving e.g. confetti) -> off
 - Notifications -> Enable email notifications -> off \[unless you want them\]
 
-
 [Element]: https://element.io/
 [list of clients]: https://matrix.org/clients/
 
@@ -123,7 +122,8 @@ Suggested settings to change:
 [#tc39-inclusion]: https://matrix.to/#/#tc39-inclusion:matrix.org
 [#tc39-website]: https://matrix.to/#/#tc39-website:matrix.org
 
-# Creating a new channel on Matrix for TC39 use
+## Creating a new channel on Matrix for TC39 use
+
 (This assumes that you're using the Element client)
 
 1. Click the plus icon next to "Rooms" in the sidebar
@@ -136,6 +136,6 @@ Suggested settings to change:
 1. In General, add the TC39 logo as the room's image. You can find the logo [here](https://avatars0.githubusercontent.com/u/1725583?s=280&v=4).
 1. At the bottom of General, enable URL previews by default for participants in this room
 1. In Security & Privacy, set "Who can access this room?" to "Anyone who knows the room's link, including guests". Also set "Who can read history?" to "Anyone".
-1. In Advanced, copy the internal room ID. Go back to General, and add a link to the logs in the room topic, like so: "Public logs at https://view.matrix.org/room/!WgJwmjBNZEXhJnXHXw:matrix.org/".
+1. In Advanced, copy the internal room ID. Go back to General, and add a link to the logs in the room topic, like so: "Public logs at <https://view.matrix.org/room/!WgJwmjBNZEXhJnXHXw:matrix.org/>".
 1. Ask one of the chairs to add the room to the [TC39 space](https://app.element.io/#/room/!hmsRHUEXriRovkvcin:matrix.org).
-1. Once the room is in the TC39 space it will automatically get logged on https://matrixlogs.bakkot.com/. You can change the topic to refer to the relevant channel there instead.
+1. Once the room is in the TC39 space it will automatically get logged on <https://matrixlogs.bakkot.com/>. You can change the topic to refer to the relevant channel there instead.

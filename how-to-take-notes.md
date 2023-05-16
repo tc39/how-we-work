@@ -1,10 +1,10 @@
 # How to take notes
 
-### Introduction
+## Introduction
 
 During TC39 meetings we aim to take detailed coherent notes about the proceedings, so that people who are interested in what happened in the last meeting can stay updated and involved in the process even if they cannot attend the meeting. Note taking is a great task for someone who is attending their first couple of TC39 meetings as it throws you straight into the action.
 
-### How the notes should be taken
+## How the notes should be taken
 
 It's important to capture what is being said, but it shouldn't be word for word. If someone is
 repeating the same sentiment a few times, do not worry about recording everything they are saying.
@@ -12,13 +12,14 @@ Try to focus on understanding what is being said, and getting the core of it. Th
 work editing the notes for the public! Also, do not worry about noting down where you didn't quite
 understand what was said, others will come along and correct as you go.
 
-### Location of notes
+## Location of notes
 
 Notes are kept in the tc39 etherpad for a given day. *The link to the etherpad should never be shared*. Given the pace of the conversation, notes can become quite messy, and might be incoherent. To give time for the speakers to clarify their intentions within a given conversation, notes are not released to the public for a couple of weeks, and for this reason the etherpad url is private. If you are a new note taker, do not hesitate to ask what the URL is for a given day.
 
 ## Layout of the notes
 
 The notes have the following structure:
+
 - The date
 - The attendee list
 - The notes for the agenda items
@@ -27,7 +28,7 @@ The notes have the following structure:
 
 At the top of the notes, you should see (or add) the date:
 
-```
+```md
 # <month> <day>, <year> Meeting Notes
 -----
 ```
@@ -36,23 +37,23 @@ For example `# March 22, 2018 Meeting Notes`
 
 ### The Attendee list
 
-
 People usually add themselves here, with their name first followed by the initials that will be used to identify them in the notes.
 
 Initials must be unique and should be stable across meetings. Otherwise we won't know who is who in the notes. Normally we use three letters: first letter of first name, first letter of last name, last letter of last name. Old-timers are grandfathered-in with two-letter initials.
 
 Usually they look like this (these are not real members):
 
-```
+```md
 Joseph Beuys (JB), Martin Kippenberger (MKR)
 ```
+
 With Joseph Beuys being an old-timer, and Martin Kippenberger being a new member
 
 ### The template
 
 The notes may or may not be initialised yet. If they are not, you can use this template:
 
-```
+```md
 -------------------------------------------------------------------------------------------------------------------------------------------
 Template:
 -------------------------------------------------------------------------------------------------------------------------------------------

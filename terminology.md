@@ -183,7 +183,7 @@ As a result, TC39 agreed to make an allowance in `RegExp.prototype.sticky` and s
 
 Each operation in JavaScript's meta-object protocol is a method in [Reflect](https://tc39.es/ecma262/#sec-reflect-object), and each of these is also a [Proxy](https://tc39.es/ecma262/#sec-proxy-objects) trap.
 
-In the issue [Implement meta-object trap(s) to make an object's [[Prototype]] immutable](https://github.com/tc39/ecma262/issues/538), there is discussion about adding another fundamental object operation to freeze the prototype of an object (without performing a full `preventExtensions`).
+In the issue [Implement meta-object trap(s) to make an object's [[Prototype]] immutable](<https://github.com/tc39/ecma262/issues/538>), there is discussion about adding another fundamental object operation to freeze the prototype of an object (without performing a full `preventExtensions`).
 The title of the issue includes "meta-object" as a reference to the meta-object protocol, as the addition of this feature would require new Proxy and Reflect APIs.
 
 ### References
@@ -452,11 +452,11 @@ Another example is whether an ECMAScript source file will be executed as a scrip
 
 [Import map proposal](https://github.com/WICG/import-maps#supplying-out-of-band-metadata-for-each-module)
 
-# Contributing to This Document
+## Contributing to This Document
 
 Here are some tips and ideas for adding a [new definition](#definition-template) to this document.
 
-## How to add definitions
+### How to add definitions
 
 When you add a definition, make sure that the definition applies to how TC39 uses it. Some other
 communities might have similar terms, but they mean a different thing in this case. Otherwise, feel
@@ -469,7 +469,7 @@ Anatomy of a good definition:
 - sources and resources where people can learn more
 - related definitions (optional)
 
-### Definition template
+#### Definition template
 
 ```md
 ## Term

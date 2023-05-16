@@ -6,12 +6,14 @@ Sometimes, issues in TC39 can be worked through more effectively by holding addi
 ## Do you really want to make a meeting?
 
 First, think, what problem are you trying to solve? Is a meeting the best way to solve the problem? Some other possible techniques which could avoid the overhead of an additional meeting:
+
 - GitHub issue/PR thread
 - Email thread
 - Agenda slot or breakout session in a TC39 meeting
 Remember that a meeting is not just taking your time to organize, but also the attendees' time, including the context switches involved (whereas asynchronous text-based communication can be scheduled by the participant). This is a heavy-weight tool to be used only when actually helpful.
 
 If these other modes of communication would work well, great, go for it. Here are some cases where a call might help in addition:
+
 - If there's a lot of back-and-forth to work through, to the point where written communications end up being much more time-consuming than a synchronous discussion
 - If you want to engage people who can't physically attend a TC39 meeting, and where it's impractical to use written communication (e.g., the volume is too high, and everyone is overwhelmed with GitHub notifications)
 - If there's a lot going on, and there's a need to coordinate on a high level among collaborators
@@ -21,6 +23,7 @@ OK, if you still think a meeting is the best way to work through your problem, s
 ## Scheduling a meeting
 
 [Doodle](https://doodle.com/) is a popular tool which lets you create a quick poll to choose times for meetings. Some considerations to using Doodle:
+
 - Don't include too many or too few options--too many is annoying to fill out, and too few might not lead to an acceptable answer. 5-9 is often a good middle point.
 - Don't include time/date combinations that you're not able to attend.
 - Hour-long meetings are typical; a half-hour is sometimes not long enough to get deep into the subject matter, and more than an hour is often exhausting for attendees. If you can't figure out how to fit the content into just an hour, think about what's really important and focus the agenda on that part.
@@ -34,6 +37,7 @@ Once the Doodle completes, create a calendar invite and agenda for the meeting a
 ## Writing an agenda
 
 The agenda forms an outline of the meeting and guides discussion. A typical agenda might include:
+
 - The title, date, and time of the meeting
 - Introductions of attendees (if they don't all know each other)
 - Background on the problem, motivation, where we are in solving it, etc
@@ -43,6 +47,7 @@ The agenda forms an outline of the meeting and guides discussion. A typical agen
   - Including whether the meeting should reoccur and at what frequency/for how long
 
 When writing the agenda, keep in mind:
+
 - Different attendees will have different kinds of technical and organizational background; to the extent possible, make the meeting understandable and interesting to each attendee.
 - Consider keeping a balance of technical and organizational content, based on the needs of the topic; sometimes staying 100% technical or 100% organizational risks feeling irrelevant or making it hard to set next steps.
 
@@ -51,6 +56,7 @@ When writing the agenda, keep in mind:
 ## Creating a calendar event
 
 When the Doodle poll completes, we have a time and date established for the meeting. To help attendees remember to attend, a calendar invite is helpful. [Google Calendar](https://calendar.google.com/) is popular for this purpose. Some tips on setting up a calendar invite:
+
 - Announce the meeting in the place where the Doodle was announced, and give people instructions to contact you for an invite.
 - Give the meeting a title and description which summarizes the purpose and links to the agenda/notes document.
 - Encourage invitees to edit the agenda, and to recommend other invitees, if relevant.
@@ -62,6 +68,7 @@ When the Doodle poll completes, we have a time and date established for the meet
 ## Running the meeting
 
 Some tips:
+
 - Wait a couple minutes at the start for attendees to arrive if necessary, but usually no more than 5 minutes.
 - Designate a note-take or note-takers, ideally worked out informally ahead of the meeting. This could be you if you're good at multi-tasking, or could be an attendee. Set clear guidelines for where the notes will be taken (e.g., inline in the agenda) and what style of notes are expected for the meeting (e.g., documenting carefully who said what (as in TC39 meetings), or just high-level points that are made).
 - Introduce yourself and the purpose of the meeting; encourage everyone to do introductions if needed.

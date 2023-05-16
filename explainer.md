@@ -6,6 +6,8 @@ This page you're on has some additional advice for how to write an explainer for
 
 The rest of this page can be used as a template, to put in your README.md. Not all sections need to be included: This is just a series of optional suggestions. In *italics* is the instructions, and in plain text is the example text. Most of what's here besides the headings should be replaced by your own content.
 
+<!-- markdownlint-disable MD025 -->
+
 ----
 
 # Frobnicator
@@ -36,7 +38,7 @@ frobnicate({});
 
 ## Description
 
-*Developer-friendly documentation for how to use the feature*
+*Developer-friendly documentation for how to use the feature.*
 
 `frobnicate(object)` returns the frobnication of object.
 
@@ -45,6 +47,7 @@ frobnicate({});
 *A comparison across various related programming languages and/or libraries. If this is the first sort of language or library to do this thing, explain why that is the case. If this is a standard library feature, a comparison across the JavaScript ecosystem would be good; if it's a syntax feature, that might not be practical, and comparisons may be limited to other programming languages.*
 
 These npm modules do something like the proposal:
+
 - [frobnicate-2018](https://www.npmjs.com/package/frobnicate-2018)
 - [B](link)
 - [C](link)
@@ -52,6 +55,7 @@ These npm modules do something like the proposal:
 frobnicate-2018 is weird because xyz, whereas B is weird because jkl, so we take a version of the approach in C, modified by qrs.
 
 The standard libraries of these programming languages includes related functionality:
+
 - APL (links to the relevant documentation for each of these)
 - PostScript
 - Self
@@ -72,9 +76,9 @@ You can try out an implementation of this proposal in the npm package [frobnicat
 
 *For Stage 3+ proposals, and occasionally earlier, it is helpful to link to the implementation status of full, end-to-end JavaScript engines. Filing these issues before Stage 3 is somewhat unnecessary, though, as it's not very actionable.*
 
-- [V8]() (*Links to tracking issues in each JS engine*)
-- [JSC]()
-- [SpiderMonkey]()
+- [V8](link) (*Links to tracking issues in each JS engine*)
+- [JSC](link)
+- [SpiderMonkey](link)
 - ...
 
 ## Q&A

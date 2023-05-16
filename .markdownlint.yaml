@@ -11,5 +11,6 @@ MD024:
   # Only check sibling headings
   siblings_only: true
 
-# MD025/single-title/single-h1 - Multiple top-level headings in the same document
-MD025: false
+# MD033/no-inline-html - Inline HTML
+MD033:
+  allowed_elements: ['kbd']
