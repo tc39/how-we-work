@@ -43,17 +43,17 @@ Every year, the chair group organizes meeting locations for the following year. 
 
 The chair group would like help in all aspects of meeting planning. Contact Daniel Ehrenberg (<littledan@igalia.com>) if you're interested in getting involved.
 
-#### Administrating chat channels
+#### Administrating chat rooms
 
-The chairs are the administrators of TC39's [chat channels](./matrix-guide.md).
+The chairs are the administrators of TC39's [chat rooms](./matrix-guide.md).
 They are responsible for:
 
 - Giving delegates the appropriate permission levels when they are onboarded and offboarded.
-- Moderating the channels, for example blocking spammers and trolls when necessary.
+- Moderating the rooms, for example blocking spammers and trolls when necessary.
 
-The Code of Conduct committee (see below) also has the power to moderate the chat channels as part of its responsibility to respond to conduct reports.
+The Code of Conduct committee (see below) also has the power to moderate the chat rooms as part of its responsibility to respond to conduct reports.
 
-Moderation actions include muting a user, kicking them from a channel, banning them permanently, and removing individual messages.
+Moderation actions include muting a user, kicking them from a room, banning them permanently, and removing individual messages.
 
 ## ECMA-262 editor group
 

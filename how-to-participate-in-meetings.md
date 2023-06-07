@@ -37,8 +37,8 @@ definitions or something similar!
 
 _How to use_:
 
-We use the #tc39-delegates channel on Matrix during the meetings. This channel
-is open to delegates. The public channel #tc39-general is useful for outside
+We use the #tc39-delegates room on Matrix during the meetings. This room
+is open to delegates. The public room #tc39-general is useful for outside
 communication that is _not_ during meetings. You can find instructions for
 joining [here](matrix-guide.md).
 
@@ -48,7 +48,7 @@ _Purpose_: To organize people's responses to a topic, and make sure everyone is 
 
 _How to use_:
 
-When the meeting starts, a link to the tcq meeting will be added to the delegates Matrix channel topic.
+When the meeting starts, a link to the tcq meeting will be added to the delegates Matrix room topic.
 At the top you will see "Agenda" and "Queue".
 
 These links (and more helpful information) are also available on the pinned Reflector issue for the given plenary.
@@ -108,7 +108,7 @@ _How to use_:
 
 **Please remember: Never share this link publicly.**
 
-For every day of the meeting we have a new Google Docs URL that is shared in the delegates Matrix channel.
+For every day of the meeting we have a new Google Docs URL that is shared in the delegates Matrix room.
 
 Everyone is encouraged to help taking notes, and this is a good way to get involved if you are new.
 For more information, please take a look at our [how to be a note taker](./how-to-take-notes.md) documentation.
@@ -121,7 +121,7 @@ _How to use_:
 
 We use Jitsi (hosted on [8x8](https://8x8.vc)) to facilitate remote attendance, unless another solution is deemed a better
 fit for the situation. The link will be posted on a meeting by meeting basis. To attend, use the link posted at the top of
-the delegates Matrix channel.
+the delegates Matrix room.
 
 ## Tips
 

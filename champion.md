@@ -76,7 +76,7 @@ Acceptance signifies:
 
 Leading up to Stage 1,
 
-- **Identify a champion (or champion group) in committee**. Unfortunately, TC39 doesn't have a comprehensive way for non-committee members to find committee mentors/champions for their proposals, but existing forums include [TC39 discourse forum](https://es.discourse.group) and [es-discuss mailing list](https://esdiscuss.org); another is the Matrix channel #tc39-general ([instructions](matrix-guide.md)). Many TC39 delegates can be found on Twitter as well.
+- **Identify a champion (or champion group) in committee**. Unfortunately, TC39 doesn't have a comprehensive way for non-committee members to find committee mentors/champions for their proposals, but existing forums include [TC39 discourse forum](https://es.discourse.group) and [es-discuss mailing list](https://esdiscuss.org); another is the Matrix room #tc39-general ([instructions](matrix-guide.md)). Many TC39 delegates can be found on Twitter as well.
 - **Write an explainer**. See [explainer.md](https://github.com/tc39/how-we-work/blob/master/explainer.md) for advice on how to write the introductory document to fulfill the rest of the Stage 1 requirements.
 - **Prepare a presentation** to get the committee thinking about what they want to do in this design area, and if you have specific ideas, make the case for moving in that direction. See [presenting.md](https://github.com/tc39/how-we-work/blob/master/presenting.md) for advice about presentations.
 

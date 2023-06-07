@@ -16,7 +16,7 @@
 
         Matrix is a federated service. Unlike IRC, you don't necessarily need to register on each server you want to talk on, you can register on any server you trust/like and talk everywhere else.
 
-        We recommend using the officially maintained matrix.org homeserver, unless you have a reason to do otherwise. Matrix.org is the default on most clients. This is the server our channels are hosted on and a majority of delegates are registered to.
+        We recommend using the officially maintained matrix.org homeserver, unless you have a reason to do otherwise. Matrix.org is the default on most clients. This is the server our rooms are hosted on and a majority of delegates are registered to.
 
         Other servers are also available. For instance, Mozilla and Igalia delegates tend to use their own corporate homeservers. If you want to explore other servers, you can find many to choose from in the following lists:
         - <https://www.hello-matrix.net/public_servers.php>
@@ -32,18 +32,21 @@
 
         Check the documentation for your preferred client. For most clients including Element, there should be a link to do this on the landing page when you're not already logged into another account.
 
-    1. Join the official TC39 channels
+    1. Join the official TC39 rooms
 
-        You can click through the following links to join the various official TC39 channels in your preferred client. They all correspond to the similarly titled channels on Freenode.
+        > **Note:**
+        > **The best way to find and join TC39 rooms is to join the TC39 space: [#tc39-space]**
 
-        1. [#tc39-general] - public conversation, open to community members
-        1. [#tc39-delegates] - publicly viewable conversation, participation restricted to delegates
-        1. [#temporaldeadzone] - off-topic conversations and backchanneling. Technically public, but intended for delegates
-        1. [#tc39-implementers] - space for discussions regarding maintenance and development of the JavaScript engines
-        1. [#tc39-ecma402] - space for discussion regarding maintenance and development of the `Intl` spec
-        1. [#tc39-beginners] - space for clarifying questions on terminology, process, history, etc
-        1. [#tc39-inclusion] - an informal working group with the goal of making TC39 a more inclusive committee in which to participate
-        1. [#tc39-website] - for development of [tc39.es](https://tc39.es)
+        Non-exhaustive list of official TC39 rooms:
+
+        - [#tc39-general] - public conversation, open to community members
+        - [#tc39-delegates] - publicly viewable conversation, participation restricted to delegates
+        - [#tc39-implementers] - space for discussions regarding maintenance and development of the JavaScript engines
+        - [#tc39-ecma402] - space for discussion regarding maintenance and development of the `Intl` spec
+        - [#tc39-beginners] - space for clarifying questions on terminology, process, history, etc
+        - [#tc39-inclusion] - an informal working group with the goal of making TC39 a more inclusive committee in which to participate
+        - [#tc39-website] - for development of [tc39.es](https://tc39.es)
+        - [#temporaldeadzone] - off-topic conversations and backchanneling
 
     1. Check that you have the correct permissions
 
@@ -58,7 +61,7 @@
 
 (These "how to"s apply if you are using the Element client, but other Matrix clients have similar ways to accomplish the same thing.)
 
-### ...see who is in the channel?
+### ...see who is in the room?
 
 Click on "Room Info" (the 🛈 circled-**i** icon in the top right hand corner). Note that not all homeservers expose online/offline info to everyone, so someone may be online even if they are marked as offline.
 
@@ -91,7 +94,7 @@ You can edit your own messages if you make a typo. To do this, hover over the me
 
 As a shortcut, to edit your most recent message, you can press the up arrow <kbd>↑</kbd>.
 
-You can also remove your message if you post it by mistake (for example, in the wrong channel). To do this, hover over the message and click the **…** (ellipsis), then click "Remove". A "Message deleted" will show up in its place.
+You can also remove your message if you post it by mistake (for example, in the wrong room). To do this, hover over the message and click the **…** (ellipsis), then click "Remove". A "Message deleted" will show up in its place.
 
 ### ...mute someone in case of toxic behavior?
 
@@ -110,19 +113,7 @@ Suggested settings to change:
 - Preferences -> Timeline -> Show chat effects (animations when receiving e.g. confetti) -> off
 - Notifications -> Enable email notifications -> off \[unless you want them\]
 
-[Element]: https://element.io/
-[list of clients]: https://matrix.org/clients/
-
-[#tc39-general]: https://matrix.to/#/#tc39-general:matrix.org
-[#tc39-delegates]: https://matrix.to/#/#tc39-delegates:matrix.org
-[#temporaldeadzone]: https://matrix.to/#/#temporaldeadzone:matrix.org
-[#tc39-implementers]: https://matrix.to/#/#tc39-implementers:matrix.org
-[#tc39-ecma402]: https://matrix.to/#/#tc39-ecma402:matrix.org
-[#tc39-beginners]: https://matrix.to/#/#tc39-beginners:matrix.org
-[#tc39-inclusion]: https://matrix.to/#/#tc39-inclusion:matrix.org
-[#tc39-website]: https://matrix.to/#/#tc39-website:matrix.org
-
-## Creating a new channel on Matrix for TC39 use
+## Creating a new room on Matrix for TC39 use
 
 (This assumes that you're using the Element client)
 
@@ -137,5 +128,18 @@ Suggested settings to change:
 1. At the bottom of General, enable URL previews by default for participants in this room
 1. In Security & Privacy, set "Who can access this room?" to "Anyone who knows the room's link, including guests". Also set "Who can read history?" to "Anyone".
 1. In Advanced, copy the internal room ID. Go back to General, and add a link to the logs in the room topic, like so: "Public logs at <https://view.matrix.org/room/!WgJwmjBNZEXhJnXHXw:matrix.org/>".
-1. Ask one of the chairs to add the room to the [TC39 space](https://app.element.io/#/room/!hmsRHUEXriRovkvcin:matrix.org).
-1. Once the room is in the TC39 space it will automatically get logged on <https://matrixlogs.bakkot.com/>. You can change the topic to refer to the relevant channel there instead.
+1. Ask one of the chairs to add the room to the [#tc39-space].
+1. Once the room is in the TC39 space it will automatically get logged on <https://matrixlogs.bakkot.com/>. You can change the topic to refer to the relevant room there instead.
+
+[Element]: https://element.io/
+[list of clients]: https://matrix.org/clients/
+
+[#tc39-general]: https://matrix.to/#/#tc39-general:matrix.org
+[#tc39-delegates]: https://matrix.to/#/#tc39-delegates:matrix.org
+[#temporaldeadzone]: https://matrix.to/#/#temporaldeadzone:matrix.org
+[#tc39-implementers]: https://matrix.to/#/#tc39-implementers:matrix.org
+[#tc39-ecma402]: https://matrix.to/#/#tc39-ecma402:matrix.org
+[#tc39-beginners]: https://matrix.to/#/#tc39-beginners:matrix.org
+[#tc39-inclusion]: https://matrix.to/#/#tc39-inclusion:matrix.org
+[#tc39-website]: https://matrix.to/#/#tc39-website:matrix.org
+[#tc39-space]: https://matrix.to/#/#tc39-space:matrix.org
