@@ -2,15 +2,17 @@
 
 This document describes some of the conventions that we try to follow when designing new features. Sometimes old features don't follow these; that's ok, new features generally should anyway.
 
-None of these rules are inviolable, but you should have a good reason for any particular feature to deviate.
+None of these rules are inviolable, but you should have a good reason for any particular feature to deviate (for example, because the feature is a close cousin of an existing feature, like `findLastIndex` vs `findIndex`).
 
 This list is very far from being complete.
 
 ## Number-taking inputs should reject `NaN`
 
-In any place which expects a number, receiving `NaN` - or anything which coerces to `NaN`, if coercion is performed - should throw a `RangeError`.
+In any built-in function which expects a number (including as an option in an options bag), receiving `NaN` or anything which results in `NaN` after coercion is performed (such as by passing through `ToNumeric`, `ToPrimitive`, `ToNumber`, etc.) should cause a `RangeError` to be thrown.
 
-Note that some abstract operations, like [ToIntegerOrInfinity](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tointegerorinfinity), [ToIndex](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toindex), etc, will coerce `NaN` to 0. So you'll need to coerce inputs before calling those operations, check for `NaN`, and then pass the coerced result to the operation.
+Note that some abstract operations, like [ToIntegerOrInfinity](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tointegerorinfinity), [ToIndex](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toindex), etc, will coerce inputs to Number and then further coerce the result, sometimes including mapping `NaN` to non-`NaN` values. So you'll need to coerce inputs to a Number using `ToNumber` before calling those operations, check for `NaN`, and then pass the resulting Number to the operation.
+
+An exception to this rule is functions which take optional numeric arguments: in that case, receiving `undefined` should be treated as the argument not being passed.
 
 NB: This convention is new as of 2023, and most earlier parts of the language do not follow it.
 
