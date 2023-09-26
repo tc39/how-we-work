@@ -490,6 +490,24 @@ Some real-world examples:
 - [tc39/proposal-iterator-helpers: Web incompatibility discovered in theathletic.com](https://github.com/tc39/proposal-iterator-helpers/issues/286)
 - [Tracking issue for getting 3rd party packages more SES friendly](https://github.com/endojs/endo/issues/576) (some of the reports are related)
 
+## Hierarchy of Constituencies
+
+### Definition
+
+The idea that when differing perspectives come into conflict, our decisions ought to prioritize them in the following (descending) order:
+
+1. End users
+2. JavaScript authors
+3. JavaScript engine implementers
+4. ECMAScript specification authors
+5. Theoretical purity
+
+While this is not an explicitly adopted goal of TC39, it is a common standards concept which delegates often refer to.
+
+### References
+
+[HTML Design Principles](https://www.w3.org/TR/html-design-principles/#priority-of-constituencies)
+
 ## Contributing to This Document
 
 Here are some tips and ideas for adding a [new definition](#definition-template) to this document.
