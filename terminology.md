@@ -494,7 +494,8 @@ Some real-world examples:
 
 ### Definition
 
-The idea that when differing perspectives come into conflict, our decisions ought to prioritize them in the following order:
+The idea that when differing perspectives come into conflict, our decisions ought to prioritize them in the following (descending) order:
+
 1. End users
 2. JavaScript authors
 3. JavaScript engine implementers
