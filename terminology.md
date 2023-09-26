@@ -496,11 +496,13 @@ Some real-world examples:
 
 The idea that when differing perspectives come into conflict, our decisions ought to prioritize them in the following (descending) order:
 
-1. End users
+1. End users (tool and website users)
 2. JavaScript authors
 3. JavaScript engine implementers
 4. ECMAScript specification authors
 5. Theoretical purity
+
+This ordering is not absolute; a small cost or benefit to a higher-priority group can be overridden by a sufficiently large cost or benefit to a lower-priority group.
 
 While this is not an explicitly adopted goal of TC39, it is a common standards concept which delegates often refer to.
 
