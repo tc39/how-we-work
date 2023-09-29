@@ -56,7 +56,7 @@ We aim to be accessible so proximity to an international airport helps.
 
 - It is essential that guests can gain access to the meeting without being forced to sign an NDA.
 - Any requirements for building access must be communicated to the Chairs as early as possible.
-  - Requiring Photo ID is reasonable and should be advertised at least one month before the meeting. 
+  - Requiring Photo ID is reasonable and should be advertised at least one month before the meeting.
 
 ### The Meeting Room
 
