@@ -8,7 +8,7 @@ This list is very far from being complete.
 
 ## Number-taking inputs should reject `NaN`
 
-In any built-in function which expects a number (including as an option in an options bag), receiving `NaN` or anything which results in `NaN` after coercion is performed (such as by passing through `ToNumeric`, `ToPrimitive`, `ToNumber`, etc.) should cause a `RangeError` to be thrown.
+In any built-in function which expects a non-NaN number (including as an option in an options bag), receiving `NaN` or anything which results in `NaN` after coercion is performed (such as by passing through `ToNumeric`, `ToPrimitive`, `ToNumber`, etc.) should cause a `RangeError` to be thrown.
 
 Note that some abstract operations, like [ToIntegerOrInfinity](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tointegerorinfinity), [ToIndex](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toindex), etc, will coerce inputs to Number and then further coerce the result, sometimes including mapping `NaN` to non-`NaN` values. So you'll need to coerce inputs to a Number using `ToNumber` before calling those operations, check for `NaN`, and then pass the resulting Number to the operation.
 
