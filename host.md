@@ -14,7 +14,7 @@ The big ticket items you need budget for, and access to, are:
 - A room that can seat ~30 people for three days that has a large display to show slides and the video call.
 - High quality internet, speakers, and microphones for the video call
 - Catering for breakfast and lunch over the three days
-- Budget for one social dinner for all attendees
+- One social dinner outing for all attendees
 
 ### How do I volunteer to host a TC39 meeting?
 
