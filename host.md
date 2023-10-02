@@ -129,10 +129,10 @@ If internet connectivity were to fail, the meeting would need to be suspended.
 
 This is the general timeline of events leading up to the meeting.
 
-1. Reach out to the chairs for early discussions.
-1. Book the meeting room and confirm you have budget secured.
+1. Potential hosts reach out to the chairs for early discussions.
+1. The host books the meeting room and confirm you have budget secured.
 1. The chairs will announce the meeting, normally as part of the annual schedule.
-1. 3-4 months before the meeting... the Chairs will conduct an Interest Survey to determine go/no-go.
-1. 3 months before the meeting... pass all meeting logistics to the chairs so they can update the TC39 Reflector meeting post, e.g. address, where to park, how to get in, contact details, entrance criteria, etc.
-1. 2 weeks before the meeting... the Chairs will relay the registered attendee list including dietary requirements so that you know how many people to expect. Send the contacts to your registration desk so credentials can be printed ahead of the meeting.
-1. On the meeting day... be prepared to give a short presentation on the facilities, e.g. where to find the bathroom, how to use the WiFi, etc.
+1. 3-4 months before the meeting the Chairs will conduct an Interest Survey to determine go/no-go.
+1. 3 months before the meeting the host should pass all meeting logistics to the chairs so they can update the TC39 Reflector meeting post, e.g. address, where to park, how to get in, contact details, entrance criteria, etc.
+1. 2 weeks before the meeting the Chairs will relay the registered attendee list including dietary requirements to the host so that they know how many people to expect. Send the contacts to your registration desk so credentials can be printed ahead of the meeting.
+1. On the meeting day the host should be prepared to give a short presentation on the facilities, e.g. where to find the bathroom, how to use the WiFi, etc.
