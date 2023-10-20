@@ -57,6 +57,8 @@ We aim to be accessible so proximity to an international airport helps.
 - It is essential that guests can gain access to the meeting without being forced to sign an NDA.
 - Any requirements for building access must be communicated to the Chairs as early as possible.
   - Requiring Photo ID is reasonable and should be advertised at least one month before the meeting.
+- _Ideally_ delegate access would be "self-serve" and not be blocked on waiting for someone from the host organisation to meet them at reception to badge them in.
+  - That's not a requirement though because in practice many companies have this as a security protocol.
 
 ### The Meeting Room
 
