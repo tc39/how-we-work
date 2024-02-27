@@ -55,7 +55,7 @@ Delegates appreciate venues that are close to accomodation and public transport.
 
 ### Building Access
 
-- It is **essential** that guests can gain access to the meeting without being forced to sign an NDA.
+- It is **essential** that guests can gain access to the meeting without being forced or asked to sign an NDA.
 - Any requirements for building access must be communicated to the Chairs as early as possible.
   - Requiring Photo ID is reasonable and should be advertised at least one month before the meeting.
 - Ideally the check-in area should be close to the meeting room and the process should not involve needing to block on waiting for a host chaperone.
