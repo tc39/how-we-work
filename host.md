@@ -99,7 +99,7 @@ If internet connectivity were to fail, the meeting would need to be suspended.
 
 - Tea and coffee should be available throughout the day.
 - Breakfast and Lunch must be provided for all attendees.
-- Breakfast is usually from 09:15.
+- Breakfast usually starts at 09:15.
   - Most people will arrive around 09:30.
   - Food does not need to be cleared when the meeting starts - it is fine to leave food out for latecomers.
 - Lunch is usually at 12:00.
