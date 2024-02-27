@@ -84,7 +84,7 @@ If internet connectivity were to fail, the meeting would need to be suspended.
 - There must be at least one large main display visible to everyone for slides, etc.
   - Ideally there would be two large displays: one for slides, one for showing video for remote participants.
 - There must be at least 8 individual high-quality low-latency microphones and they must have a mute function.
-  - Ideally there would be a ratio of one microphone for every three attendees.
+  - Ideally there would be a ratio of at least one handheld microphone for every three attendees.
   - Bluetooth is discouraged.
   - Ideally each seat would have a dedicated wired podium-style microphone but this is not essential.
   - Hand-held microphones are preferred to lapel microphones as they are easier to share and pass around.
