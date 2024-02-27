@@ -11,7 +11,7 @@ This document describes how to host an in-person meeting.
 Full details are below.
 The big ticket items you need budget for, and access to, are:
 
-- A room that can seat ~30 people for three days that has a large display to show slides and the video call.
+- A room that can seat ~35 people for three days that has a large display to show slides and the video call.
 - High quality internet, speakers, and microphones for the video call
 - Catering for breakfast and lunch over the three days
 - One social dinner outing for all attendees
@@ -37,7 +37,7 @@ A standard schedule is:
 - 10:00 Formal meeting begins
 - 12:00 Lunch hour begins
 - 13:00 Formal meeting resumes
-- 14:50 A 20-min break with snacks
+- 14:50 A 20-min mid-afternoon break with snacks
 - 15:10 Formal meeting resumes
 - 17:00 Formal meeting ends
 - 18:00 All attendees have exited
@@ -51,17 +51,19 @@ The Chair Group measure this using Interest Surveys that happen 3-4 months ahead
 
 We generally aim to cover the three geographies over a year: AMER, APAC, EMEA.
 We aim to be accessible so proximity to an international airport helps.
+Delegates appreciate venues that are close to accomodation and public transport.
 
 ### Building Access
 
-- It is essential that guests can gain access to the meeting without being forced to sign an NDA.
+- It is **essential** that guests can gain access to the meeting without being forced or asked to sign an NDA.
 - Any requirements for building access must be communicated to the Chairs as early as possible.
   - Requiring Photo ID is reasonable and should be advertised at least one month before the meeting.
+- Ideally the check-in area should be close to the meeting room and the process should not involve needing to block on waiting for a host chaperone.
 
 ### The Meeting Room
 
 - The meeting room must be for the exclusive use of TC39 over the three days and be reasonably quiet.
-- There must be seating with desks for at least 30 people.
+- There must be seating with desks for at least 35 people.
 - The ideal seating layout is a three-sided U-shaped arrangement where everyone can see each other and the main display.
 Other arrangements, such as lecture-style rows of seats are possible but discouraged.
 - Power must be available at all seats.
@@ -82,8 +84,10 @@ If internet connectivity were to fail, the meeting would need to be suspended.
 - There must be at least one large main display visible to everyone for slides, etc.
   - Ideally there would be two large displays: one for slides, one for showing video for remote participants.
 - There must be at least 8 individual high-quality low-latency microphones and they must have a mute function.
+  - Ideally there would be a ratio of at least one handheld microphone for every three attendees.
   - Bluetooth is discouraged.
   - Ideally each seat would have a dedicated wired podium-style microphone but this is not essential.
+  - Hand-held microphones are preferred to lapel microphones as they are easier to share and pass around.
   - Ambient whole-room microphones are not acceptable because they capture side-conversations and make it hard for remote participants to hear clearly.
 - There must be amplification of in-room speakers when they use the microphone.
 - The host is encouraged to provide video conferencing using Zoom or Google Meet.
@@ -95,7 +99,7 @@ If internet connectivity were to fail, the meeting would need to be suspended.
 
 - Tea and coffee should be available throughout the day.
 - Breakfast and Lunch must be provided for all attendees.
-- Breakfast is usually from 09:00.
+- Breakfast usually starts at 09:15.
   - Most people will arrive around 09:30.
   - Food does not need to be cleared when the meeting starts - it is fine to leave food out for latecomers.
 - Lunch is usually at 12:00.
