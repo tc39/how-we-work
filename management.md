@@ -6,7 +6,7 @@ Although TC39 is a flat, consensus-based group, there are some particular organi
 
 ### Who is involved
 
-TC39 co-chairs: Aki Braun (@gesa), Brian Terlson (@bterlson), Yulia Startsev (@codehag)
+TC39 co-chairs: Chris de Almeida ([@ctcpip](https://github.com/ctcpip)), Rob Palmer ([@robpalme](https://github.com/robpalme)), Ujjwal Sharma ([@ryzokuken](https://github.com/ryzokuken))
 
 #### How the chair group is chosen
 
