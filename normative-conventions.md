@@ -6,7 +6,6 @@ None of these rules are inviolable, but you should have a good reason for any pa
 
 This list is very far from being complete.
 
-
 ## Avoid coercing arguments to types other than Boolean
 
 If an argument to a built-in function is expected to be of a particular type other than Boolean, the function should throw a `TypeError` if called with a value not of that type, rather than performing coercion. This also applies to values read from options bags.
@@ -14,7 +13,6 @@ If an argument to a built-in function is expected to be of a particular type oth
 For example, if a function takes a string and is called with a Number or an object, it should throw a `TypeError` rather than attempting to coerce those values to strings.
 
 NB: This convention is new as of 2024, and most earlier parts of the language do not follow it.
-
 
 ## When required arguments are missing, throw
 
@@ -24,13 +22,11 @@ This does not apply when there is a default value for the argument in question, 
 
 NB: This convention is new as of 2024, and most earlier parts of the language do not follow it.
 
-
 ## Number-taking inputs should reject `NaN`
 
 If an argument to a built-in function is expected to be a non-`NaN` Number (including as an option in an options bag), receiving `NaN` should cause a `RangeError` to be thrown.
 
 NB: This convention is new as of 2024, and most earlier parts of the language do not follow it.
-
 
 ## Integral-Number-taking inputs should reject non-integal arguments
 
