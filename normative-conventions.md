@@ -6,32 +6,38 @@ None of these rules are inviolable, but you should have a good reason for any pa
 
 This list is very far from being complete.
 
+
+## Avoid coercing arguments to types other than Boolean
+
+If an argument to a built-in function is expected to be of a particular type other than Boolean, the function should throw a `TypeError` if called with a value not of that type, rather than performing coercion. This also applies to values read from options bags.
+
+For example, if a function takes a string and is called with a Number or an object, it should throw a `TypeError` rather than attempting to coerce those values to strings.
+
+NB: This convention is new as of 2024, and most earlier parts of the language do not follow it.
+
+
+## When required arguments are missing, throw
+
+In most cases, a built-in function being called with fewer arguments than expected is treated the same as being called with `undefined` for the remaining arguments. So per the above rule, when a built-in function is called with fewer arguments than expected it should throw a `TypeError` unless `undefined` is one of the types expected in that position. This also applies to values read from options bags.
+
+This does not apply when there is a default value for the argument in question, since in that case the argument is not required.
+
+NB: This convention is new as of 2024, and most earlier parts of the language do not follow it.
+
+
 ## Number-taking inputs should reject `NaN`
 
-In any built-in function which expects a non-NaN number (including as an option in an options bag), receiving `NaN` or anything which results in `NaN` after coercion is performed (such as by passing through `ToNumeric`, `ToPrimitive`, `ToNumber`, etc.) should cause a `RangeError` to be thrown.
+If an argument to a built-in function is expected to be a non-`NaN` Number (including as an option in an options bag), receiving `NaN` should cause a `RangeError` to be thrown.
 
-Note that some abstract operations, like [ToIntegerOrInfinity](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tointegerorinfinity), [ToIndex](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toindex), etc, will coerce inputs to Number and then further coerce the result, sometimes including mapping `NaN` to non-`NaN` values. So you'll need to coerce inputs to a Number using `ToNumber` before calling those operations, check for `NaN`, and then pass the resulting Number to the operation.
+NB: This convention is new as of 2024, and most earlier parts of the language do not follow it.
 
-An exception to this rule is functions which take optional numeric arguments: in that case, receiving `undefined` should be treated as the argument not being passed.
 
-NB: This convention is new as of 2023, and most earlier parts of the language do not follow it.
+## Integral-Number-taking inputs should reject non-integal arguments
 
-## Integer-taking inputs should reject non-integral numbers
-
-In any built-in function which expects an integral number (including as an option in an options bag), receiving a non-integral number or anything which results in a non-integral number after coercion is performed (such as by passing through `ToNumeric`, `ToPrimitive`, `ToNumber`, etc.) should cause a `RangeError` to be thrown.
-
-Note that some abstract operations, like [ToIntegerOrInfinity](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tointegerorinfinity), [ToIndex](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toindex), etc, will coerce inputs to Number and then further round the result. So you'll need to coerce inputs to a Number using `ToNumber` before calling those operations and then check for non-integral values, rather than using those operations.
+If an argument to a built-in function is expected to be a Number (including as an option in an options bag), receiving a non-integral Number should cause a `RangeError` to be thrown.
 
 For the purposes of this guideline `-0` is considered to be an integral number (specifically, 0).
 
 Some APIs intentionally round non-integral inputs, for example as an attempt to provide a best-effort behavior, rather than because the API fundamentally only makes sense with integers. This guideline does not apply to those cases.
 
-NB: This convention is new as of 2023, and most earlier parts of the language do not follow it.
-
-## If an argument is expected, not getting it or getting `undefined` should throw a `TypeError`
-
-When there is a required argument, finding that it is explicitly `undefined` or is missing should throw a `TypeError` instead of attempting to coerce `undefined` to the expected type. This extends to values looked up in options bags, etc. This does not apply when there is a default value for the argument, since in that case it is not required.
-
-This convention applies only to `undefined` specifically, and says nothing about the appropriate handling of values like `null` and `document.all`.
-
-NB: This convention is new as of 2023, and most earlier parts of the language do not follow it.
+NB: This convention is new as of 2024, and most earlier parts of the language do not follow it.
