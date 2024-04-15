@@ -28,7 +28,7 @@ If an argument to a built-in function is expected to be a non-`NaN` Number (incl
 
 NB: This convention is new as of 2024, and most earlier parts of the language do not follow it.
 
-## Integral-Number-taking inputs should reject non-integal arguments
+## Integral-Number-taking inputs should reject non-integral arguments
 
 If an argument to a built-in function is expected to be a Number (including as an option in an options bag), receiving a non-integral Number should cause a `RangeError` to be thrown.
 
