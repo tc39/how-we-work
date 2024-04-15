@@ -10,7 +10,7 @@ This list is very far from being complete.
 
 If an argument to a built-in function is expected to be of a particular type other than Boolean, the function should throw a `TypeError` if called with a value not of that type, rather than performing coercion. This also applies to values read from options bags.
 
-For example, if a function takes a string and is called with a Number or an object, it should throw a `TypeError` rather than attempting to coerce those values to strings.
+For example, if a function takes a string and is called with a Number or an object, it should throw a `TypeError` rather than attempting to coerce those values to strings. Similarly, if a function takes an object and is called with a string, it should throw rather than e.g. looking up properties on the string.
 
 NB: This convention is new as of 2024, and most earlier parts of the language do not follow it.
 
