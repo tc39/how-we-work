@@ -39,7 +39,7 @@ The chair group is joined by facilitators, elected yearly, who help run the meet
 - Help develop communication tools like [TCQ](https://github.com/bterlson/tcq) -- get in contact with [Brian Terlson](https://github.com/bterlson) for next steps
 - If you want to get involved in meeting organization further, contact a member of the chair group.
 
-#### Organizing in-person meeting locations
+#### Organizing hybrid meeting locations
 
 Every year, the chair group organizes meeting locations for the following year. Meetings are organized within the following guidelines:
 
@@ -51,7 +51,7 @@ Every year, the chair group organizes meeting locations for the following year. 
 
 The chair group would like help in all aspects of meeting planning. Contact the [chair group](#chair-group) if you're interested in getting involved.
 
-See also: [How to Host an In-Person TC39 Meeting](./host.md)
+See also: [How to Host a Hybrid TC39 Meeting](./host.md)
 
 #### Coordinating with Ecma
 
