@@ -76,6 +76,7 @@ Liaise with other bodies including but not limited to:
 - Linux Foundation
   - OpenJS Foundation
   - OpenSSF
+- Unicode Consortium
 - W3C
 - WHATWG
 
