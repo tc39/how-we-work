@@ -6,42 +6,96 @@ Although TC39 is a flat, consensus-based group, there are some particular organi
 
 ### Who is involved
 
-TC39 co-chairs: Aki Braun (@gesa), Brian Terlson (@bterlson), Yulia Startsev (@codehag)
+TC39 co-chairs: Chris de Almeida ([@ctcpip](https://github.com/ctcpip)), Rob Palmer ([@robpalme](https://github.com/robpalme)), Ujjwal Sharma ([@ryzokuken](https://github.com/ryzokuken))
 
 #### How the chair group is chosen
 
-Each year, the chair group is elected by the committee delegates towards the end of each year. The process is historically by consensus, but there may be a formal vote. If you are interested in being in the chair group, propose yourself for the role by the September meeting.
+The chair group is elected by the committee delegates towards the end of each year. The process is historically by consensus, but there may be a formal vote. If you are interested in being in the chair group, propose yourself for the role by the September meeting.
 
 See the [Ecma Rules](https://www.ecma-international.org/memento/EcmaRules.htm), section 6.2 for formal rules regarding the chair group.
 
-### What the group does
+### What the chair group does
 
 #### Running meetings
 
-The chair group runs the actual TC39 meetings. This involves
+The chair group runs the actual TC39 meetings. This involves:
 
-- Finalizing the agenda and arranging items during the meeting to meet committee requirements
+- Finalizing the agenda and scheduling topics according to priority and constraints
+- Rearranging topics during the meeting as needed
 - Administering the TCQ queue tool and calling on the next person to speak
-- Maintaining committee decorum, including starting meetings on time, administering the timebox, and setting breaks
+- Maintaining committee decorum, including starting meetings on time and adhering to timeboxes
+- Calling for consensus and noting dissent
+- Supervising [note-taking](./how-to-take-notes.md), topic conclusions, and summaries
+
+##### Facilitators
+
+The chair group is joined by facilitators, elected yearly, who help run the meetings as necessary. Facilitators: Justin Ridgewell ([@jridgewell](https://github.com/jridgewell)), Yulia Startsev ([@codehag](https://github.com/codehag)), Brian Terlson ([@bterlson](https://github.com/bterlson))
 
 ##### How to help
 
-- Make your agenda modifications, including slide links, schedule constraints, and priority ordering, ahead of the start of the TC39 meeting.
-- Help develop communication tools like TCQ -- get in contact with Brian Terlson for next steps
-- When contributing to committee discussion, use the queue tool to get in line to speak. Other interruptions should be limited strictly to clarifying questions.
+- Make your agenda modifications, including slide links, schedule constraints, and priority ordering, ahead of agenda deadline of the TC39 meeting.
+- When contributing to committee discussion, use the TCQ queue tool to get in line to speak. Interruptions should be limited strictly to points of order.
+- Help with [note-taking](./how-to-take-notes.md)
+- Help develop communication tools like [TCQ](https://github.com/bterlson/tcq) -- get in contact with [Brian Terlson](https://github.com/bterlson) for next steps
 - If you want to get involved in meeting organization further, contact a member of the chair group.
 
-#### Organizing meeting locations
+#### Organizing hybrid meeting locations
 
 Every year, the chair group organizes meeting locations for the following year. Meetings are organized within the following guidelines:
 
 - Dates: Meetings are generally held Tuesday-Thursday of the last week of odd-numbered months. On top of that formula, adjustments can be made to avoid holidays and conflicting events which are important to delegates, and to accommodate the requirements of meeting hosts. It is best to publish the meeting dates internally to committee members as soon as possible, to allow delegates to plan around the dates.
-- Locations: TC39 traditionally holds some meetings each year in some in the western North America (including in the SF Bay Area and Seattle), eastern North America, and one meeting in Europe. Meeting location preferences of delegates should be reassessed each year to take into account changes in committee composition.
+- Locations: TC39 traditionally holds some meetings each year in North America, Europe, and Asia. Meeting location preferences of delegates are reassessed each year to take into account changes in committee composition.
 - Hosts: TC39 meetings are often hosted at member organization offices, but there is no restriction for this. The chair group finds meeting hosts by asking around in committee for who wants to host a meeting, within date and location requirements.
 
 ##### How to help
 
-The chair group would like help in all aspects of meeting planning. Contact Daniel Ehrenberg (<littledan@igalia.com>) if you're interested in getting involved.
+The chair group would like help in all aspects of meeting planning. Contact the [chair group](#chair-group) if you're interested in getting involved.
+
+See also: [How to Host a Hybrid TC39 Meeting](./host.md)
+
+#### Coordinating with Ecma
+
+- Preparing the chairs' report to Ecma
+- Representing the committee at GA and ExeCom meetings
+- Nominating TC39 members for [Ecma Awards](https://ecma-international.org/ecma-fellow-awards-and-ecma-recognition-awards)
+
+##### How to help
+
+Contact the [chair group](#chair-group) to suggest nominees for Ecma Awards.
+
+#### Coordinating with other standards bodies, consortiums and community advocacy
+
+Liaise with other bodies including but not limited to:
+
+- Ecma
+  - TC53
+  - TC54
+- IEEE
+- IETF
+- ISO
+- Linux Foundation
+  - OpenJS Foundation
+  - OpenSSF
+- Unicode Consortium
+- W3C
+- WHATWG
+
+Respond to non-CoC concerns being raised in public spaces such as [GitHub](https://github.com/tc39), [Discourse](https://es.discourse.group/), and [Matrix](./matrix-guide.md)
+
+#### Administering committee membership
+
+- Onboarding [delegates](./join-tc39.md)
+- Assessing proposed [invited experts](./invited-expert.md)
+
+#### Maintaining documentation on committee processes and policies
+
+Like this document!
+
+#### Maintaining the TC39 calendar
+
+#### Archiving and BCDR controls
+
+In coordination with Ecma, backup and [archival of TC39 assets](./archival.md)
 
 #### Administrating chat rooms
 
@@ -59,9 +113,7 @@ Moderation actions include muting a user, kicking them from a room, banning them
 
 ### Who is involved
 
-Editor group for ES2019: Brian Terlson (@bterlson), Jordan Harband (@ljharb), Bradley Farias (@bmeck)
-
-Co-editors for ES2020: Jordan Harband (@ljharb), Kevin Smith (@zenparsing)
+Editors: Shu-yu Guo ([@syg](https://github.com/syg)), Michael Ficarra ([@michaelficarra](https://github.com/michaelficarra)), Kevin Gibbons ([@bakkot](https://github.com/bakkot))
 
 ### What the group does
 
@@ -73,12 +125,23 @@ The editor group is responsible for being the final decision-maker on what lands
 
 #### Produce annual specification versions
 
-Each year, a branch of the ECMA-262 specification is made, around late January/February, to be that year's ES20xx specification. The editor group produces this branch. Editorial changes or critical fixes are sometimes backported to this branch. After the IP opt-out period is complete, the specification is finalized and sent to the ECMA GA for ratification.
+Each year, a branch of the ECMA-262 specification is made, around late January/February, to be that year's ES20xx specification. The editor group produces this branch. Editorial changes or critical fixes are sometimes backported to this branch. After the IP opt-out period is complete, the specification is finalized and sent to the Ecma GA for ratification.
 
 ### How to get involved
 
 - Review PRs in the [ecma262 repository](https://github.com/tc39/ecma262/pulls)
 - Contact an editor to join in on editor group meetings if you are a TC39 delegate
+- Join the editor group, which is selected by TC39 annually.
+
+## ECMA-402 editor group
+
+### Who is involved
+
+Editors: Richard Gibson ([@gibson042](https://github.com/gibson042)), Ujjwal Sharma ([@ryzokuken](https://github.com/ryzokuken))
+
+### How to get involved
+
+- Review PRs in the [ecma402 repository](https://github.com/tc39/ecma402/pulls)
 - Join the editor group, which is selected by TC39 annually.
 
 ## Code of Conduct Committee
@@ -93,4 +156,4 @@ The Code of Conduct (CoC) Committee is responsible for responding to conduct rep
 
 ### How to get involved
 
-The CoC Committee is elected annually, in the November TC39 meeting. We're always looking for help from inside or outside of the group; please contact one of [the members](https://tc39.es/code-of-conduct/#code-of-conduct-committee) for more information.
+The CoC Committee is elected by the committee delegates towards the end of each year and is always looking for help; please contact one of [the members](https://tc39.es/code-of-conduct/#code-of-conduct-committee) for more information.

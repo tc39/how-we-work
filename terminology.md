@@ -452,6 +452,62 @@ Another example is whether an ECMAScript source file will be executed as a scrip
 
 [Import map proposal](https://github.com/WICG/import-maps#supplying-out-of-band-metadata-for-each-module)
 
+## Override mistake
+
+### Definition
+
+> [!NOTE]
+> [There is no universal consensus that this is a mistake](https://github.com/tc39/ecma262/pull/1307#issuecomment-421094561).
+
+Override mistake is the behavior that ECMAScript throws a TypeError (in the strict mode) for code `O[K] = ...` when `K` is a non-writable property in the prototype of `O`.
+
+This behavior brings compatibility issues in the ecosystem when any properties are non-writable, including when [the language adds new built-in non-writable properties to existing prototypes](https://github.com/tc39/proposal-iterator-helpers/issues/115) and when [the runtime or code on the page freezes built-ins](https://github.com/tc39/proposal-iterator-helpers/issues/286).
+
+### Example
+
+```js
+'use strict';
+// environment
+Object.freeze(Error.prototype);
+
+// an es5 library
+function MyError() {
+    Error.call(this);
+    this.name = 'MyError';
+}
+Object.setPrototypeOf(MyError.prototype, Error.prototype);
+// TypeError: name is readonly
+new MyError;
+```
+
+### References
+
+Prior efforts trying to change this: [Normative: Make non-writable prototype properties not prevent assigning to instance](https://github.com/tc39/ecma262/pull/1320)
+
+Some real-world examples:
+
+- [tc39/proposal-iterator-helpers: Web compat: The %Symbol.toStringTag% property on %Iterator.prototype% needs to be writable](https://github.com/tc39/proposal-iterator-helpers/issues/115)
+- [tc39/proposal-iterator-helpers: Web incompatibility discovered in theathletic.com](https://github.com/tc39/proposal-iterator-helpers/issues/286)
+- [Tracking issue for getting 3rd party packages more SES friendly](https://github.com/endojs/endo/issues/576) (some of the reports are related)
+
+## Hierarchy of Constituencies
+
+### Definition
+
+The idea that when differing perspectives come into conflict, our decisions ought to prioritize them in the following (descending) order:
+
+1. End users
+2. JavaScript authors
+3. JavaScript engine implementers
+4. ECMAScript specification authors
+5. Theoretical purity
+
+While this is not an explicitly adopted goal of TC39, it is a common standards concept which delegates often refer to.
+
+### References
+
+[HTML Design Principles](https://www.w3.org/TR/html-design-principles/#priority-of-constituencies)
+
 ## Contributing to This Document
 
 Here are some tips and ideas for adding a [new definition](#definition-template) to this document.
