@@ -4,7 +4,7 @@ This document describes some of the conventions that we try to follow when desig
 
 None of these rules are inviolable, but you should have a good reason for any particular feature to deviate (for example, because the feature is a close cousin of an existing feature, like `findLastIndex` vs `findIndex`).
 
-This list is very far from being complete.
+This list will never cover all such conventions and is expected to grow over time.
 
 ## Avoid coercing arguments to types other than Boolean
 
