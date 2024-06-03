@@ -92,7 +92,8 @@ If internet connectivity were to fail, the meeting would need to be suspended.
 - There must be amplification of in-room speakers when they use the microphone.
 - The host is encouraged to provide video conferencing using Zoom or Google Meet.
   - Ideally the room has at least one rear-facing camera near the front that can provide a view of all the participants.
-  - We encourage a tech-check to be held on the Monday immediately prior to the meeting to verify the full AV setup works.
+- The AV must be setup and tested prior to the meeting beginning
+  - We encourage a tech-check to be held the day before the meeting (e.g. Monday afternoon) to verify the full AV setup works.
 - Whiteboards and marker pens are optional.
 
 ### Food & Drink
@@ -139,4 +140,5 @@ This is the general timeline of events leading up to the meeting.
 1. 3-4 months before the meeting the Chairs will conduct an Interest Survey to determine go/no-go.
 1. 3 months before the meeting the host should pass all meeting logistics to the chairs so they can update the TC39 Reflector meeting post, e.g. address, where to park, how to get in, contact details, entrance criteria, etc.
 1. 2 weeks before the meeting the Chairs will relay the registered attendee list including dietary requirements to the host so that they know how many people to expect. Send the contacts to your registration desk so credentials can be printed ahead of the meeting.
+1. On the day before the meeting, the host should be prepared to conduct a tech-check with the TC39 Chairs to verify the AV setup.
 1. On the meeting day the host should be prepared to give a short presentation on the facilities, e.g. where to find the bathroom, how to use the WiFi, etc.
