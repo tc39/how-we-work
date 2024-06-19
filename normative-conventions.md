@@ -38,10 +38,10 @@ Some APIs intentionally round non-integral inputs, for example as an attempt to 
 
 NB: This convention is new as of 2024, and most earlier parts of the language do not follow it.
 
-## Reject primitive Strings in iterable-taking APIs and syntax
+## Reject primitives in iterable-taking positions
 
-Any time an iterable value (a value that has a `Symbol.iterator` method) is expected, primitive Strings should be treated as if they were not iterable. Usually, this will mean throwing a `TypeError`. String Objects, however, should be treated like any other Object.
+Any time an iterable value (a value that has a `Symbol.iterator` method) is expected, primitives should be treated as if they were not iterable. Usually, this will mean throwing a `TypeError`. Primitive wrapper Objects such as String Objects, however, should be treated like any other Object.
 
-Although primitive Strings are iterable (`String.prototype` has a `Symbol.iterator` method which enumerates code points), it is now considered a mistake to iterate a String without specifying whether the String is providing an abstraction over code units, code points, grapheme clusters, or something else.
+Although primitive Strings are default iterable (`String.prototype` has a `Symbol.iterator` method which enumerates code points), it is now considered a mistake to iterate a String without specifying whether the String is providing an abstraction over code units, code points, grapheme clusters, or something else.
 
 NB: This convention is new as of 2024, and most earlier parts of the language do not follow it.
