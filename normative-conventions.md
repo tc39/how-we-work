@@ -6,6 +6,8 @@ None of these rules are inviolable, but you should have a good reason for any pa
 
 This list will never cover all such conventions and is expected to grow over time.
 
+For textual conventions that are not observable from JavaScript code, see [editorial-conventions.md](./editorial-conventions.md).
+
 ## Avoid coercing arguments to types other than Boolean
 
 If an argument to a built-in function is expected to be of a particular type other than Boolean, the function should throw a `TypeError` if called with a value not of that type, rather than performing coercion. This also applies to values read from options bags.
@@ -37,3 +39,29 @@ For the purposes of this guideline `-0` is considered to be an integral number (
 Some APIs intentionally round non-integral inputs, for example as an attempt to provide a best-effort behavior, rather than because the API fundamentally only makes sense with integers. This guideline does not apply to those cases.
 
 NB: This convention is new as of 2024, and most earlier parts of the language do not follow it.
+
+### Order of observable operations when processing arguments
+
+When writing the algorithm steps for the implementation of a JS built-in function or method, this order should be followed:
+
+1. If applicable, process and validate the receiver.
+1. Process and validate each argument, in order.
+1. Perform validation of any other preconditions, if any.
+1. Perform the actual work of the function.
+
+Validating the arguments includes type checking, but also unobservable things like supplying default arguments.
+So, for a fictitious `addTwoNumbersThatArentTooFarApart(a, b = 42)` function, the algorithm steps could look like this:
+
+> 1. Let _firstOperand_ be ℝ(? ToNumber(_a_)).
+> 1. If _b_ is **undefined**, then
+>     1. Let _secondOperand_ be 42.
+> 1. Else,
+>     1. Let _secondOperand_ be ℝ(? ToNumber(_b_)).
+> 1. If _firstOperand_ - _secondOperand_ > 10, then
+>     1. Throw a **RangeError** exception.
+> 1. Return 𝔽(_firstOperand_ + _secondOperand_).
+
+The first three steps process and validate each argument in order; Step 4 validates the other precondition that the numbers aren't too far apart; and Step 5 does the actual work.
+
+NB: This convention is new as of 2022.
+However, many parts of the language do already follow it.
