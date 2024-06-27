@@ -5,6 +5,8 @@ This document describes some of the conventions that we try to follow when writi
 > **NB.** The document is currently a skeleton, and should not be considered a complete list.
 > The issue [tc39/ecma262#2236](https://github.com/tc39/ecma262/issues/2236) is a good place to discuss editorial conventions.
 
+For conventions that are observable from JavaScript code and therefore must be taken into account when designing language features, see [normative-conventions.md](./normative-conventions.md).
+
 ## Spelling, grammar, and typography
 
 ## Notation

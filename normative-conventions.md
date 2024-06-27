@@ -6,6 +6,8 @@ None of these rules are inviolable, but you should have a good reason for any pa
 
 This list will never cover all such conventions and is expected to grow over time.
 
+For textual conventions that are not observable from JavaScript code, see [editorial-conventions.md](./editorial-conventions.md).
+
 ## Avoid coercing arguments to types other than Boolean
 
 If an argument to a built-in function is expected to be of a particular type other than Boolean, the function should throw a `TypeError` if called with a value not of that type, rather than performing coercion. This also applies to values read from options bags.
