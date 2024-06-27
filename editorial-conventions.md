@@ -9,6 +9,8 @@ For conventions that are observable from JavaScript code and therefore must be t
 
 ## Spelling, grammar, and typography
 
+Specification text should use Oxford spelling (e.g., "behaviour" rather than "behavior").
+
 ## Notation
 
 ## Algorithm steps
