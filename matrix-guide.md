@@ -1,4 +1,4 @@
-# Matrix new user guide for TC39 delegates
+# Matrix guide
 
 1. Choose a client
 
