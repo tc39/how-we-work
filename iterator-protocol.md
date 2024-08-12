@@ -67,7 +67,7 @@ try {
 
 An iterable is an object whose `Symbol.iterator` method returns an iterator. Most places which need to do iteration should consume an iterable. For example, `for (let item of iterable)` consumes `iterable` as an iterable.
 
-Nothing requires that an iterable be consumable multiple times, and nothing in the language currently does so. When the iterable is a static collection such as an Array, however, it should be possible to call its `Symbol.iterator` method multiple times and get multiple independent iterators.
+Nothing requires that an iterable be consumable multiple times, and nothing in the language as of ECMAScript 2025 does so. When the iterable is a static collection such as an Array, however, it should be possible to call its `Symbol.iterator` method multiple times and get multiple independent iterators.
 
 By convention, most iterators are iterable by dint of having a `Symbol.iterator` method which returns `this`, which allows using iterators in, for example, `for (let item of iterator)`. However, nothing requires iterators to have a `Symbol.iterator` method. Iterators which lack such a method are not iterable and cannot be used in places which expect an iterable. Iterators which have such a method are referred to as iterable iterators.
 
@@ -148,7 +148,7 @@ For the purposes of `yield*`, if a call to `.throw()` on the inner iterator thro
 
 ## Async iterators
 
-An async iterator is exactly like a sync iterator, except that the result of `.next()` and `.return()` are `await`'d before being consumed. This allows the async iterator to return a Promise for a `{ done, value }` object instead of returning such an object synchronously. It is possible for the consumer to call `.next` multiple times without waiting for earlier promises to settle; how to handle this is up to the iterator. Everything currently in the language will wait for a promise from `.next` to settle before calling `.next` again, but that may change in the future.
+An async iterator is exactly like a sync iterator, except that the result of `.next()` and `.return()` are `await`'d before being consumed. This allows the async iterator to return a Promise for a `{ done, value }` object instead of returning such an object synchronously. It is possible for the consumer to call `.next` multiple times without waiting for earlier promises to settle; how to handle this is up to the iterator. Everything in the language as of ECMAScript 2025 will wait for a promise from `.next` to settle before calling `.next` again, but that may change in the future.
 
 In addition to all the violations of the sync iterator protocol enumerated above, it is also a violation of the async iterator protocol if `await`ing the value returned by `.next()` or `.return()` throws (including if looking up the `then` property throws, or if the promise is rejected).
 
