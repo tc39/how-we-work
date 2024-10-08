@@ -510,6 +510,21 @@ While this is not an explicitly adopted goal of TC39, it is a common standards c
 
 [HTML Design Principles](https://www.w3.org/TR/html-design-principles/#priority-of-constituencies)
 
+## Function coloring
+
+### Definition
+The observation that it is annoying to have two kinds of functions, with one kind of function easily usable from the other but not conversely.
+
+Originally referred to async and sync functions (it is hard to use an async function from a sync function), though it applies to other possible attributes of functions as well.
+
+### Example
+
+Having `unsafe` functions which are only callable from other `unsafe` functions, while other functions are callable anywhere, would create a new kind of function coloring.
+
+### References
+
+[What Color is Your Function?](https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/)
+
 ## Contributing to This Document
 
 Here are some tips and ideas for adding a [new definition](#definition-template) to this document.
