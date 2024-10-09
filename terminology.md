@@ -513,6 +513,7 @@ While this is not an explicitly adopted goal of TC39, it is a common standards c
 ## Function coloring
 
 ### Definition
+
 The observation that it is annoying to have two kinds of functions, with one kind of function easily usable from the other but not conversely.
 
 Originally referred to async and sync functions (it is hard to use an async function from a sync function), though it applies to other possible attributes of functions as well.
