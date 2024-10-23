@@ -50,4 +50,4 @@ NB: This convention is new as of 2024, and most earlier parts of the language do
 
 New Builtins, and any existing builtins that do not currently support `Symbol.species` constructors should not be updated to support extensions via `Symbol.species`. The `Symbol.species` symbol can be made available but should not be referenced elsewhere.
 
-NB: This convention is new as of 2025, TypedArray, SharedArrayBuffer, and ArrayBuffer have been updated to follow it. Although we would want this change to also apply to Array, Promise, and RegExp, that change was found to not be web compatible. No other builtins were using it at the time of update.
+NB: This convention is new as of 2025; TypedArray, SharedArrayBuffer, and ArrayBuffer have been updated to follow it. Although we would want this change to also apply to Array, Promise, and RegExp, that change was found to not be web compatible. No other builtins were using it at the time of update.
