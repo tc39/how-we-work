@@ -46,8 +46,8 @@ Although primitive Strings are default iterable (`String.prototype` has a `Symbo
 
 NB: This convention is new as of 2024, and most earlier parts of the language do not follow it. In particular, positional destructuring (both binding and assignment), array spread, argument spread, for-of loops, `yield *`, the `Set` and `AggregateError` constructors, `Object.groupBy`, `Map.groupBy`, `Promise.all`, `Promise.allSettled`, `Promise.any`, `Promise.race`, `Array.from`, the static `from` methods on typed array constructors, and `Iterator.from` (Stage 3 at time of writing) all accept primitives where iterables are expected.
 
-## New Builtins should not make use of @@species
+## New Builtins should not make use of `Symbol.species`
 
-New Builtins, and any existing builtins that do not currently support @@species constructors should not be updated to support extensions via @@species. The @@species symbol can be made available but should not be referenced elsewhere.
+New Builtins, and any existing builtins that do not currently support `Symbol.species` constructors should not be updated to support extensions via `Symbol.species`. The `Symbol.species` symbol can be made available but should not be referenced elsewhere.
 
-NB: This convention is new as of 2025, TypedArray, SharedArrayBuffer, and ArrayBuffer have been updated to follow it. Array, Promise, and RegExp were not web compatible to change. No other builtins were using it at the time of update.
+NB: This convention is new as of 2025, TypedArray, SharedArrayBuffer, and ArrayBuffer have been updated to follow it. Although we would want this change to also apply to Array, Promise, and RegExp, that change was found to not be web compatible. No other builtins were using it at the time of update.
