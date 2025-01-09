@@ -57,22 +57,22 @@ The notes may or may not be initialised yet. If they are not, you can use this t
 -------------------------------------------------------------------------------------------------------------------------------------------
 Template:
 -------------------------------------------------------------------------------------------------------------------------------------------
-    
-    
+
+
 ## X.Y.Z Agenda Item 
- 
+
 (Presenter Full Name)
- 
- - [proposal](...link to proposal...)
- - [slides](...link to slides...)
- 
+
+ - [proposal](...link to proposal...)
+ - [slides](...link to slides...)
+
 JB: Ja ja ja....
- 
+
 MKR: Ne! Ne! Ne!
- 
+
 #### Conclusion/Resolution
- 
-- Stage -1 
+
+- Stage 0
 ```
 
 This template breaks down like so
