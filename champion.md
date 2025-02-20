@@ -5,7 +5,7 @@
 
 So, you want to propose a new feature for JavaScript? That proposal needs a TC39 delegate as a champion to move it through the [stage process](https://tc39.es/process-document/). This document describes how to do that.
 
-Championing a proposal is an exercise is of parallel work in developing a proposal outside of committee, together with presentations to the committee to collect more ideas, feedback, and eventually to advance proposals through stages. The work outside of committee rarely needs to block on progress in the committee, but committee stage advancement can be a good acknowledgement of milestones and buy-in. Promotion to Stage 4 is required for a feature to be added to the JavaScript specification.
+Championing a proposal is an exercise of parallel work in developing a proposal outside of committee, together with presentations to the committee to collect more ideas, feedback, and eventually to advance proposals through stages. The work outside of committee rarely needs to block on progress in the committee, but committee stage advancement can be a good acknowledgement of milestones and buy-in. Promotion to Stage 4 is required for a feature to be added to the JavaScript specification.
 
 ## Work outside of committee
 
