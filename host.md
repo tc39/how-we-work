@@ -125,7 +125,7 @@ If internet connectivity were to fail, the meeting would need to be suspended.
   - It is usually Thursday but other days, including Monday, are possible.
 - Hosts are free to create their own event, but usually it is easiest for them to seek out a local Meetup group who have a pre-existing list of members.
   - You are welcome to host it at the same location as the meeting or to have it somewhere reasonably close, e.g. <30 mins travel time.
-  - It is highly desirable to select a venue that does **not** require a signed NDA to enter.
+  - The venue must **not** require a signed NDA to enter.
 - TC39 Delegates are usually happy to give talks.
 - Often we end with a Q&A panel taking questions from a moderator or the audience.
 - Feel free to be creative.  Delegates also enjoy hearing talks from the community.
