@@ -4,7 +4,7 @@ All TC39 agenda items should be posted on the agenda before the "agenda deadline
 
 Before the agenda deadline, agenda items should be accompanied by supporting materials. Supporting materials includes slides, a link to the proposal repository, a link to spec text, etc.; essentially, anything you are planning to present to the committee, or that would be useful for delegates to review.
 
-Pull requests are encouraged for all agenda additions, especially for late additions after the deadline, so that members are notified of changes. All delegates have write access to the agenda, and should promptly land agenda additions so that they are maximally visible quickly.
+Pull requests are encouraged for all agenda modifications, especially for late additions after the deadline, so that members are notified. All delegates have write access to the agenda, and should promptly land agenda additions so that they are maximally visible quickly.
 
 If agenda items or their supporting materials are added only after the agenda deadline, then TC39 is unlikely to reach consensus on that item. Many TC39 delegates review the agenda ahead of the meeting with their colleagues, in order to collect feedback to bring to the committee.
 
