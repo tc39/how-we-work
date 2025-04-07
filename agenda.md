@@ -1,4 +1,4 @@
-## Agenda topic best practices
+## Plenary agenda topic best practices
 
 All TC39 agenda items should be posted on the agenda before the "agenda deadline", which is precisely 10 days before the start of the meeting. It's best to post agenda items as soon as you know you'll be presenting on the topic, even if you don't have all of the supporting materials yet.
 
@@ -16,5 +16,3 @@ Some types of supporting materials which are typically necessary based on the st
 - Stage 4 proposals and normative changes pursued outside of the stages process must link to a pull request into [the spec](https://github.com/tc39/ecma262), since the [process](https://tc39.github.io/process-document/) requires one.
 
 The TC39 agenda items about proposals are sorted primarily by stage (descending), secondarily by timebox (ascending), and finally by insertion date. Items may be reordered by chairs when running the meeting based on various constraints.
-
-Supporting materials includes slides, a link to the proposal repository, a link to spec text, etc.; essentially, anything you are planning to present to the committee, or that would be useful for delegates to review.
