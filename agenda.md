@@ -12,7 +12,7 @@ TC39 may reach consensus on certain proposals whose supporting materials are add
 
 Some types of supporting materials which are typically necessary based on the stage of the proposal, in addition to slides:
 - A Stage 1 proposal should explain the problem statement in a README.
-- Stage 2, 2.7, 3 and 4 proposals, as well as any consensus-seeking normative change, need spec text, in addition to a README explaining the proposal and its motivation in some detail.
+- Stage 2, 2.7, 3, and 4 proposals, as well as any consensus-seeking normative change, need spec text, in addition to a README explaining the proposal and its motivation in some detail.
 - Stage 4 proposals and normative changes pursued outside of the stages process must link to a pull request into [the spec](https://github.com/tc39/ecma262), since the [process](https://tc39.github.io/process-document/) requires one.
 
 The TC39 agenda items about proposals are sorted primarily by stage (descending), secondarily by timebox (ascending), and finally by insertion date. Items may be reordered by chairs when running the meeting based on various constraints.
