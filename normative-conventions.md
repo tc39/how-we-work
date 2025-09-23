@@ -48,4 +48,6 @@ NB: This convention is new as of 2024, and most earlier parts of the language do
 
 ## Multi-word strings which are serving as enum values should be kebab-case
 
-For example, `Atomics.wait` returns one of the three strings `"not-equal"`, `"ok"`, or `"timed-out"`, and `Uint8Array.prototype.setFromBase64` takes an argument with possible values `"loose"`, `"strict"`, or `"stop-before-partial"`.
+I.e., lowercase and dash-delimited. For example, `Atomics.wait` returns one of the three strings `"not-equal"`, `"ok"`, or `"timed-out"`, and `Uint8Array.prototype.setFromBase64` takes an argument with possible values `"loose"`, `"strict"`, or `"stop-before-partial"`.
+
+The pieces between the dashes should generally be alphanumeric.
