@@ -50,6 +50,6 @@ NB: This convention is new as of 2024, and most earlier parts of the language do
 
 I.e., lowercase and dash-delimited. For example, `Atomics.wait` returns one of the three strings `"not-equal"`, `"ok"`, or `"timed-out"`, and `Uint8Array.prototype.setFromBase64` takes an argument with possible values `"loose"`, `"strict"`, or `"stop-before-partial"`.
 
-The pieces between the dashes should generally be alphanumeric.
+The content between the dashes should generally be alphanumeric.
 
 ECMA-402 has historically followed [a different convention](https://github.com/tc39/ecma402/blob/main/docs/style-guide.md#identifiers-defined-by-ecma-402); as such this convention does not automatically apply to enums defined in that specification.
