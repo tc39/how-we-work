@@ -45,3 +45,11 @@ Any time an iterable or async-iterable value (a value that has a `Symbol.iterato
 Although primitive Strings are default iterable (`String.prototype` has a `Symbol.iterator` method which enumerates code points), it is now considered a mistake to iterate a String without specifying whether the String is providing an abstraction over code units, code points, grapheme clusters, or something else.
 
 NB: This convention is new as of 2024, and most earlier parts of the language do not follow it. In particular, positional destructuring (both binding and assignment), array spread, argument spread, for-of loops, `yield *`, the `Set` and `AggregateError` constructors, `Object.groupBy`, `Map.groupBy`, `Promise.all`, `Promise.allSettled`, `Promise.any`, `Promise.race`, `Array.from`, the static `from` methods on typed array constructors, and `Iterator.from` (Stage 3 at time of writing) all accept primitives where iterables are expected.
+
+## Multi-word strings which are serving as enum values should be kebab-case
+
+When a string is serving as an enum value, in any position (including arguments and return values), that string should be lowercase and words in it should be separated by dashes rather than spaces. For example, `Atomics.wait` returns one of the three strings `"not-equal"`, `"ok"`, or `"timed-out"`, and `Uint8Array.prototype.setFromBase64` takes an argument with possible values `"loose"`, `"strict"`, or `"stop-before-partial"`.
+
+The content between the dashes should generally be alphanumeric.
+
+ECMA-402 has historically followed [a different convention](https://github.com/tc39/ecma402/blob/main/docs/style-guide.md#identifiers-defined-by-ecma-402); as such this convention does not automatically apply to enums defined in that specification.
