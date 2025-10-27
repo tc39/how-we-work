@@ -115,7 +115,7 @@ function factorial(n, acc = 1) {
 
 Refers to a period of time during which a variable has been declared, but has
 not been assigned, and is therefore unavailable. This results in a ReferenceError. This happens when
-a `const` or a `let` is defined in the scope, but not yet. This is different from `var`, which will
+a `const` or a `let` is defined in the scope, but not yet initialized. This is different from `var`, which will
 return undefined. Here is an example:
 
 ### Example
