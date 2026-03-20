@@ -6,7 +6,11 @@ Although TC39 is a flat, consensus-based group, there are some particular organi
 
 ### Who is involved
 
-TC39 co-chairs: Chris de Almeida ([@ctcpip](https://github.com/ctcpip)), Rob Palmer ([@robpalme](https://github.com/robpalme)), Ujjwal Sharma ([@ryzokuken](https://github.com/ryzokuken))
+#### TC39 co-chairs
+
+- Chris de Almeida ([@ctcpip](https://github.com/ctcpip))
+- Rob Palmer ([@robpalme](https://github.com/robpalme))
+- Ujjwal Sharma ([@ryzokuken](https://github.com/ryzokuken))
 
 #### How the chair group is chosen
 
@@ -29,7 +33,13 @@ The chair group runs the actual TC39 meetings. This involves:
 
 ##### Facilitators
 
-The chair group is joined by facilitators, elected yearly, who help run the meetings as necessary. Facilitators: Justin Ridgewell ([@jridgewell](https://github.com/jridgewell)), Yulia Startsev ([@codehag](https://github.com/codehag)), Brian Terlson ([@bterlson](https://github.com/bterlson))
+The chair group is joined by facilitators, elected yearly, who help run the meetings as necessary.
+
+###### Facilitators
+
+- Daniel Minor ([@dminor](https://github.com/dminor))
+- Daniel Rosenwasser ([@danielrosenwasser](https://github.com/danielrosenwasser))
+- Justin Ridgewell ([@jridgewell](https://github.com/jridgewell))
 
 ##### How to help
 
@@ -70,6 +80,7 @@ Liaise with other bodies including but not limited to:
 - Ecma
   - TC53
   - TC54
+  - TC55
 - IEEE
 - IETF
 - ISO
@@ -113,7 +124,14 @@ Moderation actions include muting a user, kicking them from a room, banning them
 
 ### Who is involved
 
-Editors: Shu-yu Guo ([@syg](https://github.com/syg)), Michael Ficarra ([@michaelficarra](https://github.com/michaelficarra)), Kevin Gibbons ([@bakkot](https://github.com/bakkot))
+#### Editors
+
+- Linus Groh ([@linusg](https://github.com/linusg))
+- Nicolò Ribaudo ([@nicolo-ribaudo](https://github.com/nicolo-ribaudo))
+- Michael Ficarra ([@michaelficarra](https://github.com/michaelficarra))
+- Richard Gibson ([@gibson042](https://github.com/gibson042))
+- Ron Buckton ([@rbuckton](https://github.com/rbuckton))
+- Shu-yu Guo ([@syg](https://github.com/syg))
 
 ### What the group does
 
@@ -137,7 +155,11 @@ Each year, a branch of the ECMA-262 specification is made, around late January/F
 
 ### Who is involved
 
-Editors: Richard Gibson ([@gibson042](https://github.com/gibson042)), Ujjwal Sharma ([@ryzokuken](https://github.com/ryzokuken))
+#### Editors
+
+- Ben Allen ([@ben-allen](https://github.com/ben-allen))
+- Richard Gibson ([@gibson042](https://github.com/gibson042))
+- Ujjwal Sharma ([@ryzokuken](https://github.com/ryzokuken))
 
 ### How to get involved
 
