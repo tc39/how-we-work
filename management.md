@@ -166,6 +166,19 @@ Each year, a branch of the ECMA-262 specification is made, around late January/F
 - Review PRs in the [ecma402 repository](https://github.com/tc39/ecma402/pulls)
 - Join the editor group, which is selected by TC39 annually.
 
+## ECMA-426 editor and conveners group
+
+### Who is involved
+
+- Asumu Takikawa ([@takikawa](https://github.com/takikawa/)), editor
+- Jon Kuperman ([@jkup](https://github.com/jkup)), convener
+- Nicolò Ribaudo ([@nicolo-ribaudo](https://github.com/nicolo-ribaudo)), convener
+
+### How to get involved
+
+- Join the TG4 matrix room ([#tc39-tg4:matrix.org](https://matrix.to/#/#tc39-tg4:matrix.org)) (see the [matrix guide](https://github.com/tc39/how-we-work/blob/fd63799260374107bbcc22c205409b6f9265fea1/matrix-guide.md))
+- Review PRs in the [ecma426 repository](https://github.com/tc39/ecma426), both targeting the main specification and targeting proposals
+
 ## Code of Conduct Committee
 
 ### Who is involved
