@@ -11,7 +11,7 @@ This document describes how to host an in-person meeting.
 Full details are below.
 The big ticket items you need budget for, and access to, are:
 
-- A room that can seat ~35 people for three days that has a large display to show slides and the video call.
+- A room that can seat ~40 people for three days that has a large display to show slides and the video call.
 - High quality internet, speakers, and microphones for the video call
 - Catering for breakfast and lunch over the three days
 - One social dinner outing for all attendees
