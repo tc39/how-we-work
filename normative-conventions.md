@@ -6,6 +6,31 @@ None of these rules are inviolable, but you should have a good reason for any pa
 
 This list will never cover all such conventions and is expected to grow over time.
 
+## Use SyntaxError for well-formedness violations
+
+Where the set of valid input strings is most practically described via a grammar/pattern/etc. (for example, due to the size of that set or the complexity of the grammar describing it) and the string derived from an input does not conform with those constraints, the function or operation should throw a `SyntaxError` exception. Note that in addition to cases where input is already a string, the second condition also applies to cases where input is successfully coerced into a string.
+
+Code examples subject to this convention:
+
+* `BigInt("@")`
+* `JSON.parse({ toString: () => "@" })`
+* `Uint8Array.fromBase64("@")`
+
+NB: This convention is new as of 2026, and many earlier parts of the language do not follow it.
+
+## Use RangeError for validity violations within a numeric interval
+
+Where the set of valid inputs includes one or more non-trivial numeric [primitive value](https://tc39.es/ecma262/multipage/overview.html#sec-primitive-value) intervals and an input is not in any such interval but has a [language type](https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-ecmascript-language-types) matching at least one of them, the function or operation should throw a `RangeError` exception.
+This convention applies to both bounded numeric intervals (e.g., numbers from 0 to 100) and half-bounded numeric intervals (e.g., non-negative bigints).
+Note that the second condition applies after any specified input coercion.
+
+Code examples subject to this convention:
+
+* `(1).toFixed({ valueOf: () => -1 })`
+* `1n ** -1n`
+
+NB: This convention is new as of 2026, and some earlier parts of the language do not follow it.
+
 ## Avoid coercing arguments to types other than Boolean
 
 If an argument to a built-in function is expected to be of a particular type other than Boolean, the function should throw a `TypeError` if called with a value not of that type, rather than performing coercion. This also applies to values read from options bags.
