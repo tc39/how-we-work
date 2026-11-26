@@ -6,6 +6,34 @@ None of these rules are inviolable, but you should have a good reason for any pa
 
 This list will never cover all such conventions and is expected to grow over time.
 
+## Use SyntaxError for well-formedness violations
+
+Where the set of valid input strings is most practically described via a grammar/pattern/etc. (for example, due to the size of that set or the complexity of the grammar describing it) and the string derived from an input does not conform with those constraints, the function or operation should throw a `SyntaxError` exception. Note that in addition to cases where input is already a string, the second condition also applies to cases where input is successfully coerced into a string.
+
+Code examples subject to this convention:
+
+* `BigInt("@")`
+* `JSON.parse({ toString: () => "@" })`
+* `Uint8Array.fromBase64("@")`
+
+NB: This convention is new as of 2026, and many earlier parts of the language do not follow it.
+
+## Use RangeError for other validity violations within an expected primitive type
+
+Where the set of valid inputs includes at least one [primitive value](https://tc39.es/ecma262/multipage/overview.html#sec-primitive-value) and an invalid input has a [language type](https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#sec-ecmascript-language-types) matching at least one valid primitive value, the function or operation should throw a `RangeError` exception (except where `SyntaxError` is more appropriate).
+This convention applies in particular to bounded numeric intervals (e.g., numbers from 0 to 100), half-bounded numeric intervals (e.g., non-negative bigints), non-contiguous subsets of numeric intervals (e.g., integral numbers), and string enumerations (e.g., strings in a finite enumeration).
+Note that the second condition applies after any specified input coercion.
+
+Code examples subject to this convention:
+
+* `(1).toFixed({ valueOf: () => -1 })`
+* `1n ** -1n`
+* `BigInt(3.14)`
+* `"ü".normalize("custom")`
+* `Temporal.PlainDate.from("1970-01-01", { overflow: "bad" })`
+
+NB: This convention is new as of 2026, and many earlier parts of the language do not follow it.
+
 ## Avoid coercing arguments to types other than Boolean
 
 If an argument to a built-in function is expected to be of a particular type other than Boolean, the function should throw a `TypeError` if called with a value not of that type, rather than performing coercion. This also applies to values read from options bags.
